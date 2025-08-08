@@ -3497,8 +3497,8 @@
 		(uuid "00b87786-f376-4fe3-bcfd-bf8cb00cc449")
 	)
 	(no_connect
-		(at 162.56 106.68)
-		(uuid "09934c21-9c10-4a6d-bdfb-812ae426773e")
+		(at 111.76 83.82)
+		(uuid "08b17047-7c7a-44c5-a0fb-605042074e42")
 	)
 	(no_connect
 		(at 111.76 93.98)
@@ -3547,6 +3547,10 @@
 	(no_connect
 		(at 162.56 116.84)
 		(uuid "ba7cb313-2e1a-4c12-9c15-840c5c69717d")
+	)
+	(no_connect
+		(at 111.76 111.76)
+		(uuid "beaf7534-cb12-4cc2-8647-e4ffbbed1238")
 	)
 	(no_connect
 		(at 111.76 96.52)
@@ -4216,16 +4220,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 187.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e46817a-a26c-4494-9965-be5efd17a124")
-	)
-	(wire
-		(pts
 			(xy 237.49 107.95) (xy 223.52 107.95)
 		)
 		(stroke
@@ -4443,6 +4437,16 @@
 			(type default)
 		)
 		(uuid "e499cc50-5084-4a61-8bfd-22875181b5d2")
+	)
+	(wire
+		(pts
+			(xy 162.56 91.44) (xy 187.96 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4b574bf-e9cd-4c03-abba-704ed8511b66")
 	)
 	(wire
 		(pts
@@ -4948,24 +4952,24 @@
 			)
 		)
 	)
-	(global_label "AUDIO_PA_EN"
-		(shape output)
-		(at 111.76 111.76 180)
+	(global_label "I2S2_DATA"
+		(shape bidirectional)
+		(at 187.96 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "7d8e083b-227f-46aa-94b3-5daccc13679a")
+		(uuid "7d768412-9202-405f-8a09-9b4c16f7a6f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3771 111.76 0)
+			(at 201.6722 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5080,28 +5084,6 @@
 			)
 		)
 	)
-	(global_label "I2S_DIN_SEC"
-		(shape bidirectional)
-		(at 187.96 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aef7125c-9758-480b-bd25-fc5cf0951322")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8493 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2C_SDA"
 		(shape bidirectional)
 		(at 223.52 104.14 180)
@@ -5146,28 +5128,6 @@
 			)
 		)
 	)
-	(global_label "I2S2_DATA"
-		(shape bidirectional)
-		(at 111.76 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c0e8ac72-ace1-43cb-8491-41b6b70a5460")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.0478 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2S_LRCK"
 		(shape bidirectional)
 		(at 187.96 83.82 0)
@@ -5181,6 +5141,28 @@
 		(uuid "ca39d574-a5c8-43e6-96d9-8f7f373e8f1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.886 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "AUDIO_PA_EN"
+		(shape output)
+		(at 162.56 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f53fbd55-2ebc-4272-98e3-27c3dc1eb081")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.9429 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
