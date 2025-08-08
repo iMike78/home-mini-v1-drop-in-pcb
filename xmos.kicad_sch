@@ -13241,6 +13241,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C86018"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "GRM188R71A225KE15D"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1a57ecf-8964-4fdc-9c83-0df1a23ff3e9")
 		)
@@ -24127,7 +24154,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Onju:SC-70-3_L2.1-W1.3-P0.65-LS2.1-BR"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
 			(at 152.4 196.85 0)
 			(effects
 				(font
