@@ -11574,12 +11574,12 @@
 		(uuid "2952065a-121f-490f-bc0e-b83dd69fa69f")
 	)
 	(label "XL_UP1"
-		(at 82.55 160.02 0)
+		(at 90.17 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "34ba7445-845f-4a81-9844-0bae280e5426")
 	)
@@ -11634,22 +11634,22 @@
 		(uuid "4f64491b-8530-4868-9e8d-7b18deb9740f")
 	)
 	(label "TCK"
-		(at 82.55 142.24 0)
+		(at 90.17 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "50e4650f-005a-485b-ae83-71b822ea277a")
 	)
 	(label "XL_DN0"
-		(at 82.55 154.94 0)
+		(at 90.17 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "570b05bc-f615-4165-8b2b-fa7cc33bab82")
 	)
@@ -11684,12 +11684,12 @@
 		(uuid "6977a438-3b49-4960-9501-3373c3e02ebf")
 	)
 	(label "TDI"
-		(at 82.55 147.32 0)
+		(at 90.17 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6ec79a78-29eb-4c48-8fcc-24d4d3dc3d81")
 	)
@@ -11754,12 +11754,12 @@
 		(uuid "7fcde71d-f89f-4fb5-a1e0-7f150e9e2ea5")
 	)
 	(label "RST_N"
-		(at 82.55 149.86 0)
+		(at 90.17 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "80dde60d-6f30-48cf-ac49-9d31fc5b486b")
 	)
@@ -11772,16 +11772,6 @@
 			(justify left bottom)
 		)
 		(uuid "83ecf15a-3779-4af6-b2d4-fe2d1a7fd08d")
-	)
-	(label "I2C_SDA"
-		(at 116.84 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "858e3a19-50ac-437b-b179-94bb1e0de876")
 	)
 	(label "MIC_DATA_M"
 		(at 275.59 210.82 180)
@@ -11813,23 +11803,13 @@
 		)
 		(uuid "96ac3004-6c1c-4c8b-90ee-3eb0fb5d2226")
 	)
-	(label "I2C_SCL"
-		(at 116.84 88.9 180)
+	(label "XL_UP0"
+		(at 90.17 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
-		)
-		(uuid "a46f8ee2-d8fb-49ff-b590-a3c82d0a388c")
-	)
-	(label "XL_UP0"
-		(at 82.55 157.48 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
 		)
 		(uuid "a7e6e7c9-fa76-40d3-8043-af2b8621fbb5")
 	)
@@ -11874,22 +11854,22 @@
 		(uuid "c293a6b1-b57b-4c0c-9dd5-61a1b8622aa0")
 	)
 	(label "TMS"
-		(at 82.55 139.7 0)
+		(at 90.17 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c5545b2a-54be-40e4-bf72-6329b4e5edf3")
 	)
 	(label "TDO"
-		(at 82.55 144.78 0)
+		(at 90.17 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c6d08069-bad2-4a1c-99c1-f3f57d61e057")
 	)
@@ -11934,12 +11914,12 @@
 		(uuid "d9442968-7b67-43b9-b05b-2fc60ffd7c59")
 	)
 	(label "XL_DN1"
-		(at 82.55 152.4 0)
+		(at 90.17 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "d9ce04a7-52d3-4770-84c4-acfc2c538640")
 	)
@@ -12578,7 +12558,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 191.008 133.604 0)
 			(effects
 				(font
@@ -12587,6 +12567,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 186.69 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 186.69 130.81 0)
 			(effects
 				(font
@@ -12893,6 +12900,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C85833"
+			(at 22.86 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 22.86 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5c9f5ef-5b0d-4361-afff-4988fd429168")
 		)
@@ -12970,7 +12995,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 47.498 236.474 0)
 			(effects
 				(font
@@ -12979,6 +13004,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 43.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 43.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 43.18 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 43.18 233.68 0)
 			(effects
 				(font
@@ -13064,7 +13116,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 271.018 136.144 0)
 			(effects
 				(font
@@ -13073,6 +13125,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 266.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 266.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 266.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 266.7 133.35 0)
 			(effects
 				(font
@@ -13346,6 +13425,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25792"
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 139.7 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4702TCE"
 			(at 139.7 203.2 0)
 			(effects
 				(font
@@ -13767,6 +13873,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C26083"
+			(at 21.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 21.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1004TCE"
+			(at 21.59 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ed6e0b9-81b1-4d61-8a4d-888e164ec09b")
 		)
@@ -14107,7 +14240,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 279.908 202.184 0)
 			(effects
 				(font
@@ -14116,6 +14249,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 275.59 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 275.59 199.39 0)
 			(effects
 				(font
@@ -14201,7 +14361,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 77.978 99.314 0)
 			(effects
 				(font
@@ -14210,6 +14370,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 73.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -14444,6 +14631,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1548"
+			(at 16.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 16.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG150J500NT"
+			(at 16.51 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c145d3bc-3a6b-4eef-bb08-b04347384ddf")
 		)
@@ -14521,6 +14735,33 @@
 		)
 		(property "Function" "XMOS"
 			(at 246.38 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C11702"
+			(at 246.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 246.38 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1001TCE"
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14665,6 +14906,15 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -14965,6 +15215,33 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C70590"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXC Crystal Oscillators"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X322524MOB4SI"
+			(at 22.86 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfab36e4-44ca-4ce6-a1d0-3b1681091ee1")
 		)
@@ -15055,6 +15332,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25076"
+			(at 259.08 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 259.08 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
+			(at 259.08 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7859f0bc-594c-40bf-92a6-b0678d44221c")
 		)
@@ -15132,7 +15436,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 250.698 37.084 0)
 			(effects
 				(font
@@ -15141,6 +15445,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 246.38 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 246.38 34.29 0)
 			(effects
 				(font
@@ -15347,6 +15678,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C3171752"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MMICT390200012"
+			(at 227.33 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5845864b-4874-498d-9c3d-28b50d2cd44e")
 		)
@@ -15426,7 +15784,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 109.22 0)
 			(effects
 				(font
@@ -15516,6 +15874,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25092"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF220JTCE"
+			(at 118.11 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30f929d0-1188-477c-aa91-42c3364085ed")
 		)
@@ -15593,7 +15969,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 22.098 198.374 0)
 			(effects
 				(font
@@ -15602,6 +15978,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 17.78 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 17.78 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 17.78 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 17.78 195.58 0)
 			(effects
 				(font
@@ -15687,7 +16090,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 201.168 26.924 0)
 			(effects
 				(font
@@ -15696,6 +16099,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 196.85 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 196.85 24.13 0)
 			(effects
 				(font
@@ -15775,6 +16205,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 193.04 179.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 193.04 179.07 90)
 			(effects
 				(font
@@ -16140,6 +16597,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25076"
+			(at 243.84 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 243.84 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
+			(at 243.84 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da33cc5e-ada2-4bdb-ac79-6baf23aa1259")
 		)
@@ -16217,7 +16701,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 127.508 236.474 0)
 			(effects
 				(font
@@ -16226,6 +16710,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 123.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 123.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 123.19 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 123.19 233.68 0)
 			(effects
 				(font
@@ -16311,7 +16822,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 81.788 236.474 0)
 			(effects
 				(font
@@ -16320,6 +16831,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 77.47 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 77.47 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 77.47 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 77.47 233.68 0)
 			(effects
 				(font
@@ -16404,6 +16942,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 269.24 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 269.24 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 269.24 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
 			(at 269.24 195.58 90)
 			(effects
 				(font
@@ -16629,6 +17194,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 26.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1548"
+			(at 26.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 26.67 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG150J500NT"
 			(at 26.67 96.52 0)
 			(effects
 				(font
@@ -16992,6 +17584,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25900"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4701TCE"
+			(at 153.67 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3a314278-5f2f-4210-bbb6-6b77c09149bf")
 		)
@@ -17150,6 +17769,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C7813"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SN74LVC125APWR"
+			(at 217.17 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "fef3508a-0092-4c12-b712-e254e9ef7165")
 		)
@@ -17256,6 +17902,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 250.19 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 250.19 204.47 90)
 			(effects
 				(font
@@ -17592,6 +18265,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C27636108"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ON SEMICONDUCTOR"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "RB521S30T1G"
+			(at 247.65 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed9d7aa7-5afb-4f93-98c7-606e160e9887")
 		)
@@ -17669,7 +18369,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 72.898 198.374 0)
 			(effects
 				(font
@@ -17678,6 +18378,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 68.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 68.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 68.58 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 68.58 195.58 0)
 			(effects
 				(font
@@ -17819,7 +18546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 118.11 106.68 0)
 			(effects
 				(font
@@ -17901,6 +18628,24 @@
 			)
 		)
 		(property "Priority" ""
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 118.11 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF220JTCE"
 			(at 118.11 106.68 0)
 			(effects
 				(font
@@ -18117,7 +18862,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 33.528 198.374 0)
 			(effects
 				(font
@@ -18126,6 +18871,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 29.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 29.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 29.21 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 29.21 195.58 0)
 			(effects
 				(font
@@ -18403,6 +19175,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6617472"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XMOS"
+			(at 52.07 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XU316-1024-QF60B-C24"
 			(at 52.07 35.56 0)
 			(effects
 				(font
@@ -18807,6 +19606,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 269.24 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 269.24 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 269.24 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
 			(at 269.24 167.64 90)
 			(effects
 				(font
@@ -19285,7 +20111,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 260.858 136.144 0)
 			(effects
 				(font
@@ -19294,6 +20120,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 256.54 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 256.54 133.35 0)
 			(effects
 				(font
@@ -19380,6 +20233,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 27.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25130"
+			(at 27.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 27.94 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF6800TCE"
 			(at 27.94 80.01 0)
 			(effects
 				(font
@@ -19800,6 +20680,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25792"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4702TCE"
+			(at 166.37 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75b14ed3-6ac8-4a44-8297-9ca20dff8624")
 		)
@@ -19968,6 +20875,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14709"
+			(at 62.23 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18PG121SN1D"
+			(at 62.23 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d736ebd-c9a0-42ba-90de-4855ec4802ea")
 		)
@@ -20052,6 +20977,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25792"
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4702TCE"
+			(at 276.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d7dcc142-306b-4a14-9487-d842a4a94762")
 		)
@@ -20129,7 +21081,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 277.368 72.644 0)
 			(effects
 				(font
@@ -20138,6 +21090,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 273.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 273.05 69.85 0)
 			(effects
 				(font
@@ -20222,6 +21201,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 196.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25890"
+			(at 196.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 196.85 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF3301TCE"
 			(at 196.85 143.51 90)
 			(effects
 				(font
@@ -20512,6 +21518,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25790"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4703TCE"
+			(at 209.55 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ac8d6079-c670-4197-97aa-a2a4192d6e85")
 		)
@@ -20655,7 +21688,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 36.068 236.474 0)
 			(effects
 				(font
@@ -20664,6 +21697,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 31.75 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 31.75 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 31.75 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 31.75 233.68 0)
 			(effects
 				(font
@@ -20749,7 +21809,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 70.358 236.474 0)
 			(effects
 				(font
@@ -20758,6 +21818,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 66.04 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 66.04 233.68 0)
 			(effects
 				(font
@@ -20982,6 +22069,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25076"
+			(at 236.22 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 236.22 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
+			(at 236.22 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33f46011-6342-4458-bf07-173e6a7d00cd")
 		)
@@ -21118,6 +22232,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 250.19 176.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 250.19 176.53 90)
 			(effects
 				(font
@@ -21270,6 +22411,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25530"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 152.4 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGJ0104TCE"
 			(at 152.4 185.42 0)
 			(effects
 				(font
@@ -21476,6 +22644,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C134139"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "TLV73333PDBVR"
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08df66f1-a516-4e65-b8da-c019f6723945")
 		)
@@ -21562,7 +22757,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 95.758 198.374 0)
 			(effects
 				(font
@@ -21571,6 +22766,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 91.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 91.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 91.44 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 91.44 195.58 0)
 			(effects
 				(font
@@ -21788,7 +23010,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 281.178 179.324 0)
 			(effects
 				(font
@@ -21797,6 +23019,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 276.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 276.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 276.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 276.86 176.53 0)
 			(effects
 				(font
@@ -21889,6 +23138,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25076"
+			(at 259.08 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 259.08 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
+			(at 259.08 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "15c1d54e-570a-42da-9925-522fa9608f25")
 		)
@@ -21966,7 +23242,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 104.648 236.474 0)
 			(effects
 				(font
@@ -21975,6 +23251,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 100.33 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 100.33 233.68 0)
 			(effects
 				(font
@@ -22079,7 +23382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 24.13 144.78 0)
 			(effects
 				(font
@@ -22145,6 +23448,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 24.13 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22309,7 +23621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 24.13 171.45 0)
 			(effects
 				(font
@@ -22375,6 +23687,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 24.13 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22807,6 +24128,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C85833"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 73.66 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d4fcc9e-1287-4963-94b9-0530f76f0286")
 		)
@@ -22877,6 +24216,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 193.04 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 193.04 204.47 90)
 			(effects
 				(font
@@ -22962,7 +24328,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 93.218 236.474 0)
 			(effects
 				(font
@@ -22971,6 +24337,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 88.9 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 88.9 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 88.9 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 88.9 233.68 0)
 			(effects
 				(font
@@ -23056,7 +24449,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 44.958 198.374 0)
 			(effects
 				(font
@@ -23065,6 +24458,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 40.64 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 40.64 195.58 0)
 			(effects
 				(font
@@ -23395,6 +24815,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C3171752"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK InvenSense"
+			(at 227.33 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MMICT390200012"
 			(at 227.33 203.2 0)
 			(effects
 				(font
@@ -23768,7 +25215,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 116.078 236.474 0)
 			(effects
 				(font
@@ -23777,6 +25224,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 111.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 111.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 111.76 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 111.76 233.68 0)
 			(effects
 				(font
@@ -24190,7 +25664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "LRC(乐山无线电)"
+		(property "Manufacturer" "LRC"
 			(at 152.4 196.85 0)
 			(effects
 				(font
@@ -24232,6 +25706,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC Part #" "C383201"
+			(at 152.4 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24314,7 +25797,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 113.538 198.374 0)
 			(effects
 				(font
@@ -24323,6 +25806,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 109.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 109.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 109.22 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 109.22 195.58 0)
 			(effects
 				(font
@@ -24605,6 +26115,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C20069135"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BC847B"
+			(at 207.01 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d4837543-943e-4a7e-bd2b-20da3360cc3b")
 		)
@@ -24685,7 +26222,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 84.328 198.374 0)
 			(effects
 				(font
@@ -24694,6 +26231,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 80.01 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 80.01 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 80.01 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 80.01 195.58 0)
 			(effects
 				(font
@@ -24852,6 +26416,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25744"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 256.54 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c83d6f9a-31cc-4b6f-9af1-20f99b82d0aa")
 		)
@@ -24988,6 +26579,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 259.08 199.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 259.08 199.39 90)
 			(effects
 				(font
@@ -25205,7 +26823,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 58.928 236.474 0)
 			(effects
 				(font
@@ -25214,6 +26832,33 @@
 			)
 		)
 		(property "Function" "XMOS"
+			(at 54.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 54.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 54.61 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 54.61 233.68 0)
 			(effects
 				(font
@@ -25358,6 +27003,33 @@
 			)
 		)
 		(property "Function" "MIC"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C19626254"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "DOWO"
+			(at 259.08 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "PESD0402V05"
 			(at 259.08 171.45 90)
 			(effects
 				(font

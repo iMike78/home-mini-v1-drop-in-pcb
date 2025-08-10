@@ -3800,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 66.04) (xy 111.76 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394e0a11-4294-43d9-9dc8-85803aadd08c")
+	)
+	(wire
+		(pts
 			(xy 162.56 58.42) (xy 187.96 58.42)
 		)
 		(stroke
@@ -4460,7 +4470,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 170.18) (xy 52.07 170.18)
+			(xy 48.26 170.18) (xy 57.15 170.18)
 		)
 		(stroke
 			(width 0)
@@ -4668,6 +4678,16 @@
 		)
 		(uuid "54042654-fd7e-4d52-9ff0-2ffcfdd5923e")
 	)
+	(label "ESP_RST"
+		(at 101.6 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e537126-0aa2-43e9-84c8-29ccfddc6b73")
+	)
 	(label "SPI_CLK"
 		(at 76.2 129.54 0)
 		(effects
@@ -4677,6 +4697,16 @@
 			(justify left bottom)
 		)
 		(uuid "a7e919fd-73e7-4fcc-858a-713ef1f1b7c9")
+	)
+	(label "ESP_RST"
+		(at 57.15 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af90988d-c4f7-49e3-8a0d-95bc1a82aa59")
 	)
 	(label "SPI_HD"
 		(at 222.25 147.32 0)
@@ -4996,28 +5026,6 @@
 			)
 		)
 	)
-	(global_label "ESP_RST"
-		(shape output)
-		(at 52.07 170.18 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b354b2c-df9e-477c-95a2-12e38e630261")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.0984 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ESP_USB_P"
 		(shape bidirectional)
 		(at 162.56 111.76 0)
@@ -5036,28 +5044,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP_RST"
-		(shape input)
-		(at 111.76 66.04 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "91448223-4fb2-43c8-9abf-8fefea6398b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.7316 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5321,7 +5307,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 224.028 62.23 0)
 			(effects
 				(font
@@ -5330,6 +5316,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 219.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 219.71 59.69 0)
 			(effects
 				(font
@@ -5610,7 +5623,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 183.642 46.99 0)
 			(effects
 				(font
@@ -5619,6 +5632,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 181.61 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 181.61 41.91 0)
 			(effects
 				(font
@@ -5836,6 +5876,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C27124"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "SDCL1005C3N3STDF"
+			(at 39.37 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ad626556-08fb-4861-8ddf-7f9d4f91e207")
 		)
@@ -5907,6 +5974,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C434826"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 52.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "MHQ1005P2N7BT000"
 			(at 52.07 67.31 0)
 			(effects
 				(font
@@ -6057,7 +6151,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 189.992 46.99 0)
 			(effects
 				(font
@@ -6066,6 +6160,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 187.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 187.96 41.91 0)
 			(effects
 				(font
@@ -6216,7 +6337,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 267.208 132.334 0)
 			(effects
 				(font
@@ -6225,6 +6346,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 262.89 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 262.89 129.54 0)
 			(effects
 				(font
@@ -7264,6 +7412,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1547"
+			(at 50.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 50.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG120J500NT"
+			(at 50.8 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f077059-f4ac-4ec3-b3b1-1908ffc5f0d6")
 		)
@@ -7618,6 +7793,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C2913194"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Espressif Systems"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "ESP32-S3R8"
+			(at 137.16 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "35"
 			(uuid "308f8603-0f11-4c62-9673-510283fdb40e")
 		)
@@ -7869,6 +8071,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C25900"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4701TCE"
+			(at 237.49 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7cfe7396-1bec-4541-b3e2-fa9d8f8b2394")
 		)
@@ -7940,6 +8169,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C97521"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Winbond Elec"
+			(at 242.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "W25Q128JVSIQ"
 			(at 242.57 142.24 0)
 			(effects
 				(font
@@ -8043,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 196.342 62.23 0)
 			(effects
 				(font
@@ -8052,6 +8308,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 194.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 194.31 57.15 0)
 			(effects
 				(font
@@ -8204,7 +8487,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 253.238 61.976 0)
 			(effects
 				(font
@@ -8213,6 +8496,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 248.92 59.69 0)
 			(effects
 				(font
@@ -8564,6 +8874,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C48346"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG2R4C500NT"
+			(at 208.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "13361db1-4c0f-42a5-9328-1967abae939a")
 		)
@@ -8773,6 +9110,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C162540"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 228.6 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "LQG15HS2N2B02D"
 			(at 228.6 55.88 90)
 			(effects
 				(font
@@ -9138,6 +9502,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C14709"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18PG121SN1D"
+			(at 29.21 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00e95fd9-ae03-4c8d-97a3-4407ef99d639")
 		)
@@ -9402,7 +9784,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 190.754 67.056 0)
 			(effects
 				(font
@@ -9411,6 +9793,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 187.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 187.96 62.23 0)
 			(effects
 				(font
@@ -9496,7 +9905,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "6.3V"
 			(at 263.652 61.976 0)
 			(effects
 				(font
@@ -9505,6 +9914,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C15525"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 259.08 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A106MQ5NUNC"
 			(at 259.08 59.69 0)
 			(effects
 				(font
@@ -9591,6 +10027,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25900"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 229.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF4701TCE"
 			(at 229.87 93.98 0)
 			(effects
 				(font
@@ -9749,6 +10212,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C9010"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YXC Crystal Oscillators"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "X322540MPB4SI"
+			(at 64.77 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f165fb81-0cc8-4dc7-882a-83beb82d7c00")
 		)
@@ -9897,6 +10387,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 181.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 181.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 181.61 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 181.61 92.71 90)
 			(effects
 				(font
@@ -10362,7 +10879,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "25V"
 			(at 202.692 62.23 0)
 			(effects
 				(font
@@ -10371,6 +10888,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
 			(at 200.66 57.15 0)
 			(effects
 				(font
@@ -10456,7 +11000,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 242.824 61.976 0)
 			(effects
 				(font
@@ -10465,6 +11009,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 238.76 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 238.76 59.69 0)
 			(effects
 				(font
@@ -10617,7 +11188,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "16V"
 			(at 181.864 69.596 0)
 			(effects
 				(font
@@ -10626,6 +11197,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 179.07 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 179.07 64.77 0)
 			(effects
 				(font
@@ -10726,6 +11324,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C1547"
+			(at 50.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
+			(at 50.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG120J500NT"
+			(at 50.8 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "898fdade-6172-4801-b23d-fbabd07706d0")
 		)
@@ -10803,7 +11428,7 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
+		(property "Voltage" "50V"
 			(at 43.688 34.544 0)
 			(effects
 				(font
@@ -10812,6 +11437,33 @@
 			)
 		)
 		(property "Function" "ESP32"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 39.37 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CC0603KRX7R9BB104"
 			(at 39.37 31.75 0)
 			(effects
 				(font

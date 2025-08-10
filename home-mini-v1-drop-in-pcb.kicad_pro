@@ -354,12 +354,12 @@
           "drill": 0.0
         },
         {
-          "diameter": 4.0,
-          "drill": 2.0
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
-          "diameter": 6.0,
-          "drill": 3.0
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -1156,7 +1156,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "KiCad",
+    "net_format_name": "SPICE",
     "ngspice": {
       "fix_include_paths": true,
       "meta": {
@@ -1171,9 +1171,9 @@
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
-    "spice_save_all_currents": false,
-    "spice_save_all_dissipations": false,
-    "spice_save_all_voltages": false,
+    "spice_save_all_currents": true,
+    "spice_save_all_dissipations": true,
+    "spice_save_all_voltages": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
