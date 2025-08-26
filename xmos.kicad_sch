@@ -17385,7 +17385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44721d9f-e24e-4bce-be6f-2a8e0f9251e5")
-		(property "Reference" "J5"
+		(property "Reference" "XMOS_DEBUG1"
 			(at 68.58 135.89 0)
 			(effects
 				(font
@@ -17509,7 +17509,7 @@
 		(instances
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "J5")
+					(reference "XMOS_DEBUG1")
 					(unit 1)
 				)
 			)
