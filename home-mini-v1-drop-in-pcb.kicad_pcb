@@ -23982,7 +23982,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "68.1k"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -24044,7 +24044,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C25803"
+		(property "LCSC Part #" "C25976"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24070,7 +24070,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part" "0603WAF1003T5E"
+		(property "Manufacturer Part" "0603WAF6812T5E"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51837,7 +51837,7 @@
 		(at 144.1 60.8 -90)
 		(descr "surface-mounted straight pin header, 2x10, 1.27mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x10 1.27mm double row")
-		(property "Reference" "XMOS_DEBUG"
+		(property "Reference" "XMOS_DEBUG1"
 			(at -3.8 1.1 0)
 			(layer "B.SilkS")
 			(uuid "584467da-68a1-4e1d-bada-666be42be634")
