@@ -990,7 +990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b565f6f-0b8f-4822-bef0-1c953b99485b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR0191"
 			(at 182.88 72.39 0)
 			(effects
 				(font
@@ -1040,7 +1040,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR065")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -1055,7 +1055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22782bac-3703-422d-9fb5-5c5bfa8111a8")
-		(property "Reference" "C31"
+		(property "Reference" "C99"
 			(at 105.156 73.66 0)
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C31")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -1168,7 +1168,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331a407e-71f0-4ebf-934b-91d22cd11e1c")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR0189"
 			(at 143.51 72.39 0)
 			(effects
 				(font
@@ -1218,7 +1218,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR064")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -1234,7 +1234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38fc0d81-8831-4a6d-a660-da4c13383491")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 85.09 63.5 0)
 			(effects
 				(font
@@ -1449,7 +1449,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -1465,7 +1465,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "531cd3a5-7385-4b40-9924-175dc76840e7")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0194"
 			(at 222.25 90.17 0)
 			(effects
 				(font
@@ -1515,7 +1515,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR057")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -1531,7 +1531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "546609f8-2342-491a-b40b-2ac99bde5306")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 125.73 63.5 0)
 			(effects
 				(font
@@ -1746,7 +1746,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -1762,7 +1762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8270bce1-640c-4eab-9ad1-48a3a72bac62")
-		(property "Reference" "LED4"
+		(property "Reference" "LED3"
 			(at 165.1 63.5 0)
 			(effects
 				(font
@@ -1977,7 +1977,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED4")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -1992,7 +1992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "846ac443-155c-4e8a-b525-cf730c8b972b")
-		(property "Reference" "C34"
+		(property "Reference" "C102"
 			(at 224.536 73.66 0)
 			(effects
 				(font
@@ -2089,7 +2089,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C34")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -2105,7 +2105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "925232a8-a87c-473e-911b-6c5ffcdd7f0b")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR0188"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -2155,7 +2155,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR061")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
@@ -2171,7 +2171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4390880-dd6c-4a5f-9a17-a270d90ec0a7")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 204.47 63.5 0)
 			(effects
 				(font
@@ -2386,7 +2386,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "LED5")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -2402,7 +2402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a56b104f-c8bd-412e-a7dc-659252de71f4")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR0190"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -2452,7 +2452,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR060")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -2467,7 +2467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad8e91e5-f4c4-4a9f-b170-8816a6e62ea6")
-		(property "Reference" "C32"
+		(property "Reference" "C100"
 			(at 145.796 73.66 0)
 			(effects
 				(font
@@ -2564,7 +2564,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C32")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -2580,7 +2580,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc97069f-5a97-4be8-a4aa-480a6ecb2b6f")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR0187"
 			(at 102.87 72.39 0)
 			(effects
 				(font
@@ -2630,7 +2630,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR063")
+					(reference "#PWR0187")
 					(unit 1)
 				)
 			)
@@ -2646,7 +2646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce0ac82-b9b1-4a6a-b910-e223ade82fe7")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR0193"
 			(at 222.25 72.39 0)
 			(effects
 				(font
@@ -2696,7 +2696,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR066")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -2711,7 +2711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf1b5328-58eb-4387-9299-6e8b04dac273")
-		(property "Reference" "C33"
+		(property "Reference" "C101"
 			(at 185.166 73.66 0)
 			(effects
 				(font
@@ -2808,7 +2808,7 @@
 		(instances
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "C33")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -2824,7 +2824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd6bddf8-0c8c-48a6-9693-04d720587dc0")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0192"
 			(at 182.88 90.17 0)
 			(effects
 				(font
@@ -2874,7 +2874,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/18f90dfa-9bd7-48d0-80c5-47366522e296"
-					(reference "#PWR058")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
