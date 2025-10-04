@@ -10879,7 +10879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "OPL_Inductor:L0805"
+		(property "Footprint" "OPL_Inductor:L0806"
 			(at 219.71 30.48 0)
 			(effects
 				(font
