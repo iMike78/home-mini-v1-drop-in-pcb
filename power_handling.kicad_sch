@@ -16254,7 +16254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "0.9V"
+		(property "Value" "+0V9"
 			(at 270.51 122.428 0)
 			(effects
 				(font

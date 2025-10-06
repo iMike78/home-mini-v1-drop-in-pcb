@@ -22128,7 +22128,7 @@
 		(dnp yes)
 		(uuid "4b3cafe4-e1da-494e-87a9-ca0910b24b4c")
 		(property "Reference" "R37"
-			(at 133.35 45.72 0)
+			(at 133.35 46.736 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -22136,14 +22136,14 @@
 			)
 		)
 		(property "Value" "4.7K"
-			(at 138.43 49.53 0)
+			(at 133.604 50.038 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 			)
 		)
-		(property "Footprint" "Resistor:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -22206,7 +22206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "5%"
 			(at 133.35 48.26 0)
 			(effects
 				(font
@@ -22224,23 +22224,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "5%"
-			(at 133.35 49.784 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 133.35 48.26 0)
 			(effects
@@ -22248,30 +22231,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -23468,7 +23427,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 133.35 38.1 0)
 			(effects
 				(font
@@ -24132,7 +24091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric"
+		(property "Footprint" "OPL_Filters_and_Magnetic_Beads:L0603"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -27036,7 +26995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Seeed_Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 152.4 53.34 0)
 			(effects
 				(font
@@ -27061,30 +27020,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 154.94 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -33201,7 +33136,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Seeed_Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 133.35 30.48 0)
 			(effects
 				(font
@@ -33226,30 +33161,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 128.27 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"

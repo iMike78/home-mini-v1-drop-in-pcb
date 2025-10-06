@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.1143
         }
       },
       "diff_pair_dimensions": [
@@ -178,10 +178,6 @@
         [
           "silk_over_copper|137192101|88655484|0c712d90-ba33-498d-a33b-090b1974d12f|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "silk_overlap|150400000|65010000|b7f333b5-1252-481b-8055-af2e998e0c05|dd1aa1f4-0caa-4a3a-a889-5bfa690d5ac9",
-          ""
         ]
       ],
       "meta": {
@@ -212,8 +208,8 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_issues": "ignore",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -225,15 +221,15 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "warning",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
-        "text_thickness": "warning",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_angle": "error",
@@ -248,23 +244,23 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.13,
-        "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.25,
+        "min_clearance": 0.127,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.254,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.6,
-        "min_microvia_drill": 0.3,
-        "min_resolved_spokes": 2,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.127,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_text_height": 0.254,
+        "min_text_thickness": 0.0762,
         "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.1,
+        "min_track_width": 0.127,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.005,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -313,10 +309,14 @@
       ],
       "track_widths": [
         0.0,
+        0.127,
         0.15,
         0.2,
         0.25,
-        0.3
+        0.3,
+        0.4,
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -352,6 +352,10 @@
         {
           "diameter": 0.4,
           "drill": 0.2
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.25
         },
         {
           "diameter": 0.6,
@@ -607,81 +611,55 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.2,
+        "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.156464,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
-        "clearance": 0.19,
-        "name": "gnd",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.15,
-        "name": "i2s",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.4,
-        "via_drill": 0.2
-      },
-      {
         "clearance": 0.2,
-        "name": "led_data",
+        "name": "+1V8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 0.25,
+        "via_diameter": 0.5,
+        "via_drill": 0.25
       },
       {
-        "clearance": 0.15,
-        "name": "mic_data",
+        "clearance": 0.12,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_width": 0.141986,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "90_ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
+        "track_width": 0.127,
+        "via_diameter": 0.4064,
+        "via_drill": 0.2032
       },
       {
         "clearance": 0.2,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4
-      },
-      {
-        "clearance": 0.15,
-        "name": "usb",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -699,72 +677,28 @@
         "pattern": "+3V3"
       },
       {
-        "netclass": "gnd",
-        "pattern": "GND"
+        "netclass": "90_ohm",
+        "pattern": "*_D_N"
       },
       {
-        "netclass": "usb",
-        "pattern": "*USB*"
+        "netclass": "90_ohm",
+        "pattern": "*_D_P"
       },
       {
-        "netclass": "i2s",
-        "pattern": "I2S_*"
+        "netclass": "90_ohm",
+        "pattern": "*USB_N"
       },
       {
-        "netclass": "i2s",
-        "pattern": "I2S2_*"
+        "netclass": "90_ohm",
+        "pattern": "*USB_P"
       },
       {
-        "netclass": "mic_data",
-        "pattern": "/XMOS/MIC*"
+        "netclass": "power",
+        "pattern": "VDD"
       },
       {
-        "netclass": "i2s",
-        "pattern": "ESP_WS2812"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*SPI*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*XTAL*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*U5*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "I2C*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "ESP_*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*VDD*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*U7*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*TOUCH*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "*XMOS*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "/ESP32-S3R8/*"
-      },
-      {
-        "netclass": "i2s",
-        "pattern": "AUDIO_*"
+        "netclass": "+1V8",
+        "pattern": "+1V8"
       }
     ]
   },

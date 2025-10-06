@@ -104,6 +104,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -11341,6 +11448,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 152.4) (xy 254 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19230e72-5f17-49be-8b60-d351e5482711")
+	)
+	(wire
+		(pts
 			(xy 220.98 201.93) (xy 220.98 207.01)
 		)
 		(stroke
@@ -18425,7 +18542,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor:R0402"
+		(property "Footprint" "Resistor_SMD:R_01005_0402Metric"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -18488,7 +18605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "1%"
 			(at 133.35 58.42 0)
 			(effects
 				(font
@@ -18506,24 +18623,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "1%"
-			(at 133.35 55.88 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "Combox Pro"
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 133.35 58.42 0)
 			(effects
@@ -18531,30 +18630,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -19195,7 +19270,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 166.37 123.19 0)
 			(effects
 				(font
@@ -19249,8 +19324,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 166.37 123.19 0)
+		(property "Dielectric" "NPO"
+			(at 169.418 127 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -19266,22 +19341,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "50V,NPO"
+		(property "Voltage Rating" "50V"
 			(at 167.64 125.222 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "Testo PoE"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -19291,30 +19357,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -20242,7 +20284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Seeed_Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 147.32 63.5 0)
 			(effects
 				(font
@@ -20267,30 +20309,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 149.86 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21708,7 +21726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "5%"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -21726,24 +21744,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "5%"
-			(at 137.16 69.215 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 137.16 72.39 0)
 			(effects
@@ -21751,30 +21751,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 137.16 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21787,6 +21763,73 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 254 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48e5d7e0-951c-43fb-95c4-96cc8f11134c")
+		(property "Reference" "TP17"
+			(at 259.08 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RST_N"
+			(at 259.08 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "78c43554-a1e4-448b-a8a7-c92165dd0e5b")
+		)
+		(instances
+			(project ""
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -25196,7 +25239,7 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
+		(property "Tolerance" "5%"
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -25214,24 +25257,6 @@
 				(hide yes)
 			)
 		)
-		(property "Power Rating" "5%"
-			(at 133.35 58.42 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 133.35 60.96 0)
 			(effects
@@ -25239,30 +25264,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 133.35 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -27648,7 +27649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
+		(property "Footprint" "Onju:X4-SMD-2.0X1.6MM"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -28344,7 +28345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 161.29 74.93 0)
 			(effects
 				(font
@@ -28440,30 +28441,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 163.83 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -30471,7 +30448,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 175.26 123.19 0)
 			(effects
 				(font
@@ -30525,8 +30502,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 175.26 123.19 0)
+		(property "Dielectric" "NPO"
+			(at 178.562 127 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -30542,22 +30519,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "50V,NPO"
+		(property "Voltage Rating" "50V"
 			(at 176.53 125.222 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "Testo PoE"
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -30567,30 +30535,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 175.26 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -30887,7 +30831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
 			(at 157.48 123.19 0)
 			(effects
 				(font
@@ -30941,8 +30885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 157.48 123.19 0)
+		(property "Dielectric" "NPO"
+			(at 160.528 127 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -30958,22 +30902,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "50V,NPO"
+		(property "Voltage Rating" "50V"
 			(at 158.75 125.222 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "Testo PoE"
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -30983,30 +30918,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 157.48 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -31454,7 +31365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.15 80.01 0)
 			(effects
 				(font
