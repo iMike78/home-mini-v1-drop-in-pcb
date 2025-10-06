@@ -10,7 +10,7 @@
 *.dsn
 *.ses
 *.zip
-nest-mini-v2-drop-in-pcb-backups/
+home-mini-v1-drop-in-pcb-backups/
 production/
 
 # KiCad symbol and footprint cache
