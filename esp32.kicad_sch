@@ -10922,7 +10922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -10931,7 +10931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -10940,7 +10940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "±10ppm, 18pF, 50Ω, ABM8G-40.000MHZ-B2-T"
+		(property "Description" "40 MHz ±10ppm Crystal 9pF 50 Ohms 4-SMD, No Lead"
 			(at 64.77 85.09 0)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C9010"
+		(property "LCSC Part #" ""
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -10975,7 +10975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YXC Crystal Oscillators"
+		(property "Manufacturer" "Murata"
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -10984,7 +10984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "X322540MPB4SI"
+		(property "Manufacturer Part" "XRCGB40M000F1S2SR0"
 			(at 64.77 85.09 90)
 			(effects
 				(font
