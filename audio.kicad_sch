@@ -104,6 +104,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "New_Library:1775443-2"
 			(pin_names
 				(offset 1.016)
@@ -867,253 +1016,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seeed_libadl:Ferrite Bead/303030024"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "120R"
-				(at 0.635 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Inductor:L0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Ferrite Bead;120R-2A;0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "BLM18PG121SN1D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "303030024"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Type" "Ferrite Bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "2A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Status" "BeagleBone Carrier Board"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature" "-55°C to 125°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Ferrite Bead/303030024_1_0"
-				(polyline
-					(pts
-						(xy -1.016 -1.27) (xy -0.6985 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.6985 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.6985 0) (xy -0.381 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.381 1.27) (xy 0.889 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 -1.27) (xy -1.016 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.5715 0) (xy 0.254 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.5715 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.889 1.27) (xy 0.5715 0)
-					)
-					(stroke
-						(width 0.2032)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 0)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 0)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
 							)
 						)
 					)
@@ -8338,6 +8240,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 30.48) (xy 64.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160f5976-22c3-414a-b173-ca60c9e6a5be")
+	)
+	(wire
+		(pts
 			(xy 132.08 198.12) (xy 132.08 200.66)
 		)
 		(stroke
@@ -9075,16 +8987,6 @@
 			(type default)
 		)
 		(uuid "5f6b18d3-3bc4-4f0e-ae40-89e94516bc95")
-	)
-	(wire
-		(pts
-			(xy 67.31 30.48) (xy 30.48 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "648f1680-565e-48c3-a22f-dd01a6025af4")
 	)
 	(wire
 		(pts
@@ -10783,7 +10685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.14 76.2 0)
 			(effects
 				(font
@@ -10837,8 +10739,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 104.14 76.2 0)
+		(property "Dielectric" "X5R"
+			(at 107.442 79.756 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10854,22 +10756,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "6.3V,X5R"
+		(property "Voltage Rating" "6.3V"
 			(at 105.664 77.978 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "reSpeaker"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -10879,30 +10772,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -11761,7 +11630,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -11815,8 +11684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 115.57 76.2 0)
+		(property "Dielectric" "X7R"
+			(at 119.126 79.756 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11832,22 +11701,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 117.475 77.978 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -11857,30 +11717,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -11990,7 +11826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -12044,8 +11880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 154.94 132.08 0)
+		(property "Dielectric" "X7R"
+			(at 158.75 136.652 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -12061,22 +11897,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 156.845 134.62 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -12086,30 +11913,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13442,7 +13245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -13496,8 +13299,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 139.7 74.93 0)
+		(property "Dielectric" "X7R"
+			(at 143.256 78.486 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -13513,22 +13316,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 141.478 76.708 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -13538,30 +13332,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -13606,7 +13376,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 161.29 74.93 0)
 			(effects
 				(font
@@ -13660,8 +13430,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 161.29 74.93 0)
+		(property "Dielectric" "X5R"
+			(at 164.592 78.486 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -13677,22 +13447,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V,X5R"
+		(property "Voltage Rating" "10V"
 			(at 162.814 76.708 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "HA VOICE KIT"
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -13702,30 +13463,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -14757,7 +14494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 102.87 35.56 0)
 			(effects
 				(font
@@ -14802,15 +14539,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "TP45C_SMD"
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Test Point"
 			(at 105.41 30.48 0)
 			(effects
@@ -14825,48 +14553,6 @@
 			(effects
 				(font
 					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16412,6 +16098,126 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 68.58 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f07bb19-f4a0-4d56-9cb7-b0a1f9ca4406")
+		(property "Reference" "FB9"
+			(at 65.532 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "120R"
+			(at 73.406 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Onju:BLM18PG121SN1D"
+			(at 68.58 32.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ferrite bead, 120Ω @ 100MHz, 2A"
+			(at 68.58 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "ESP32"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "2A"
+			(at 68.58 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Part number" "BLM18PG121SN1D"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14709"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18PG121SN1D"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "782415bc-038b-46e4-80dc-a6c563effd18")
+		)
+		(pin "2"
+			(uuid "dbc5bb9b-9aa3-4321-a73d-09842c6c6d09")
+		)
+		(instances
+			(project "home-mini-v1-drop-in-pcb"
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
+					(reference "FB9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Seeed_libadl:Capacitors/302010024")
 		(at 132.08 194.31 0)
 		(unit 1)
@@ -16570,159 +16376,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "C82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Ferrite Bead/303030024")
-		(at 69.85 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62ee09b8-6045-4845-b608-e155fa2d7088")
-		(property "Reference" "FB6"
-			(at 67.056 28.956 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 74.93 28.956 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Inductor:L0603"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Ferrite Bead;120R-2A;0603"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Murata"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BLM18PG121SN1D"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "303030024"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "Ferrite Bead"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "2A"
-			(at 69.85 33.274 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 125°C"
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 69.85 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b3c124b-2dd4-4c76-8e89-211c4c8399cf")
-		)
-		(pin "2"
-			(uuid "b079a7c1-eb6e-4f1b-b0e5-d5756ab3906a")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "FB6")
 					(unit 1)
 				)
 			)
@@ -17188,7 +16841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Seeed_Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 72.39 102.87 0)
 			(effects
 				(font
@@ -17213,30 +16866,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 67.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 67.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 67.31 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -17343,7 +16972,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 90.17 49.53 0)
 			(effects
 				(font
@@ -17397,8 +17026,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 90.17 49.53 0)
+		(property "Dielectric" "X5R"
+			(at 93.472 53.086 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -17414,22 +17043,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V,X5R"
+		(property "Voltage Rating" "10V"
 			(at 91.694 51.308 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "HA Voice KIT"
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -17439,30 +17059,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 90.17 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -17748,7 +17344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -17802,7 +17398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 30.48 50.8 0)
 			(effects
 				(font
@@ -17819,7 +17415,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V,X7R"
+		(property "Voltage Rating" "10V"
 			(at 33.02 53.3399 0)
 			(effects
 				(font
@@ -17844,30 +17440,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 30.48 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -18424,7 +17996,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80aed82d-a5d6-4d2e-b235-44fc0c00cbdb")
 		(property "Reference" "C90"
 			(at 168.91 129.5399 0)
@@ -18444,7 +18015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 166.37 132.08 0)
 			(effects
 				(font
@@ -18498,8 +18069,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 166.37 132.08 0)
+		(property "Dielectric" "X5R"
+			(at 170.688 136.398 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -18515,22 +18086,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "6.3V,X5R"
+		(property "Voltage Rating" "6.3V"
 			(at 168.91 134.6199 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "reSpeaker"
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -18540,30 +18102,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -18997,7 +18535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor:R0603"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 207.01 110.49 0)
 			(effects
 				(font
@@ -19060,39 +18598,12 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" "5%"
+		(property "Tolerance" "5%"
 			(at 207.01 112.268 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
-			)
-		)
-		(property "Status" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
@@ -19102,30 +18613,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -19170,7 +18657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.33 49.53 0)
 			(effects
 				(font
@@ -19224,8 +18711,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 100.33 49.53 0)
+		(property "Dielectric" "X7R"
+			(at 103.632 53.34 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -19241,22 +18728,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 101.854 51.562 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -19266,30 +18744,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 100.33 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21366,7 +20820,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d0270d24-295c-47d3-9e96-7fc0edcda242")
 		(property "Reference" "C76"
 			(at 50.8 161.2899 0)
@@ -21386,7 +20839,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 48.26 163.83 0)
 			(effects
 				(font
@@ -21440,8 +20893,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 48.26 163.83 0)
+		(property "Dielectric" "X5R"
+			(at 52.578 168.148 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -21457,22 +20910,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V,X5R"
+		(property "Voltage Rating" "10V"
 			(at 50.8 166.3699 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "HA VOICE KIT"
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -21482,30 +20926,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -21844,7 +21264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -21898,8 +21318,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 151.13 74.93 0)
+		(property "Dielectric" "X5R"
+			(at 154.432 78.486 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -21915,22 +21335,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "10V,X5R"
+		(property "Voltage Rating" "10V"
 			(at 152.527 76.708 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "HA Voice KIT"
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 85°C"
@@ -21940,30 +21351,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "2"
@@ -22054,7 +21441,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dae3ba53-2808-4a7a-aded-08a463b5aad5")
 		(property "Reference" "R66"
 			(at 88.9 93.98 90)
@@ -22074,7 +21460,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 87.63 96.52 0)
 			(effects
 				(font
@@ -22137,40 +21523,12 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 87.63 96.52 0)
+		(property "Tolerance" "1%"
+			(at 90.17 98.552 90)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" "1%"
-			(at 88.9 99.06 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
@@ -22180,30 +21538,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -22643,7 +21977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 157.48 151.13 0)
 			(effects
 				(font
@@ -22697,8 +22031,8 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
-			(at 157.48 151.13 0)
+		(property "Dielectric" "X7R"
+			(at 157.48 153.416 90)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -22714,22 +22048,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 161.29 153.416 90)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
 				(hide yes)
 			)
 		)
@@ -22740,30 +22065,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -22789,7 +22090,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed9932d9-0e42-4a18-a3f6-a931de2feab2")
 		(property "Reference" "R65"
 			(at 78.74 93.98 90)
@@ -22809,7 +22109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor:R0402"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -22872,40 +22172,12 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 77.47 96.52 0)
+		(property "Tolerance" "1%"
+			(at 80.01 98.552 90)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power Rating" "1%"
-			(at 78.74 99.06 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
@@ -22915,30 +22187,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -23473,7 +22721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor:C0402"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -23527,7 +22775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X7R"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -23544,22 +22792,13 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage Rating" "25V,X7R"
+		(property "Voltage Rating" "25V"
 			(at 42.164 52.832 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
 				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 125°C"
@@ -23569,30 +22808,6 @@
 					(size 1.143 1.143)
 				)
 				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 40.64 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
