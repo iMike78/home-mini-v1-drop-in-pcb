@@ -18742,7 +18742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Seeed_Misc:TP-D45MIL"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 86.36 95.25 0)
 			(effects
 				(font
