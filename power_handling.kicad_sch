@@ -12226,39 +12226,6 @@
 				(hide yes)
 			)
 		)
-		(property "Priority" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "2"
 			(uuid "6db495f8-5e2d-4de6-a75a-ccbb7f5d0633")
 		)
