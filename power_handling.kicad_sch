@@ -10425,6 +10425,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 265.43 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4b08315-caa3-48e0-b35b-52cc3dd6ae8c")
 		)
@@ -10612,6 +10621,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 58.42 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25b8ca08-8d8d-4e81-9b8d-e02d9f0fa833")
 		)
@@ -10739,6 +10757,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10935,6 +10962,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11157,6 +11193,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 219.71 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "eef44280-881d-4454-b95a-971460fa969c")
 		)
@@ -11287,6 +11332,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 163.83 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3e5ba4b3-10dd-4170-82df-75cec4d4e0bb")
 		)
@@ -11378,6 +11432,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "CL" ""
+			(at 265.43 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11504,6 +11567,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 264.16 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11769,6 +11841,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "947989f3-b72e-4bab-8fcb-5c1e886f7aec")
 		)
@@ -11939,6 +12020,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 80.01 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2b857627-d2cb-447d-ad68-5934520130e1")
 		)
@@ -12062,6 +12152,15 @@
 			)
 		)
 		(property "LCSC Part #" "C211404"
+			(at 67.31 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 67.31 101.6 90)
 			(effects
 				(font
@@ -12226,6 +12325,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 24.13 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6db495f8-5e2d-4de6-a75a-ccbb7f5d0633")
 		)
@@ -12353,6 +12461,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12601,6 +12718,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 203.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "be4b36ff-20bf-4e28-8801-1d30954499e4")
 		)
@@ -12809,6 +12935,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7275ecf-bb96-476c-834c-a06bd5c73a5a")
 		)
@@ -12921,6 +13056,15 @@
 			)
 		)
 		(property "Manufacturer Part" "BLM18PG300SN1D"
+			(at 92.71 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 92.71 45.72 90)
 			(effects
 				(font
@@ -13124,6 +13268,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e07f1def-abef-4008-989e-f3b3d05f40d1")
 		)
@@ -13251,6 +13404,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 215.9 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -13427,6 +13589,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "CL" ""
+			(at 227.33 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13627,6 +13798,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 252.73 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c4aa88c-ec01-473a-bd87-2dbbcb55094f")
 		)
@@ -13801,6 +13981,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 179.07 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "abf0f1f3-a091-4470-bf20-816bb1aa94a3")
 		)
@@ -13923,6 +14112,15 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 80.01 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 80.01 110.49 0)
 			(effects
 				(font
@@ -14285,6 +14483,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 257.81 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb9110aa-ec24-4811-955d-fbc3812487f1")
 		)
@@ -14404,6 +14611,15 @@
 			)
 		)
 		(property "LCSC Part #" "C14663"
+			(at 44.45 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -14537,6 +14753,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 182.88 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -14700,6 +14925,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 251.46 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31e5be78-76cd-4dd9-a809-4b2d4e2f653e")
 		)
@@ -14822,6 +15056,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15024,6 +15267,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 237.49 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cfa93176-6a77-48e9-a07c-775f12b56341")
 		)
@@ -15049,7 +15301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "722230d0-ccf4-48b7-ba67-fcd5ce662374")
-		(property "Reference" "U15"
+		(property "Reference" "SW1"
 			(at 24.4348 170.18 0)
 			(effects
 				(font
@@ -15119,6 +15371,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 25.4 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "P1"
 			(uuid "0d03eb7f-94c8-4a1f-b2b1-80eff108a9a6")
 		)
@@ -15143,7 +15404,7 @@
 		(instances
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "U15")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -15298,6 +15559,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 167.64 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8057579-55bb-4bd0-8a12-4a47c9fe1b6e")
 		)
@@ -15395,6 +15665,15 @@
 			)
 		)
 		(property "Manufacturer Part" "PESD0402V05"
+			(at 73.66 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 73.66 29.21 0)
 			(effects
 				(font
@@ -15563,6 +15842,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 227.33 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bddb9213-d5ae-4bac-9596-2d3aea304bf7")
 		)
@@ -15724,6 +16012,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "CL" ""
+			(at 207.01 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -15917,6 +16214,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 24.13 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f4084dd-d148-4838-af95-8e9ba3c68501")
 		)
@@ -16030,6 +16336,15 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 48.26 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 48.26 181.61 0)
 			(effects
 				(font
@@ -16398,6 +16713,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 135.89 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b7587892-aa34-4bc9-8381-b3531b7eaeb4")
 		)
@@ -16525,6 +16849,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 237.49 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -16902,6 +17235,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 57.15 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dc257b88-c9a6-45a3-b2d4-beaad4f9ab0d")
 		)
@@ -17056,6 +17398,15 @@
 			)
 		)
 		(property "Manufacturer Part" "FSUSB42MUX"
+			(at 71.12 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 71.12 171.45 0)
 			(effects
 				(font
@@ -17325,6 +17676,15 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF220JTCE"
+			(at 41.91 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 41.91 168.91 90)
 			(effects
 				(font
@@ -17638,6 +17998,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 227.33 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "131d7933-51e5-495f-b41d-cd7834066ab5")
 		)
@@ -17752,6 +18121,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25530"
+			(at 48.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 48.26 101.6 0)
 			(effects
 				(font
@@ -18022,6 +18400,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 251.46 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59dc7d91-4c45-459d-bde9-871bf3afd788")
 		)
@@ -18177,6 +18564,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 40.64 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18353,6 +18749,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 182.88 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -18600,6 +19005,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 85.09 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "61f6382d-27f2-48f9-af0a-9f7d7ab694c8")
 		)
@@ -18758,6 +19172,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "CL" ""
+			(at 81.28 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18953,6 +19376,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 270.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f287dc6c-ae5d-4d97-8d1c-b0c138fa6ab9")
 		)
@@ -18995,7 +19427,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -19125,6 +19557,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "CL" ""
+			(at 167.64 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19433,6 +19874,15 @@
 				)
 			)
 		)
+		(property "CL" ""
+			(at 237.49 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8c4147a2-8556-47f9-b3e6-0af8c154adaa")
 		)
@@ -19693,6 +20143,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 208.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb1efc93-3944-435c-bb22-599c88aae405")
 		)
@@ -19829,6 +20288,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 252.73 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "069dec1a-0de9-41b3-9307-31a633931c6a")
 		)
@@ -19943,6 +20411,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 163.83 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -20143,6 +20620,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8120eee7-b437-4098-b10e-32e2c815abd9")
 		)
@@ -20272,6 +20758,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 182.88 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "029f3654-e9ef-4920-8421-f4c4020b63ce")
 		)
@@ -20372,6 +20867,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 228.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -20630,6 +21134,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 41.91 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1e7c997f-57e3-4fef-8af9-b285175b409f")
 		)
@@ -20727,6 +21240,15 @@
 			)
 		)
 		(property "Manufacturer Part" "PESD0402V05"
+			(at 39.37 181.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
 			(at 39.37 181.61 90)
 			(effects
 				(font
@@ -20997,6 +21519,15 @@
 				(hide yes)
 			)
 		)
+		(property "CL" ""
+			(at 191.77 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc957d95-6709-4346-9507-a016e50bf0d9")
 		)
@@ -21113,6 +21644,15 @@
 			(effects
 				(font
 					(size 1.143 1.143)
+				)
+				(hide yes)
+			)
+		)
+		(property "CL" ""
+			(at 227.33 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

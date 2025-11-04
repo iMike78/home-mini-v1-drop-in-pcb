@@ -1040,6 +1040,18 @@
           "label": "Mouser Price/Stock",
           "name": "Mouser Price/Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer part #",
+          "name": "Manufacturer part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC part #",
+          "name": "LCSC part #",
+          "show": false
         }
       ],
       "filter_string": "",
