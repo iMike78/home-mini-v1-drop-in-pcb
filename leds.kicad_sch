@@ -1134,7 +1134,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -1144,6 +1144,15 @@
 			)
 		)
 		(property "CL" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 102.87 76.2 0)
 			(effects
 				(font
@@ -2107,7 +2116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -2117,6 +2126,15 @@
 			)
 		)
 		(property "CL" ""
+			(at 222.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 222.25 76.2 0)
 			(effects
 				(font
@@ -2600,7 +2618,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -2610,6 +2628,15 @@
 			)
 		)
 		(property "CL" ""
+			(at 143.51 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -2853,7 +2880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 182.88 76.2 0)
 			(effects
 				(font
@@ -2863,6 +2890,15 @@
 			)
 		)
 		(property "CL" ""
+			(at 182.88 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 182.88 76.2 0)
 			(effects
 				(font

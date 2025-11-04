@@ -6267,7 +6267,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C27124"
+		(property "LCSC Part #" "C16526"
 			(at 39.37 71.12 90)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" "C0G"
+		(property "Dielectric" "NP0"
 			(at 86.868 178.054 0)
 			(effects
 				(font
@@ -7720,6 +7720,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 180.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 180.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 180.34 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 180.34 86.36 90)
 			(effects
 				(font
@@ -8072,6 +8099,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 171.45 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69da3064-1837-493d-baec-6169609818c6")
 		)
@@ -8149,6 +8203,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 104.14 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 104.14 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 104.14 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 104.14 83.82 90)
 			(effects
 				(font
@@ -8300,6 +8381,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 180.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 180.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 180.34 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 180.34 83.82 90)
 			(effects
 				(font
@@ -10123,6 +10231,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 171.45 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e55dfd40-8245-4478-afb6-ae258bea4573")
 		)
@@ -11244,7 +11379,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" ""
+		(property "LCSC Part #" "C424431"
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -11253,7 +11388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata"
+		(property "Manufacturer" "Yajingxin"
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -11262,7 +11397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part" "XRCGB40M000F1S2SR0"
+		(property "Manufacturer Part" "TAXM40M4ZCBCDT2T"
 			(at 64.77 85.09 90)
 			(effects
 				(font
@@ -11294,6 +11429,10 @@
 		)
 		(instances
 			(project ""
+				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
+					(reference "Y1")
+					(unit 1)
+				)
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/9225bf54-69e7-451b-b0f1-a75bb133308e"
 					(reference "Y1")
 					(unit 1)
@@ -11549,6 +11688,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 171.45 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 171.45 99.06 90)
 			(effects
 				(font
@@ -11825,6 +11991,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 171.45 96.52 90)
 			(effects
 				(font
@@ -12582,6 +12775,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 171.45 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d534990-2bdf-4152-b9cf-0b23ec3baa99")
 		)
@@ -12787,6 +13007,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 171.45 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 171.45 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
+			(at 171.45 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 171.45 91.44 90)
 			(effects
 				(font

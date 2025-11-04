@@ -16223,7 +16223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 66.04 149.86 0)
 			(effects
 				(font
@@ -16329,6 +16329,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 66.04 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25130"
+			(at 66.04 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF6800TCE"
 			(at 66.04 149.86 90)
 			(effects
 				(font
@@ -16731,7 +16749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 125.73 132.08 0)
 			(effects
 				(font
@@ -16822,6 +16840,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 125.73 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF220JTCE"
 			(at 125.73 132.08 0)
 			(effects
 				(font
@@ -17458,7 +17494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 295.6052 160.02 0)
 			(effects
 				(font
@@ -18458,7 +18494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 125.73 134.62 0)
 			(effects
 				(font
@@ -18549,6 +18585,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25092"
+			(at 125.73 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF220JTCE"
 			(at 125.73 134.62 0)
 			(effects
 				(font
@@ -19045,6 +19099,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C179173"
+			(at 290.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "W25Q32JVSSIQ"
+			(at 290.83 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "3ad56d18-56b0-4fbe-897c-c2c083efe9cc")
 		)
@@ -19132,7 +19204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 247.65 160.02 0)
 			(effects
 				(font
@@ -19246,6 +19318,15 @@
 			)
 		)
 		(property "CL" ""
+			(at 247.65 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
 			(at 247.65 160.02 0)
 			(effects
 				(font
@@ -21916,7 +21997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -21980,6 +22061,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 137.16 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -22679,7 +22778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -22785,6 +22884,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 130.81 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 130.81 106.68 0)
 			(effects
 				(font
@@ -22915,6 +23032,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C6617472"
+			(at 99.06 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "XU316-1024-QF60B-C24"
 			(at 99.06 92.71 0)
 			(effects
 				(font
@@ -24311,7 +24446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 125.73 144.78 0)
 			(effects
 				(font
@@ -24425,6 +24560,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17168"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 125.73 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59679252-7434-4e1a-9c21-fe7cddf5b969")
 		)
@@ -24468,7 +24621,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OPL_Filters_and_Magnetic_Beads:L0603"
+		(property "Footprint" "Onju:BLM18PG121SN1D"
 			(at 57.15 68.58 0)
 			(effects
 				(font
@@ -24583,6 +24736,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 57.15 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "500mA"
+			(at 57.15 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C85833"
+			(at 57.15 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "BLM18KG601SN1D"
 			(at 57.15 68.58 90)
 			(effects
 				(font
@@ -25564,7 +25744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -25628,6 +25808,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -25768,7 +25966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -25874,6 +26072,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 130.81 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 130.81 104.14 0)
 			(effects
 				(font
@@ -27029,7 +27245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 130.81 116.84 0)
 			(effects
 				(font
@@ -27135,6 +27351,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 130.81 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 130.81 116.84 0)
 			(effects
 				(font
@@ -27668,7 +27902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 355.6 101.6 0)
 			(effects
 				(font
@@ -27741,6 +27975,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 355.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 355.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 355.6 101.6 0)
 			(effects
 				(font
@@ -28311,7 +28563,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "ECEC"
+		(property "Manufacturer" "SJK(SHENZHEN CRYSTAL TECH)"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -28398,6 +28650,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 53.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C252273"
+			(at 53.34 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "7F24000E12UCG"
 			(at 53.34 157.48 0)
 			(effects
 				(font
@@ -29384,7 +29654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 125.73 140.97 0)
 			(effects
 				(font
@@ -29490,6 +29760,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C25076"
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1000TCE"
 			(at 125.73 140.97 0)
 			(effects
 				(font
@@ -29947,7 +30235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 194.31 196.85 0)
 			(effects
 				(font
@@ -30019,6 +30307,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 194.31 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 194.31 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
 			(at 194.31 196.85 0)
 			(effects
 				(font
@@ -30162,7 +30468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 194.31 223.52 0)
 			(effects
 				(font
@@ -30234,6 +30540,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 194.31 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05B104KO5NNNC"
+			(at 194.31 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "16V"
 			(at 194.31 223.52 0)
 			(effects
 				(font
@@ -30440,7 +30764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -30554,6 +30878,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C17168"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "580b8693-8694-4e9c-8679-3b303d8f9e14")
 		)
@@ -30621,7 +30963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -30727,6 +31069,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 137.16 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 137.16 78.74 0)
 			(effects
 				(font
@@ -31785,7 +32145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 50.8 143.51 0)
 			(effects
 				(font
@@ -31898,6 +32258,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part #" "C26083"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF1004TCE"
+			(at 50.8 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "804e5575-c2b6-426d-86f2-eb7184068e5a")
 		)
@@ -31968,7 +32346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -31995,7 +32373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "NP0"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -32064,6 +32442,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 33.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1554"
+			(at 33.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG200J500NT"
+			(at 33.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -32141,7 +32546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 57.15 80.01 0)
 			(effects
 				(font
@@ -32168,7 +32573,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "X5R"
 			(at 57.15 80.01 0)
 			(effects
 				(font
@@ -32237,6 +32642,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 57.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C52923"
+			(at 57.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "CL05A105KA5NQNC"
+			(at 57.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 57.15 80.01 0)
 			(effects
 				(font
@@ -33234,7 +33666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -33340,6 +33772,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 137.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 137.16 74.93 0)
 			(effects
 				(font
@@ -34582,7 +35032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -34688,6 +35138,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 130.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 130.81 114.3 0)
 			(effects
 				(font
@@ -35090,7 +35558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -35196,6 +35664,24 @@
 			)
 		)
 		(property "CL" ""
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C17168"
+			(at 137.16 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402WGF0000TCE"
 			(at 137.16 81.28 0)
 			(effects
 				(font
@@ -35389,7 +35875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -35416,7 +35902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Dielectric" ""
+		(property "Dielectric" "NP0"
 			(at 66.04 166.37 0)
 			(effects
 				(font
@@ -35485,6 +35971,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1554"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part" "0402CG200J500NT"
+			(at 66.04 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 66.04 166.37 0)
 			(effects
 				(font
