@@ -1023,644 +1023,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Seeed_libadl:Mosfet/305031542"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at -2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LBSS138WT1G"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Mosfet:SOT-323"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD MOSFET N-CH 50V-200mA;SOT-323-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "LRC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LBSS138WT1G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "305031542"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Type" "NMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature" "-55°C to 150°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Mosfet/305031542_1_0"
-				(polyline
-					(pts
-						(xy -2.54 2.54) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 2.54) (xy -1.905 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.905) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -1.905 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -0.9525 0.3175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -0.9525 -0.3175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy -1.905 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -1.905) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.905 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.5875 0) (xy -0.9525 -0.3175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 0.3175) (xy -1.5875 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 -0.3175) (xy -1.397 0.127)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 -0.3175) (xy -0.9525 0.3175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 1.905)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.905)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.905) (xy 1.5875 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -1.5875 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.905) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -1.905)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 -0.4445) (xy 1.5875 0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.4445) (xy 0.9525 -0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0.4445) (xy 0.9525 0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0.4445) (xy 1.5875 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0.4445) (xy 2.2225 -0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0) (xy 1.27 -0.3175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0) (xy 1.27 -0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 0) (xy 1.5875 0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 -1.905) (xy 0 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.5875 -1.905) (xy 1.5875 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.3175) (xy 1.5875 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.4445) (xy 1.27 -0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 -0.4445) (xy 1.5875 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 0.4445) (xy 1.5875 0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.2225 -0.4445) (xy 1.905 -0.4445)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "G"
-					(at -3.4925 0 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "D"
-					(at -0.635 2.2225 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(text "S"
-					(at -0.635 -3.175 0)
-					(effects
-						(font
-							(size 0.8128 0.6908)
-						)
-						(justify left bottom)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Seeed_libadl:Resistors/301010000"
 			(pin_names
 				(offset 1.016)
@@ -3583,231 +2945,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Seeed_libdb:Diode/304011072"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -2.54 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LRB520S-30T1G"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Diode:SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Diode Schottky 30V-200mA;SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "LRC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "LRB520S-30T1G"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "304011072"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Part Type" "Schottky Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Rating" "30V,200mA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Status" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Temperature" " -40°C to 125°C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Diode:SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Diode/304011072_0_0"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Diode/304011072_1_0"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -6915,12 +6052,6 @@
 		(uuid "4b4c4a3e-5435-46f1-ae26-8e82d3ee01c4")
 	)
 	(junction
-		(at 205.74 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66a42fe7-7bbf-4779-ac36-69c4fad61ac6")
-	)
-	(junction
 		(at 271.78 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7011,12 +6142,6 @@
 		(uuid "e9e15690-0078-4684-a63a-eba0c574383f")
 	)
 	(junction
-		(at 205.74 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2c9a14c-969c-4b39-a0db-864094af097f")
-	)
-	(junction
 		(at 77.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7102,16 +6227,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 251.46) (xy 220.98 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06bb7959-988a-4d08-a8ef-34786ef5af00")
-	)
-	(wire
-		(pts
 			(xy 115.57 69.85) (xy 127 69.85)
 		)
 		(stroke
@@ -7169,16 +6284,6 @@
 			(type default)
 		)
 		(uuid "1473e4d9-c3b5-4e4a-b7c2-acac1ad65e5a")
-	)
-	(wire
-		(pts
-			(xy 182.88 261.62) (xy 205.74 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "156ac83f-4253-4d55-8be5-ea15656b7998")
 	)
 	(wire
 		(pts
@@ -7312,23 +6417,13 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 231.14) (xy 205.74 233.68)
+			(xy 214.63 231.14) (xy 214.63 233.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1e1cd4fa-3ba8-444a-a5f2-2fd4fac3461b")
-	)
-	(wire
-		(pts
-			(xy 226.06 245.11) (xy 226.06 246.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20349b0e-030f-41fc-8943-5d64ffc30a07")
 	)
 	(wire
 		(pts
@@ -7492,7 +6587,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 233.68) (xy 236.22 233.68)
+			(xy 214.63 233.68) (xy 236.22 233.68)
 		)
 		(stroke
 			(width 0)
@@ -7509,16 +6604,6 @@
 			(type default)
 		)
 		(uuid "3a321f22-63e1-4485-8386-a93177e92c27")
-	)
-	(wire
-		(pts
-			(xy 171.45 251.46) (xy 189.23 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae1886d-3f41-450d-869f-00ac56f11133")
 	)
 	(wire
 		(pts
@@ -7639,16 +6724,6 @@
 			(type default)
 		)
 		(uuid "4afa427d-41b3-417d-a622-9fdb94be84f9")
-	)
-	(wire
-		(pts
-			(xy 205.74 261.62) (xy 205.74 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b2ffc0d-265f-44a1-89b9-42dab6ae85ef")
 	)
 	(wire
 		(pts
@@ -7789,16 +6864,6 @@
 			(type default)
 		)
 		(uuid "5b856d61-3b02-4245-9698-36a76ebc443a")
-	)
-	(wire
-		(pts
-			(xy 226.06 245.11) (xy 247.65 245.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bb53e2e-9d8a-41d8-8b4a-1fa172bde6f7")
 	)
 	(wire
 		(pts
@@ -8219,16 +7284,6 @@
 			(type default)
 		)
 		(uuid "9e6ab351-250b-4b43-9fd6-c34dfbcc5fbd")
-	)
-	(wire
-		(pts
-			(xy 210.82 110.49) (xy 217.17 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e8a64fb-2c4d-470c-923d-91ed10f09e8d")
 	)
 	(wire
 		(pts
@@ -8682,16 +7737,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 247.65) (xy 205.74 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6874cce-b0d8-4e03-ae3d-6e8d002cff70")
-	)
-	(wire
-		(pts
 			(xy 154.94 128.27) (xy 154.94 127)
 		)
 		(stroke
@@ -8712,16 +7757,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 251.46) (xy 205.74 251.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9dc106f-4f76-44de-ab11-e32b88a7c4d7")
-	)
-	(wire
-		(pts
 			(xy 87.63 100.33) (xy 87.63 102.87)
 		)
 		(stroke
@@ -8729,16 +7764,6 @@
 			(type default)
 		)
 		(uuid "da361f27-2c07-4bdf-a671-7e25aad276b1")
-	)
-	(wire
-		(pts
-			(xy 226.06 256.54) (xy 226.06 257.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daee4481-1cac-47a6-a2bd-7bfe44956f9e")
 	)
 	(wire
 		(pts
@@ -8802,16 +7827,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 233.68) (xy 205.74 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df10853c-a9d5-479b-841a-1e7d58aab381")
-	)
-	(wire
-		(pts
 			(xy 60.96 154.94) (xy 106.68 154.94)
 		)
 		(stroke
@@ -8869,16 +7884,6 @@
 			(type default)
 		)
 		(uuid "e5f6d4ab-4a9c-4b5d-84da-d9cc937bddfd")
-	)
-	(wire
-		(pts
-			(xy 187.96 110.49) (xy 203.2 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e79d4afc-d1cd-4e78-b9a5-2173edb65422")
 	)
 	(wire
 		(pts
@@ -9010,16 +8015,6 @@
 		)
 		(uuid "ffef3970-e72f-44df-8ca7-750ebc9bac4c")
 	)
-	(label "MICDET"
-		(at 172.72 251.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "229cee42-4ad1-4c55-806c-7055133e0ead")
-	)
 	(label "AMP_CTL"
 		(at 257.81 245.11 0)
 		(effects
@@ -9039,16 +8034,6 @@
 			(justify left bottom)
 		)
 		(uuid "74e1d07a-b769-4c95-b279-da409aed11fd")
-	)
-	(label "MICDET"
-		(at 187.96 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a18d069-1076-4762-a5a4-06c488e41284")
 	)
 	(label "SPK+"
 		(at 364.49 170.18 0)
@@ -9225,28 +8210,6 @@
 		(uuid "bf5b4787-9c30-4d86-bbd4-3d99e0197de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 75.5173 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Audio_DET"
-		(shape output)
-		(at 182.88 261.62 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d66b594b-f0c7-4c04-bb92-2f785aac183e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.4002 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10603,163 +9566,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libdb:Diode/304011072")
-		(at 191.77 251.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "122ae468-f7a7-4e30-b22c-3c863530b2c7")
-		(property "Reference" "D13"
-			(at 191.77 246.888 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "LRB520S-30T1G"
-			(at 191.77 248.92 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD Diode Schottky 30V-200mA;SOD-523"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LRC"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LRB520S-30T1G"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "304011072"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "Schottky Diode"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "30V,200mA"
-			(at 191.77 254 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Status" ""
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" " -40°C to 125°C"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C83680"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "LRB520S-30T1G"
-			(at 191.77 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c86da57-7cab-4196-8cd3-947664d06f41")
-		)
-		(pin "2"
-			(uuid "f6fd90b4-d143-4f70-94d0-d758a405a418")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 156.21 167.64 0)
 		(unit 1)
@@ -11142,71 +9948,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 226.06 257.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2172760f-39f7-4cfc-a0d3-adb216abc0cc")
-		(property "Reference" "#PWR0185"
-			(at 226.06 264.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 226.06 261.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 257.81 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 257.81 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 226.06 257.81 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10536963-eb53-472b-a0ce-8120d0a3c07f")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0185")
 					(unit 1)
 				)
 			)
@@ -11855,71 +10596,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDA")
-		(at 217.17 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d80ec51-13cf-4e18-ade6-2cbf4b32970b")
-		(property "Reference" "#PWR0183"
-			(at 223.52 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDA"
-			(at 220.98 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 217.17 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2844be86-d8d0-476e-8afa-7ab0d8915755")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -14802,164 +13478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010047")
-		(at 205.74 243.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "750f8b6f-144b-4ce9-b6b5-8d5fac9ebc88")
-		(property "Reference" "R70"
-			(at 207.01 241.3 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10K"
-			(at 207.01 243.84 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 10K-1%-1/16W;0402"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402FR-0710KL"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010047"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "10K"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 208.28 246.126 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 205.74 243.84 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 205.74 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C25744"
-			(at 205.74 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF1002TCE"
-			(at 205.74 243.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6a311a42-23d6-43e3-b451-0ed036fd6e75")
-		)
-		(pin "2"
-			(uuid "32e267fd-3982-4816-a2cc-33406ef0a373")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 148.59 165.1 0)
 		(unit 1)
@@ -15910,135 +14428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libdb:Resistors/301010292")
-		(at 207.01 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c5e4865-e12c-40e3-bc4b-e9e368d43e90")
-		(property "Reference" "R71"
-			(at 200.66 109.22 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 213.36 109.22 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/10W;0603"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 207.01 112.268 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C21189"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0603WAF0000T5E"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b4e756a-9bed-468b-b21b-3b319c186f94")
-		)
-		(pin "2"
-			(uuid "6b940c6c-8975-4721-b1a8-cb0e4bea5587")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3VA")
 		(at 100.33 25.4 0)
 		(unit 1)
@@ -16170,7 +14559,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 205.74 231.14 0)
+		(at 214.63 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16178,7 +14567,7 @@
 		(dnp no)
 		(uuid "9c9a0db7-0e14-49a3-8ccb-cd545d474c9c")
 		(property "Reference" "#PWR0182"
-			(at 205.74 234.95 0)
+			(at 214.63 234.95 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -16187,7 +14576,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 205.74 227.33 0)
+			(at 214.63 227.33 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -16195,7 +14584,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 231.14 0)
+			(at 214.63 231.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -16204,7 +14593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 231.14 0)
+			(at 214.63 231.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -16213,7 +14602,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 205.74 231.14 0)
+			(at 214.63 231.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -19492,159 +17881,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "R66")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Mosfet/305031542")
-		(at 226.06 251.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4a94e59-5c06-4fb8-8057-146114df701a")
-		(property "Reference" "Q4"
-			(at 228.6 248.92 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LBSS138WT1G"
-			(at 228.6 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 228.6 248.92 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD MOSFET N-CH 50V-200mA;SOT-323-3"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "LRC"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "LBSS138WT1G"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "305031542"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "NMOS"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Rating" "200mA"
-			(at 228.6 254.0001 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature" "-55°C to 150°C"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C383201"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "LBSS138WT1G"
-			(at 226.06 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24cb286b-4427-4226-9fa9-4529a1418e53")
-		)
-		(pin "2"
-			(uuid "2b637f60-3ea3-4c2a-8a91-b6ff8218c54e")
-		)
-		(pin "3"
-			(uuid "7958d562-cd5d-43f2-8045-027bae74ca65")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

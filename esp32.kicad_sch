@@ -3493,6 +3493,10 @@
 		(uuid "ef11cc4d-0ccd-45c0-bf76-a756b743aa2f")
 	)
 	(no_connect
+		(at 162.56 104.14)
+		(uuid "1ee16cb9-8dea-45c7-a0be-5486afe1e7c6")
+	)
+	(no_connect
 		(at 111.76 106.68)
 		(uuid "2866f152-6506-4cc3-8d9a-1fc86d55173b")
 	)
@@ -3875,16 +3879,6 @@
 			(type default)
 		)
 		(uuid "3e360b5f-31ce-4799-9354-e1decbe626aa")
-	)
-	(wire
-		(pts
-			(xy 187.96 104.14) (xy 162.56 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f761350-8ffb-44b7-bef6-0b7a5f7ccbb6")
 	)
 	(wire
 		(pts
@@ -5491,28 +5485,6 @@
 		(uuid "f53fbd55-2ebc-4272-98e3-27c3dc1eb081")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.3429 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Audio_DET"
-		(shape input)
-		(at 187.96 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f7188500-2556-4faf-b508-dde48e75d85c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.4398 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
