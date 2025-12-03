@@ -13237,7 +13237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Onju:TPD1E05U06DPYR"
+		(property "Footprint" "Onju:BLM18PG300SN1D"
 			(at 92.71 27.178 90)
 			(effects
 				(font
@@ -13274,7 +13274,7 @@
 			)
 		)
 		(property "Current" "6A"
-			(at 92.71 33.782 90)
+			(at 92.71 29.464 90)
 			(effects
 				(font
 					(size 1.27 1.27)

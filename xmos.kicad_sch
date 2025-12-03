@@ -623,168 +623,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SZESD9B5.0ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SZESD9B5.0ST5G"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SZESD9B5.0ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SZESD9B5.0ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -10677,12 +10515,6 @@
 		(uuid "06599e75-e687-4575-a3f2-c50a6fb8b73a")
 	)
 	(junction
-		(at 309.88 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b07f3dd-833d-47df-8881-4f24493fae84")
-	)
-	(junction
 		(at 194.31 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10735,12 +10567,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28ec387f-6114-41bf-bfdf-9ade064a205a")
-	)
-	(junction
-		(at 309.88 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "296cd803-446c-4e1b-9fb3-bfe78b377e8b")
 	)
 	(junction
 		(at 386.08 152.4)
@@ -10803,12 +10629,6 @@
 		(uuid "6004e63a-14b3-4cc6-9c56-3922fdc97789")
 	)
 	(junction
-		(at 375.92 198.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "60279862-a6d7-4745-aeeb-0fd4e193869a")
-	)
-	(junction
 		(at 115.57 259.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10857,12 +10677,6 @@
 		(uuid "746d7526-7b81-4fe9-8f53-2fbdb7d49513")
 	)
 	(junction
-		(at 367.03 231.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "74713df6-b948-412e-beb1-66f5dfba9948")
-	)
-	(junction
 		(at 78.74 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10897,12 +10711,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8635c33f-7d82-4de4-a47c-8b26fdd57489")
-	)
-	(junction
-		(at 375.92 226.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87eed9f4-27ea-4294-8951-70bc5b5555f9")
 	)
 	(junction
 		(at 220.98 199.39)
@@ -11097,12 +10905,6 @@
 		(uuid "e9acbc68-245f-42f6-a00e-0554e6f508d5")
 	)
 	(junction
-		(at 367.03 203.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb9c1253-636d-4fac-9b5b-0e05b198f46d")
-	)
-	(junction
 		(at 175.26 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11203,16 +11005,6 @@
 			(type default)
 		)
 		(uuid "06c16e36-b0ab-4fb8-bd68-aa8ecbc25463")
-	)
-	(wire
-		(pts
-			(xy 309.88 203.2) (xy 309.88 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06da6555-7a04-4160-883a-f06397783c65")
 	)
 	(wire
 		(pts
@@ -11616,7 +11408,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 231.14) (xy 367.03 231.14)
+			(xy 361.95 231.14) (xy 369.57 231.14)
 		)
 		(stroke
 			(width 0)
@@ -11923,16 +11715,6 @@
 			(type default)
 		)
 		(uuid "4253f9b6-1bea-4cc9-b2bf-44fbf11ad4a2")
-	)
-	(wire
-		(pts
-			(xy 309.88 203.2) (xy 326.39 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43a1a48d-d447-4e38-a9c3-656f51d18ba0")
 	)
 	(wire
 		(pts
@@ -12576,7 +12358,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 226.06) (xy 375.92 226.06)
+			(xy 361.95 226.06) (xy 382.27 226.06)
 		)
 		(stroke
 			(width 0)
@@ -12613,16 +12395,6 @@
 			(type default)
 		)
 		(uuid "6e5b9620-ec40-4f0a-923e-ffa2f6f5315a")
-	)
-	(wire
-		(pts
-			(xy 367.03 231.14) (xy 369.57 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0c6369-c813-4897-8b38-678a34a05d8f")
 	)
 	(wire
 		(pts
@@ -12856,7 +12628,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 231.14) (xy 326.39 231.14)
+			(xy 306.07 231.14) (xy 326.39 231.14)
 		)
 		(stroke
 			(width 0)
@@ -13003,16 +12775,6 @@
 			(type default)
 		)
 		(uuid "8575f90d-4962-4b89-a4a3-10c1ddd6a42e")
-	)
-	(wire
-		(pts
-			(xy 306.07 231.14) (xy 309.88 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85bea9b8-844e-44e1-9f06-556691d9db81")
 	)
 	(wire
 		(pts
@@ -13316,7 +13078,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 203.2) (xy 309.88 203.2)
+			(xy 306.07 203.2) (xy 326.39 203.2)
 		)
 		(stroke
 			(width 0)
@@ -13353,16 +13115,6 @@
 			(type default)
 		)
 		(uuid "a1d86b78-dd9f-4b1b-9707-54d5ab23a48c")
-	)
-	(wire
-		(pts
-			(xy 365.76 198.12) (xy 375.92 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a210820c-bc7b-4abf-903a-7b6c3ac53610")
 	)
 	(wire
 		(pts
@@ -13466,26 +13218,6 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 226.06) (xy 382.27 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca8f8b0-0e7a-4f13-a6f2-27a744f01e28")
-	)
-	(wire
-		(pts
-			(xy 369.57 203.2) (xy 367.03 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad291b7a-b18c-4303-84c6-88ff5f5e3b6c")
-	)
-	(wire
-		(pts
 			(xy 220.98 201.93) (xy 227.33 201.93)
 		)
 		(stroke
@@ -13553,16 +13285,6 @@
 			(type default)
 		)
 		(uuid "b29e2b21-0436-4150-bd4a-cb74fca1f9b3")
-	)
-	(wire
-		(pts
-			(xy 367.03 241.3) (xy 367.03 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a9c737-3434-4c33-8870-08b9c7f8c35c")
 	)
 	(wire
 		(pts
@@ -14396,7 +14118,7 @@
 	)
 	(wire
 		(pts
-			(xy 361.95 203.2) (xy 367.03 203.2)
+			(xy 361.95 203.2) (xy 369.57 203.2)
 		)
 		(stroke
 			(width 0)
@@ -14566,7 +14288,7 @@
 	)
 	(wire
 		(pts
-			(xy 375.92 198.12) (xy 382.27 198.12)
+			(xy 365.76 198.12) (xy 382.27 198.12)
 		)
 		(stroke
 			(width 0)
@@ -14743,16 +14465,6 @@
 			(type default)
 		)
 		(uuid "fbf7667e-530c-46d1-a83f-badf4bb8fad2")
-	)
-	(wire
-		(pts
-			(xy 367.03 213.36) (xy 367.03 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcdbff05-5273-4c9e-b9a7-76413f50a693")
 	)
 	(wire
 		(pts
@@ -18116,72 +17828,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 367.03 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19f3234c-005f-4ab3-8604-008c76c75f45")
-		(property "Reference" "#PWR0136"
-			(at 367.03 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 367.03 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 367.03 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bff2db70-775a-403c-9450-04a80f6bd9dc")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 265.43 271.78 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20377,121 +20023,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 309.88 209.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34547029-9570-4726-9648-fff80b5e01d8")
-		(property "Reference" "D6"
-			(at 312.42 208.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 312.42 210.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 309.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 309.88 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 309.88 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 309.88 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 309.88 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 309.88 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 309.88 209.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "192477d4-177a-497d-aa7e-4186bc0c154a")
-		)
-		(pin "1"
-			(uuid "d9cd58bd-c120-4fba-98f0-6fc34f6e5f09")
-		)
-		(instances
-			(project ""
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "0_Seeed_Misc:TEST-POINT")
 		(at 149.86 58.42 0)
 		(unit 1)
@@ -22409,120 +21940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 367.03 234.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a9d963f-c2a4-4010-87a7-46db704e97ef")
-		(property "Reference" "D10"
-			(at 365.506 228.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 359.41 230.124 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 367.03 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 367.03 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 367.03 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 367.03 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 367.03 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 367.03 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 367.03 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf2ac44a-554d-47de-87de-2c4369eabd5d")
-		)
-		(pin "1"
-			(uuid "a418b2d1-8618-471b-86b5-b09fac1c5f65")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libdb:Resistors/301010010")
 		(at 133.35 48.26 0)
 		(unit 1)
@@ -22656,71 +22073,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 375.92 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b706cc4-8e5e-47ac-b4f5-46e44be53ca1")
-		(property "Reference" "#PWR0141"
-			(at 375.92 240.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 237.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ced99d9-bdb8-4863-98fd-aa01f207cb9e")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -24134,71 +23486,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 375.92 205.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5f2fe20b-d7a6-4b81-96f7-4cc1423f1bfe")
-		(property "Reference" "#PWR0140"
-			(at 375.92 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 375.92 209.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 375.92 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 375.92 205.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4ff87cb2-f0a2-4b6e-888a-f24c71a02ac0")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0140")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 59.69 265.43 0)
 		(unit 1)
@@ -24323,72 +23610,6 @@
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 309.88 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63238dd4-30c1-413c-a5c2-8d5638029cd3")
-		(property "Reference" "#PWR0125"
-			(at 309.88 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "67b93136-2874-4a22-8f91-3d5c8ab0d2b4")
-		)
-		(instances
-			(project ""
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -25294,71 +24515,6 @@
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "#PWR0144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 367.03 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74ae7f77-1016-417a-b75a-a8c3d735bde8")
-		(property "Reference" "#PWR0137"
-			(at 367.03 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 367.03 244.856 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 367.03 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 367.03 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2001811-8cd6-46ab-b792-6b1a8fd6b170")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -27063,72 +26219,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 309.88 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8f2633a5-bf78-46c9-9644-73577f765520")
-		(property "Reference" "#PWR0124"
-			(at 309.88 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 309.88 218.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 309.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 309.88 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bfff4b80-6970-477e-9ec6-5b00d23db72a")
-		)
-		(instances
-			(project ""
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "#PWR0124")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 396.24 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28392,120 +27482,6 @@
 			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "#PWR0109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 367.03 207.01 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f3d963e-764f-4000-9f8e-eebdda085512")
-		(property "Reference" "D9"
-			(at 362.458 204.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 359.41 202.184 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 367.03 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 367.03 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 367.03 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 367.03 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 367.03 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 367.03 207.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e3b78566-1c16-46bb-bf1f-a3e76078d9f6")
-		)
-		(pin "1"
-			(uuid "ab8547b8-2c58-4a67-b60c-74466e4bc120")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -31236,120 +30212,6 @@
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 309.88 234.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c47f74e8-0099-4370-a144-04e9eea017da")
-		(property "Reference" "D7"
-			(at 311.658 232.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 311.658 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 309.88 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 309.88 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 309.88 234.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 309.88 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 309.88 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 309.88 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 309.88 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 309.88 234.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "21f3f241-c4c2-455d-88ab-60aa6bbcabe8")
-		)
-		(pin "1"
-			(uuid "53d272a5-f441-44cb-b37b-15aa436594c0")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -34867,120 +33729,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 375.92 229.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f789ccd3-05b7-4819-b7d9-4cbbca1f0114")
-		(property "Reference" "D12"
-			(at 374.396 224.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 364.998 225.298 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 375.92 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 375.92 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 375.92 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 375.92 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 375.92 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 375.92 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 375.92 229.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15c3804d-86e7-4d06-9b7b-c5f3884ccd0b")
-		)
-		(pin "1"
-			(uuid "c4af524e-12ce-4aed-99da-2379d17d4091")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libdb:Resistors/301010000")
 		(at 130.81 114.3 0)
 		(unit 1)
@@ -35700,121 +34448,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
 					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SZESD9B5.0ST5G")
-		(at 375.92 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc2a69ce-b676-491a-a45b-a6aa41107268")
-		(property "Reference" "D11"
-			(at 378.46 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD0402V05"
-			(at 378.46 203.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
-			(at 375.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 375.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PESD0402V05, 5V TVS, 0.3pF"
-			(at 375.92 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Function" "MIC"
-			(at 375.92 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C19626254"
-			(at 375.92 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "DOWO"
-			(at 375.92 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "PESD0402V05"
-			(at 375.92 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 375.92 201.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9a1082f-2dfa-425b-b67d-b0c73c5df5d5")
-		)
-		(pin "1"
-			(uuid "01520e9f-551a-436f-94ce-aa697b610f51")
-		)
-		(instances
-			(project "OBJ_PCB_onju_by_imike78_2025-05-11"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/e7be5fc3-f0fe-4302-b3d4-c1d51cfac7bc"
-					(reference "D11")
 					(unit 1)
 				)
 			)
