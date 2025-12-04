@@ -36,8 +36,10 @@ For reference, you can find some more background information about the original 
 
 - ✅ Schematic completed
 - ✅ Component placement done
-- 🕓 Routing in progress
-- 🚧 Ground pour, shielding strategy, and EMI considerations pending
+- ✅ Routing
+- ✅ Ground pour, shielding strategy, and EMI considerations pending
+- ✅ Test run of the first test batch
+- ✅ Ready for manufacturing
 
 ## Tools used
 
@@ -47,12 +49,11 @@ For reference, you can find some more background information about the original 
 ## Known hardware specifications
 
 - 4-layer PCB
-- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection)
-- XMOS XU316-1024-QF60B-C32 (XMOS XU316 xCORE DSP audio processing)
-- Dual SPI flash
+- ESP32-S3R8 bare chip (ESP32-S3 for WiFi, BLE, and onboard wake-word detection) with 16MB flash
+- XMOS XU316-1024-QF60B-C32 (XMOS XU316 xCORE DSP audio processing) with 4MB flash
 - Dual I²S buses (to allow I2S interfaces at the same time, i.e. simultaneous audio output and audio input)
-- MAX98357 for speaker output (I2S Class-D Mono Audio Amplifyer)
-- 2x MEMS microphones (dual MSM261DHP with 68mm inter-mic spacing)
+- AIC3204 DAC and TPA6211 PA for speaker output
+- 2x MEMS microphones (dual T3902 with 68mm inter-mic spacing)
 - 4x SK6812 RGB LEDs
 
 ## References
