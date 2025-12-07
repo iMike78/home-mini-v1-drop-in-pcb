@@ -243,6 +243,26 @@ switch:
     entity_category: config
     restore_mode: ALWAYS_ON
     internal: false
+  - platform: template
+    name: "DAC Hard Mute"
+    id: aic3204_dac_mute_switch
+    optimistic: true
+    turn_on_action:
+      - lambda: |-
+          bool ok = true;
+          // Page 0
+          ok &= id(aic3204_raw).write_byte(0x00, 0x00);
+          // P0_R64 = 0x0C → Left + Right DAC hard mute
+          ok &= id(aic3204_raw).write_byte(0x40, 0x0C);
+          ESP_LOGI("aic3204_test", "DAC HARD MUTE -> %s", ok ? "OK" : "FAIL");
+    turn_off_action:
+      - lambda: |-
+          bool ok = true;
+          // Page 0
+          ok &= id(aic3204_raw).write_byte(0x00, 0x00);
+          // P0_R64 = 0x00 → Unmute both DAC channels
+          ok &= id(aic3204_raw).write_byte(0x40, 0x00);
+          ESP_LOGI("aic3204_test", "DAC UNMUTE -> %s", ok ? "OK" : "FAIL");
 
 esp32_touch:
   setup_mode: false
@@ -1513,6 +1533,441 @@ select:
           id(hey_mycroft).set_probability_cutoff(237);  // 0.93 -> 1.878 FAPH on DipCo
           id(alexa).set_probability_cutoff(143);
         }
+
+  - platform: template
+    name: "AIC3204 EQ profile"
+    id: aic3204_eq_profile
+    optimistic: true
+    options:
+      - "Flat"
+      - "Rock"
+      - "Pop"
+      - "Voice"
+      - "Clear"
+      - "Loudness"
+      - "Jazz"
+    initial_option: "Flat"
+    set_action:
+      - lambda: |-
+          auto *dev = id(aic3204_raw);
+          bool ok = true;
+          uint8_t cfg = 0;
+          std::string opt = x;
+
+          ESP_LOGI("aic3204_eq", "Selecting EQ profile: %s", opt.c_str());
+
+          // --- 24 bit koeff write ---
+          auto write_coeff_24 = [&](uint8_t page, uint8_t reg, uint32_t val) -> bool {
+            uint8_t b0 = (val >> 16) & 0xFF;  // MSB
+            uint8_t b1 = (val >>  8) & 0xFF;
+            uint8_t b2 =  val        & 0xFF;  // LSB
+
+            bool ok = true;
+            ok &= dev->write_byte(0x00, page);      // Page select
+            ok &= dev->write_byte(reg + 0, b0);
+            ok &= dev->write_byte(reg + 1, b1);
+            ok &= dev->write_byte(reg + 2, b2);
+            return ok;
+          };
+
+          // --- One DAC biquad (A..E) to both channels ---
+          // DAC Buffer A: Page 44 (Left), Page 45 (Right)
+          // Left: baseL = 12 + 20*biq
+          // Right: baseR = 20 + 20*biq  (datasheet Table 2-18)
+          auto write_biquad = [&](uint8_t biq,
+                                  uint32_t N0, uint32_t N1, uint32_t N2,
+                                  uint32_t D1, uint32_t D2) -> bool {
+            bool ok = true;
+
+            uint8_t baseL = 12 + 20 * biq;  // Left channel base
+            uint8_t baseR = 20 + 20 * biq;  // Right channel base
+
+            // LEFT (Page 44)
+            ok &= write_coeff_24(44, baseL +  0, N0);
+            ok &= write_coeff_24(44, baseL +  4, N1);
+            ok &= write_coeff_24(44, baseL +  8, N2);
+            ok &= write_coeff_24(44, baseL + 12, D1);
+            ok &= write_coeff_24(44, baseL + 16, D2);
+
+            // RIGHT (Page 45) – MÁS BASE!
+            ok &= write_coeff_24(45, baseR +  0, N0);
+            ok &= write_coeff_24(45, baseR +  4, N1);
+            ok &= write_coeff_24(45, baseR +  8, N2);
+            ok &= write_coeff_24(45, baseR + 12, D1);
+            ok &= write_coeff_24(45, baseR + 16, D2);
+
+            return ok;
+          };
+
+          // --- Common routine: 5 biquad profile + buffer switch ---
+          auto apply_profile = [&](
+              uint32_t a_n0, uint32_t a_n1, uint32_t a_n2,
+              uint32_t a_d1, uint32_t a_d2,
+              uint32_t b_n0, uint32_t b_n1, uint32_t b_n2,
+              uint32_t b_d1, uint32_t b_d2,
+              uint32_t c_n0, uint32_t c_n1, uint32_t c_n2,
+              uint32_t c_d1, uint32_t c_d2,
+              uint32_t d_n0, uint32_t d_n1, uint32_t d_n2,
+              uint32_t d_d1, uint32_t d_d2,
+              uint32_t e_n0, uint32_t e_n1, uint32_t e_n2,
+              uint32_t e_d1, uint32_t e_d2
+          ) -> bool {
+            bool ok2 = true;
+
+            // 1) Adaptive mode ON (P44_R1.D2=1, D0=0)
+            ok2 &= dev->write_byte(0x00, 44);
+            ok2 &= dev->read_byte(0x01, &cfg);
+            cfg |= 0x04;   // D2 = 1 (adaptive on)
+            cfg &= ~0x01;  // D0 = 0 (dont't ask immediate change)
+            ok2 &= dev->write_byte(0x01, cfg);
+            if (!ok2) {
+              ESP_LOGE("aic3204_eq", "Failed to enable adaptive mode");
+              return false;
+            }
+
+            // 2) New coeffs into inactive buffer (chip select)
+            ok2 &= write_biquad(0, a_n0, a_n1, a_n2, a_d1, a_d2);  // BIQUAD A
+            ok2 &= write_biquad(1, b_n0, b_n1, b_n2, b_d1, b_d2);  // BIQUAD B
+            ok2 &= write_biquad(2, c_n0, c_n1, c_n2, c_d1, c_d2);  // BIQUAD C
+            ok2 &= write_biquad(3, d_n0, d_n1, d_n2, d_d1, d_d2);  // BIQUAD D
+            ok2 &= write_biquad(4, e_n0, e_n1, e_n2, e_d1, e_d2);  // BIQUAD E
+
+            if (!ok2) {
+              ESP_LOGE("aic3204_eq", "Writing EQ coefficients failed");
+              return false;
+            }
+
+            // 3) Buffer switch request (P44_R1.D0=1, D2 stays 1)
+            ok2 &= dev->write_byte(0x00, 44);
+            ok2 &= dev->read_byte(0x01, &cfg);
+            cfg |= 0x04;   // D2 = 1
+            cfg |= 0x01;   // D0 = 1 → change at next frame
+            ok2 &= dev->write_byte(0x01, cfg);
+
+            return ok2;
+          };
+          //##### Profiles #####
+          // --- FLAT ---
+          if (opt == "Flat") {
+            ESP_LOGI("aic3204_eq", "Applying Flat (unity) profile");
+
+            const uint32_t N0 = 0x7FFFFF;
+            const uint32_t Z  = 0x000000;
+
+            ok = apply_profile(
+              // BIQUAD A
+              N0, Z, Z, Z, Z,
+              // BIQUAD B
+              N0, Z, Z, Z, Z,
+              // BIQUAD C
+              N0, Z, Z, Z, Z,
+              // BIQUAD D
+              N0, Z, Z, Z, Z,
+              // BIQUAD E
+              N0, Z, Z, Z, Z
+            );
+
+            ESP_LOGI("aic3204_eq", "Flat apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+          // --- ROCK ---
+          if (opt == "Rock") {
+            // 5 peaking band, Fs=48 kHz, BW ≈ F0 (Q≈1)
+            // Band 1: 60 Hz, +5 dB
+            const uint32_t r1_n0 = 0x7FFFFF;
+            const uint32_t r1_n1 = 0x8109D2;
+            const uint32_t r1_n2 = 0x7DEE5F;
+            const uint32_t r1_d1 = 0x7F698C;
+            const uint32_t r1_d2 = 0x812AE4;
+
+            // Band 2: 230 Hz, +2 dB
+            const uint32_t r2_n0 = 0x7FFFFF;
+            const uint32_t r2_n1 = 0x83250C;
+            const uint32_t r2_n2 = 0x79D2E5;
+            const uint32_t r2_d1 = 0x7D7A58;
+            const uint32_t r2_d2 = 0x84EE2E;
+
+            // Band 3: 910 Hz, -3 dB
+            const uint32_t r3_n0 = 0x7C8B37;
+            const uint32_t r3_n1 = 0x8CA83F;
+            const uint32_t r3_n2 = 0x6BC9C4;
+            const uint32_t r3_d1 = 0x7357C1;
+            const uint32_t r3_d2 = 0x97AB04;
+
+            // Band 4: 3600 Hz, +3 dB
+            const uint32_t r4_n0 = 0x7FFFFF;
+            const uint32_t r4_n1 = 0xB02945;
+            const uint32_t r4_n2 = 0x3335DB;
+            const uint32_t r4_d1 = 0x57812D;
+            const uint32_t r4_d2 = 0xBB9525;
+
+            // Band 5: 14000 Hz, +4 dB
+            const uint32_t r5_n0 = 0x7FFFFF;
+            const uint32_t r5_n1 = 0x114C9F;
+            const uint32_t r5_n2 = 0x05ADC4;
+            const uint32_t r5_d1 = 0xEAFF46;
+            const uint32_t r5_d2 = 0xDDB3D8;
+
+            ok = apply_profile(
+              r1_n0, r1_n1, r1_n2, r1_d1, r1_d2,
+              r2_n0, r2_n1, r2_n2, r2_d1, r2_d2,
+              r3_n0, r3_n1, r3_n2, r3_d1, r3_d2,
+              r4_n0, r4_n1, r4_n2, r4_d1, r4_d2,
+              r5_n0, r5_n1, r5_n2, r5_d1, r5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Rock apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          // --- POP ---
+          if (opt == "Pop") {
+            // Band 1: 60 Hz, +3 dB
+            const uint32_t p1_n0 = 0x7FFFFF;
+            const uint32_t p1_n1 = 0x80B5C4;
+            const uint32_t p1_n2 = 0x7E9679;
+            const uint32_t p1_d1 = 0x7F7ED0;
+            const uint32_t p1_d2 = 0x81005A;
+
+            // Band 2: 230 Hz, +1 dB
+            const uint32_t p2_n0 = 0x7FFFFF;
+            const uint32_t p2_n1 = 0x822ECB;
+            const uint32_t p2_n2 = 0x7BBF9F;
+            const uint32_t p2_d1 = 0x7E0B7B;
+            const uint32_t p2_d2 = 0x83CBC5;
+
+            // Band 3: 910 Hz, 0 dB
+            const uint32_t p3_n0 = 0x7FFFFF;
+            const uint32_t p3_n1 = 0x880902;
+            const uint32_t p3_n2 = 0x71A457;
+            const uint32_t p3_d1 = 0x77F6FD;
+            const uint32_t p3_d2 = 0x8E5BA8;
+
+            // Band 4: 3600 Hz, +2 dB
+            const uint32_t p4_n0 = 0x7FFFFF;
+            const uint32_t p4_n1 = 0xA74C99;
+            const uint32_t p4_n2 = 0x471A3A;
+            const uint32_t p4_d1 = 0x5CF31E;
+            const uint32_t p4_d2 = 0xAF5C39;
+
+            // Band 5: 14000 Hz, +3 dB
+            const uint32_t p5_n0 = 0x7FFFFF;
+            const uint32_t p5_n1 = 0x13B197;
+            const uint32_t p5_n2 = 0x182E6E;
+            const uint32_t p5_d1 = 0xE9A90E;
+            const uint32_t p5_d2 = 0xD35F64;
+
+            ok = apply_profile(
+              p1_n0, p1_n1, p1_n2, p1_d1, p1_d2,
+              p2_n0, p2_n1, p2_n2, p2_d1, p2_d2,
+              p3_n0, p3_n1, p3_n2, p3_d1, p3_d2,
+              p4_n0, p4_n1, p4_n2, p4_d1, p4_d2,
+              p5_n0, p5_n1, p5_n2, p5_d1, p5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Pop apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          // --- VOICE ---
+          if (opt == "Voice") {
+            // Band 1: 60 Hz, -4 dB
+            const uint32_t v1_n0 = 0x7FD0B1;
+            const uint32_t v1_n1 = 0x80812F;
+            const uint32_t v1_n2 = 0x7F2EF2;
+            const uint32_t v1_d1 = 0x7F7ED0;
+            const uint32_t v1_d2 = 0x81005A;
+
+            // Band 2: 230 Hz, -2 dB
+            const uint32_t v2_n0 = 0x7F9C10;
+            const uint32_t v2_n1 = 0x81F484;
+            const uint32_t v2_n2 = 0x7C9829;
+            const uint32_t v2_d1 = 0x7E0B7B;
+            const uint32_t v2_d2 = 0x83CBC5;
+
+            // Band 3: 910 Hz, +4 dB
+            const uint32_t v3_n0 = 0x7FFFFF;
+            const uint32_t v3_n1 = 0x8BD877;
+            const uint32_t v3_n2 = 0x69F781;
+            const uint32_t v3_d1 = 0x77F6FD;
+            const uint32_t v3_d2 = 0x8E5BA8;
+
+            // Band 4: 3600 Hz, +6 dB
+            const uint32_t v4_n0 = 0x7FFFFF;
+            const uint32_t v4_n1 = 0xB180E2;
+            const uint32_t v4_n2 = 0x30328E;
+            const uint32_t v4_d1 = 0x5CF31E;
+            const uint32_t v4_d2 = 0xAF5C39;
+
+            // Band 5: 14000 Hz, +1 dB
+            const uint32_t v5_n0 = 0x7FFFFF;
+            const uint32_t v5_n1 = 0x157C5E;
+            const uint32_t v5_n2 = 0x260796;
+            const uint32_t v5_d1 = 0xE9A90E;
+            const uint32_t v5_d2 = 0xD35F64;
+
+            ok = apply_profile(
+              v1_n0, v1_n1, v1_n2, v1_d1, v1_d2,
+              v2_n0, v2_n1, v2_n2, v2_d1, v2_d2,
+              v3_n0, v3_n1, v3_n2, v3_d1, v3_d2,
+              v4_n0, v4_n1, v4_n2, v4_d1, v4_d2,
+              v5_n0, v5_n1, v5_n2, v5_d1, v5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Voice apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          // --- CLEAR ---
+          if (opt == "Clear") {
+            // Band 1: 60 Hz, -2 dB
+            const uint32_t c1_n0 = 0x7FE5A2;
+            const uint32_t c1_n1 = 0x80812F;
+            const uint32_t c1_n2 = 0x7F1A02;
+            const uint32_t c1_d1 = 0x7F7ED0;
+            const uint32_t c1_d2 = 0x81005A;
+
+            // Band 2: 230 Hz, 0 dB
+            const uint32_t c2_n0 = 0x7FFFFF;
+            const uint32_t c2_n1 = 0x81F484;
+            const uint32_t c2_n2 = 0x7C343A;
+            const uint32_t c2_d1 = 0x7E0B7B;
+            const uint32_t c2_d2 = 0x83CBC5;
+
+            // Band 3: 910 Hz, +2 dB
+            const uint32_t c3_n0 = 0x7FFFFF;
+            const uint32_t c3_n1 = 0x89C09D;
+            const uint32_t c3_n2 = 0x6E2EDB;
+            const uint32_t c3_d1 = 0x77F6FD;
+            const uint32_t c3_d2 = 0x8E5BA8;
+
+            // Band 4: 3600 Hz, +4 dB
+            const uint32_t c4_n0 = 0x7FFFFF;
+            const uint32_t c4_n1 = 0xAC203F;
+            const uint32_t c4_n2 = 0x3C449F;
+            const uint32_t c4_d1 = 0x5CF31E;
+            const uint32_t c4_d2 = 0xAF5C39;
+
+            // Band 5: 14000 Hz, +3 dB
+            const uint32_t c5_n0 = 0x7FFFFF;
+            const uint32_t c5_n1 = 0x13B197;
+            const uint32_t c5_n2 = 0x182E6E;
+            const uint32_t c5_d1 = 0xE9A90E;
+            const uint32_t c5_d2 = 0xD35F64;
+
+            ok = apply_profile(
+              c1_n0, c1_n1, c1_n2, c1_d1, c1_d2,
+              c2_n0, c2_n1, c2_n2, c2_d1, c2_d2,
+              c3_n0, c3_n1, c3_n2, c3_d1, c3_d2,
+              c4_n0, c4_n1, c4_n2, c4_d1, c4_d2,
+              c5_n0, c5_n1, c5_n2, c5_d1, c5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Clear apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          // --- LOUDNESS ---
+          if (opt == "Loudness") {
+            // Band 1: 60 Hz, +6 dB
+            const uint32_t l1_n0 = 0x7FFFFF;
+            const uint32_t l1_n1 = 0x80FFC1;
+            const uint32_t l1_n2 = 0x7E027E;
+            const uint32_t l1_d1 = 0x7F7ED0;
+            const uint32_t l1_d2 = 0x81005A;
+
+            // Band 2: 230 Hz, +3 dB
+            const uint32_t l2_n0 = 0x7FFFFF;
+            const uint32_t l2_n1 = 0x82B8B3;
+            const uint32_t l2_n2 = 0x7AABAE;
+            const uint32_t l2_d1 = 0x7E0B7B;
+            const uint32_t l2_d2 = 0x83CBC5;
+
+            // Band 3: 910 Hz, 0 dB
+            const uint32_t l3_n0 = 0x7FFFFF;
+            const uint32_t l3_n1 = 0x880902;
+            const uint32_t l3_n2 = 0x71A457;
+            const uint32_t l3_d1 = 0x77F6FD;
+            const uint32_t l3_d2 = 0x8E5BA8;
+
+            // Band 4: 3600 Hz, +2 dB
+            const uint32_t l4_n0 = 0x7FFFFF;
+            const uint32_t l4_n1 = 0xA74C99;
+            const uint32_t l4_n2 = 0x471A3A;
+            const uint32_t l4_d1 = 0x5CF31E;
+            const uint32_t l4_d2 = 0xAF5C39;
+
+            // Band 5: 14000 Hz, +5 dB
+            const uint32_t l5_n0 = 0x7FFFFF;
+            const uint32_t l5_n1 = 0x11D281;
+            const uint32_t l5_n2 = 0x09B856;
+            const uint32_t l5_d1 = 0xE9A90E;
+            const uint32_t l5_d2 = 0xD35F64;
+
+            ok = apply_profile(
+              l1_n0, l1_n1, l1_n2, l1_d1, l1_d2,
+              l2_n0, l2_n1, l2_n2, l2_d1, l2_d2,
+              l3_n0, l3_n1, l3_n2, l3_d1, l3_d2,
+              l4_n0, l4_n1, l4_n2, l4_d1, l4_d2,
+              l5_n0, l5_n1, l5_n2, l5_d1, l5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Loudness apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          // --- JAZZ ---
+          if (opt == "Jazz") {
+            // Band 1: 60 Hz, -1 dB
+            const uint32_t j1_n0 = 0x7FF20E;
+            const uint32_t j1_n1 = 0x80812F;
+            const uint32_t j1_n2 = 0x7F0D95;
+            const uint32_t j1_d1 = 0x7F7ED0;
+            const uint32_t j1_d2 = 0x81005A;
+
+            // Band 2: 230 Hz, +1 dB
+            const uint32_t j2_n0 = 0x7FFFFF;
+            const uint32_t j2_n1 = 0x822ECB;
+            const uint32_t j2_n2 = 0x7BBF9F;
+            const uint32_t j2_d1 = 0x7E0B7B;
+            const uint32_t j2_d2 = 0x83CBC5;
+
+            // Band 3: 910 Hz, +3 dB
+            const uint32_t j3_n0 = 0x7FFFFF;
+            const uint32_t j3_n1 = 0x8ABF85;
+            const uint32_t j3_n2 = 0x6C2D68;
+            const uint32_t j3_d1 = 0x77F6FD;
+            const uint32_t j3_d2 = 0x8E5BA8;
+
+            // Band 4: 3600 Hz, +2 dB
+            const uint32_t j4_n0 = 0x7FFFFF;
+            const uint32_t j4_n1 = 0xA74C99;
+            const uint32_t j4_n2 = 0x471A3A;
+            const uint32_t j4_d1 = 0x5CF31E;
+            const uint32_t j4_d2 = 0xAF5C39;
+
+            // Band 5: 14000 Hz, +1 dB
+            const uint32_t j5_n0 = 0x7FFFFF;
+            const uint32_t j5_n1 = 0x157C5E;
+            const uint32_t j5_n2 = 0x260796;
+            const uint32_t j5_d1 = 0xE9A90E;
+            const uint32_t j5_d2 = 0xD35F64;
+
+            ok = apply_profile(
+              j1_n0, j1_n1, j1_n2, j1_d1, j1_d2,
+              j2_n0, j2_n1, j2_n2, j2_d1, j2_d2,
+              j3_n0, j3_n1, j3_n2, j3_d1, j3_d2,
+              j4_n0, j4_n1, j4_n2, j4_d1, j4_d2,
+              j5_n0, j5_n1, j5_n2, j5_d1, j5_d2
+            );
+
+            ESP_LOGI("aic3204_eq", "Jazz apply -> %s", ok ? "OK" : "FAIL");
+            return;
+          }
+
+          ESP_LOGW("aic3204_eq", "Unknown EQ option '%s'", opt.c_str());
+
+
 
 voice_assistant:
   id: va
