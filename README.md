@@ -4,6 +4,9 @@ An extra component is required for anyone who wants to install this PCB: a [50mm
 
 A Step-by-Step guide can be found [here](https://github.com/iMike78/home-mini-v1-drop-in-pcb/wiki/Google-Home-Mini-(Gen-1)-%E2%80%93-Drop%E2%80%90in-PCB-Replacement-Step%E2%80%90by%E2%80%90step-Guide)
 
+Note: I am currently evaluating the feasibility of a Crowd Supply campaign for this project.
+No decision has been made yet, but please do not start parallel crowdfunding efforts without contacting me.
+
 # MiciMike drop-in PCB replacement for Google Home Mini (Gen-1)
 
 [MiciMike Home Mini](https://github.com/iMike78/home-mini-v1-drop-in-pcb) is a drop-in PCB replacement for the ["Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.
