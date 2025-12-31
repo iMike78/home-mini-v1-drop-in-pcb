@@ -1,11 +1,23 @@
-Finally, [you can order](https://www.pcbway.com/project/shareproject/W659778AS1M15_MiciMike_Google_Home_mini_drop_in_PCB_97e52f8d.html) the PCB from PCBWay. Please read through the full description, as there is some important information, especially at the bottom.
-Any questions about the PCB order procedure check the [Wiki](https://github.com/iMike78/home-mini-v1-drop-in-pcb/wiki/Ordering-procedure), or ask [here](https://github.com/iMike78/home-mini-v1-drop-in-pcb/discussions/8).
-An extra component is required for anyone who wants to install this PCB: a [50mm straight type A 0.5mm pitch 16 pole FPC cable](https://www.aliexpress.com/item/1005004299162329.html?spm=a2g0o.order_list.order_list_main.11.fc2f1802jZp464). I chose this solution instead of desoldering the original FPC cable from the old board and soldering it onto the new one (the FPC soldering process is not easy). Therefore, I decided to replace the old cable with one that can be connected to FPC connectors on both sides.
+### **Looking for ESPHome contributors (EU only for now)**
 
-A Step-by-Step guide can be found [here](https://github.com/iMike78/home-mini-v1-drop-in-pcb/wiki/Google-Home-Mini-(Gen-1)-%E2%80%93-Drop%E2%80%90in-PCB-Replacement-Step%E2%80%90by%E2%80%90step-Guide)
+Hi everyone 👋
 
-Note: I am currently evaluating the feasibility of a Crowd Supply campaign for this project.
-No decision has been made yet, but please do not start parallel crowdfunding efforts without contacting me.
+I have **two spare, fully working PCBs**, intended for **two different people who are willing to collaborate**, that I’m happy to send out **for testing and development purposes**.
+These are **not the final PCB revision**, but the differences are minor — no architectural changes, only small patches.
+
+I’m looking for people who would be interested in **improving and optimizing the ESPHome code**, for example:
+
+- LED control refinements
+- creating a factory-flashable ESPHome image
+- general cleanup / optimization
+
+For now, I’m focusing on **EU-based contributors** (shipping + customs sanity).
+
+Some basic soldering skills may be useful, just in case the ESPHome firmware gets bricked during Wi-Fi OTA (it happens 😄). I’ll provide **clear instructions and support** if that ever comes up.
+
+If you have **ESPHome experience** and ideally **some previous work or references**, feel free to comment.
+
+Thanks! 🙌
 
 # MiciMike drop-in PCB replacement for Google Home Mini (Gen-1)
 
