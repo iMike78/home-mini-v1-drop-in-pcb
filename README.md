@@ -5,6 +5,9 @@ Hi everyone 👋
 I have **two spare, fully working PCBs**, intended for **two different people who are willing to collaborate**, that I’m happy to send out **for testing and development purposes**.
 These are **not the final PCB revision**, but the differences are minor — no architectural changes, only small patches.
 
+
+![20260102_085048](https://github.com/user-attachments/assets/a0eaa225-cca3-426c-886b-de4263553512)
+
 I’m looking for people who would be interested in **improving and optimizing the ESPHome code**, for example:
 
 - LED control refinements
