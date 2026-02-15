@@ -40,7 +40,7 @@ esphome:
   friendly_name: "${friendly_name}"
   project: 
     name: imike78.micimike
-    version: v0.9.0
+    version: v0.9.2
   name_add_mac_suffix: true
   min_version: 2025.12.0
   on_boot:
@@ -60,7 +60,7 @@ esphome:
               - script.execute: control_leds
 
 dashboard_import:
-  package_import_url: github://iMike78/home-mini-DiP-v1/esphome/micimike-factory.yml@main
+  package_import_url: github://iMike78/home-mini-DiP-v1/esphome/micimike-voice.yml@main
   import_full_config: true
 
 esp32:
@@ -135,7 +135,7 @@ i2c_device:
 psram:
   mode: octal
   speed: 80MHz
-  ignore_not_found: false  # The VPE has PSRAM, so this is safe. Allows configuring WiFi driver to use more resources (done automatically by the speaker media player)
+  ignore_not_found: false  # The PCB has PSRAM, so this is safe. Allows configuring WiFi driver to use more resources (done automatically by the speaker media player)
 
 globals:
   # Global index for our LEDs. So that switching between different animation does not lead to unwanted effects.
@@ -356,7 +356,12 @@ binary_sensor:
                       id: control_group_volume
                       increase_volume: true
     on_release:
-      - script.stop: volume_hold
+      - delay: 50ms
+      - if:
+          condition:
+            binary_sensor.is_off: volume_up
+          then:
+            - script.stop: volume_hold
       - delay: 1s
       - lambda: id(volume_button_touched) = false;
       - script.execute: control_leds
@@ -598,7 +603,12 @@ binary_sensor:
                       id: control_group_volume
                       increase_volume: false
     on_release:
-      - script.stop: volume_hold
+      - delay: 50ms
+      - if:
+          condition:
+            binary_sensor.is_off: volume_down
+          then:
+            - script.stop: volume_hold
       - delay: 1s
       - lambda: id(volume_button_touched) = false;
       - script.execute: control_leds
@@ -1200,7 +1210,8 @@ script:
       - delay: 400ms
       - while:
           condition:
-            lambda: return true;
+            lambda: |-
+              return increase_volume ? id(volume_up).state : id(volume_down).state;
           then:
             - script.execute:
                 id: control_volume
