@@ -42,7 +42,7 @@ esphome:
     name: imike78.micimike
     version: v0.9.3
   name_add_mac_suffix: true
-  min_version: 2026.2
+  min_version: "2026.2"
   on_boot:
     - priority: 375
       then:
