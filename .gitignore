@@ -5,7 +5,6 @@
 *.swo
 *.kicad_prl
 *.lck
-*.json
 *.txt
 *.dsn
 *.ses

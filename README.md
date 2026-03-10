@@ -1,32 +1,8 @@
-### **Looking for ESPHome contributors (EU only for now)**
-
-Hi everyone 👋
-
-I have **two spare, fully working PCBs**, intended for **two different people who are willing to collaborate**, that I’m happy to send out **for testing and development purposes**.
-These are **not the final PCB revision**, but the differences are minor — no architectural changes, only small patches.
-
-
-![20260102_085048](https://github.com/user-attachments/assets/a0eaa225-cca3-426c-886b-de4263553512)
-
-I’m looking for people who would be interested in **improving and optimizing the ESPHome code**, for example:
-
-- LED control refinements
-- creating a factory-flashable ESPHome image
-- general cleanup / optimization
-
-For now, I’m focusing on **EU-based contributors** (shipping + customs sanity).
-
-Some basic soldering skills may be useful, just in case the ESPHome firmware gets bricked during Wi-Fi OTA (it happens 😄). I’ll provide **clear instructions and support** if that ever comes up.
-
-If you have **ESPHome experience** and ideally **some previous work or references**, feel free to comment.
-
-Thanks! 🙌
-
 # MiciMike drop-in PCB replacement for Google Home Mini (Gen-1)
 
 [MiciMike Home Mini](https://github.com/iMike78/home-mini-v1-drop-in-pcb) is a drop-in PCB replacement for the ["Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.
 
-<img src="pics/MiciMike_Home_Mini_v1_PCB_Prototype_1.png" width="1000">
+![dji_export_photo_20260208104256661](https://github.com/user-attachments/assets/d4b3f50a-02f5-4eb1-8bbc-bc94d86793c8)
 
 Tip! If you are instead looking for a similar drop-in PCB replacement for the "Google Nest Mini" (Google's second-generation smart speaker with a barrel connector charging port) then check out the sister-project at https://github.com/iMike78/nest-mini-drop-in-pcb
 

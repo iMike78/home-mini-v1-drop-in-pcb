@@ -1,0 +1,76 @@
+packages:
+  # This is an inline package to prefix the on_client_connected with the wait_until action
+  # It must appear before the actual package so it becomes the orignal config and the
+  # on_client_connected list from the package config is appended onto this one.
+  va_connected_wait_for_ble:
+    voice_assistant:
+      on_client_connected:
+        - wait_until:
+            not: ble.enabled
+        - delay: 2s
+    wifi:
+      on_disconnect:
+        - ble.enable:
+  micimike_voice: !include micimike-voice.yml
+
+esphome:
+  project:
+    name: imike78.MiciMike
+    version: factory
+
+ota:
+  - platform: http_request
+    id: ota_http_request
+
+http_request:
+
+update:
+  - platform: http_request
+    name: None
+    id: update_http_request
+    source: https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest.json
+
+dashboard_import:
+  package_import_url: github://iMike78/home-mini-DiP-v1/esphome/micimike-factory.yml@main
+  import_full_config: false
+
+wifi:
+  on_connect:
+    - delay: 5s  # Gives time for improv results to be transmitted
+    - ble.disable:
+    - script.execute: control_leds
+
+improv_serial:
+
+esp32_ble:
+  name: micimike
+
+esp32_improv:
+  authorizer: center_button  # Use touch center button for authentication
+  on_start:
+    - lambda: id(improv_ble_in_progress) = true;
+    - script.execute: control_leds
+  on_provisioned:
+    - lambda: id(improv_ble_in_progress) = false;
+    - script.execute: control_leds
+  on_stop:
+    - lambda: id(improv_ble_in_progress) = false;
+    - script.execute: control_leds
+
+switch:
+  - platform: template
+    id: beta_firmware
+    name: Beta firmware
+    icon: "mdi:test-tube"
+    disabled_by_default: true
+    entity_category: config
+    optimistic: true
+    restore_mode: RESTORE_DEFAULT_OFF
+    on_turn_on:
+      - logger.log: "OTA updates set to use Beta firmware"
+      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest-beta.json");
+      - component.update: update_http_request
+    on_turn_off:
+      - logger.log: "OTA updates set to use Production firmware"
+      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest.json");
+      - component.update: update_http_request

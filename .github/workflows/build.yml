@@ -1,0 +1,69 @@
+name: Build and Release Firmware
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install ESPHome
+        run: |
+          pip install esphome
+
+      - name: Build Factory Firmware
+        run: |
+          esphome compile esphome/micimike-factory.yml
+          
+      - name: Build Full Firmware
+        run: |
+          esphome compile esphome/micimike-voice.yml
+
+      - name: Prepare Release Files
+        run: |
+          mkdir -p release
+          # Factory firmware
+          cp esphome/.esphome/build/micimike/.pioenvs/micimike/firmware.factory.bin release/micimike-factory.bin
+          # Full firmware (from full build)
+          # Note: This assumes micimike-voice.yml uses the same name
+          cp esphome/.esphome/build/micimike/.pioenvs/micimike/firmware.ota.bin release/micimike-voice.bin
+          # Manifests
+          cp manifests/manifest.json release/
+          cp manifests/manifest-beta.json release/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            release/micimike-factory.bin
+            release/micimike-voice.bin
+            release/manifest.json
+            release/manifest-beta.json
+          body: |
+            ## MiciMike Firmware Release
+            
+            ### Factory Firmware
+            - Initial setup firmware with BLE Improv
+            - Flash via USB first time only
+            
+            ### Full Firmware
+            - Complete voice assistant functionality
+            - Auto-updates via OTA after factory setup
+            
+            ### Installation
+            1. Flash `micimike-factory.bin` via USB
+            2. Use BLE Improv to configure WiFi (touch center button to authorize)
+            3. Device auto-updates to full firmware
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

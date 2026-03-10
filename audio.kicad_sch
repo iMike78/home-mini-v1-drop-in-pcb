@@ -8415,6 +8415,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 104.14 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7c6fe1ea-ca4a-4a61-bd54-a851141a5628")
 		)
@@ -8559,7 +8586,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TI"
+		(property "MPN" "TPA6211A1DGNR"
 			(at 313.69 167.64 0)
 			(effects
 				(font
@@ -8622,6 +8649,33 @@
 			)
 		)
 		(property "Manufacturer Part" "TPA6211A1DGNR"
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 313.69 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 313.69 167.64 0)
 			(effects
 				(font
@@ -8818,6 +8872,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 309.88 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 309.88 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 309.88 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac88189c-c968-49bd-a142-721d5dc722ed")
 		)
@@ -8896,7 +8977,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -8977,6 +9058,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 115.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -9128,7 +9236,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -9209,6 +9317,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 154.94 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -9457,6 +9592,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 106.68 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e54ddbcf-1220-4b03-a1b3-f7a5cb5b26a3")
 		)
@@ -9693,7 +9855,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R9BB103"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 363.22 176.53 0)
 			(effects
 				(font
@@ -9782,6 +9944,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 363.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 363.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 363.22 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e2deeb9d-d8a6-405d-923f-9f842196365a")
 		)
@@ -9858,7 +10047,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 240.03 227.33 0)
 			(effects
 				(font
@@ -9930,6 +10119,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 240.03 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 240.03 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 240.03 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 240.03 227.33 0)
 			(effects
 				(font
@@ -10016,7 +10232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-074K7L"
+		(property "MPN" "0402WGF4701TCE"
 			(at 247.65 238.76 0)
 			(effects
 				(font
@@ -10088,6 +10304,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF4701TCE"
+			(at 247.65 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 247.65 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 247.65 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 247.65 238.76 90)
 			(effects
 				(font
@@ -10174,7 +10417,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -10255,6 +10498,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 139.7 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -10430,6 +10700,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "327b17e5-e445-406a-9aa6-cf394204a246")
 		)
@@ -10506,7 +10812,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 46.99 248.92 0)
 			(effects
 				(font
@@ -10578,6 +10884,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 46.99 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 46.99 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 46.99 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 46.99 248.92 0)
 			(effects
 				(font
@@ -11120,7 +11453,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -11201,6 +11534,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 156.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -11388,6 +11748,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3515f32-dd1c-4b56-ad6c-3e566a77696f")
 		)
@@ -11505,6 +11892,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF0000T5E"
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "310afe80-5576-4a05-9b1e-a1a0f6c88904")
 		)
@@ -11583,7 +12006,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 144.78 194.31 0)
 			(effects
 				(font
@@ -11672,6 +12095,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 144.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 144.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 144.78 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28caaea4-aceb-4872-8f3d-8a8d5b9a17ee")
 		)
@@ -11750,7 +12200,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R9BB103"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 354.33 176.53 0)
 			(effects
 				(font
@@ -11839,6 +12289,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 354.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 354.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 354.33 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d75bc959-023f-4fe4-ab35-09f54c0d1e2e")
 		)
@@ -11917,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KP5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 176.53 162.56 0)
 			(effects
 				(font
@@ -11989,6 +12466,33 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05A105KA5NQNC"
+			(at 176.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 176.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 176.53 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 176.53 162.56 0)
 			(effects
 				(font
@@ -12138,7 +12642,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 97.79 191.77 0)
 			(effects
 				(font
@@ -12210,6 +12714,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 97.79 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 97.79 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 97.79 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 97.79 191.77 0)
 			(effects
 				(font
@@ -12405,6 +12936,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0402WGF4703TCE"
+			(at 247.65 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 247.65 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 247.65 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 247.65 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a9caf573-1d17-44dc-8324-ebc4e0310b23")
 		)
@@ -12445,7 +13012,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Onju:BLM18PG121SN1D"
 			(at 341.63 170.18 0)
 			(effects
 				(font
@@ -12481,7 +13048,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG601SN1D"
+		(property "MPN" "BLM18KG601SN1D"
 			(at 341.63 170.18 0)
 			(effects
 				(font
@@ -12554,6 +13121,33 @@
 			)
 		)
 		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 341.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 341.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 341.63 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 341.63 170.18 0)
 			(effects
 				(font
@@ -12756,6 +13350,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "BLM18PG121SN1D"
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 68.58 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "782415bc-038b-46e4-80dc-a6c563effd18")
 		)
@@ -12834,7 +13464,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 132.08 194.31 0)
 			(effects
 				(font
@@ -12915,6 +13545,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 132.08 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 132.08 194.31 0)
 			(effects
 				(font
@@ -13118,6 +13775,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 240.03 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 240.03 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 240.03 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 240.03 233.68 0)
 			(effects
 				(font
@@ -13400,6 +14084,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 67.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 67.31 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "432e12da-8c65-43ae-9e4e-160407c977f6")
 		)
@@ -13603,7 +14314,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAYNNNE"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 241.3 160.02 0)
 			(effects
 				(font
@@ -13691,6 +14402,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 241.3 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 241.3 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf1a3f9e-3ca9-4397-8954-2708d70606d4")
 		)
@@ -13769,7 +14507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 124.46 200.66 0)
 			(effects
 				(font
@@ -13841,6 +14579,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 124.46 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 124.46 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 124.46 200.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 124.46 200.66 90)
 			(effects
 				(font
@@ -13925,7 +14690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAYNNNE"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 241.3 171.45 0)
 			(effects
 				(font
@@ -14005,6 +14770,33 @@
 			)
 		)
 		(property "Voltage" "25V"
+			(at 241.3 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 241.3 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 241.3 171.45 90)
 			(effects
 				(font
@@ -14180,6 +14972,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 166.37 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5be315d-ab4a-40ae-b362-14a7af5cb351")
 		)
@@ -14339,6 +15158,33 @@
 			)
 		)
 		(property "Voltage" "50V"
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 322.58 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 322.58 203.2 0)
 			(effects
 				(font
@@ -14727,6 +15573,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1502T5E"
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 260.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6d44d50-e8fc-4792-a4a1-8d22fc2d9f9a")
 		)
@@ -14891,6 +15773,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 260.35 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 260.35 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6802d4ea-f0b0-4ab5-a804-bc2566209fbc")
 		)
@@ -14967,7 +15876,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -15039,6 +15948,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -15342,6 +16278,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "1775443-2"
+			(at 383.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 383.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 383.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 383.54 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "80ce5721-a1cc-444b-9f81-5b327b0bdb87")
 		)
@@ -15462,6 +16434,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1502T5E"
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62677e8c-ae8a-4bbd-a4bc-bd42d7006965")
 		)
@@ -15532,6 +16540,33 @@
 			)
 		)
 		(property "CL" ""
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 269.24 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 269.24 245.11 0)
 			(effects
 				(font
@@ -15652,6 +16687,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 322.58 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 322.58 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 322.58 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "271a5c43-3cbd-4b07-bfe8-66334df5faf1")
 		)
@@ -15727,7 +16789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R9BB103"
+		(property "MPN" "CL05B103KB5NNNC"
 			(at 256.54 251.46 0)
 			(effects
 				(font
@@ -15816,6 +16878,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 256.54 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 256.54 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 256.54 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6b17e59-c2a7-4bae-8644-c8e12d5796cc")
 		)
@@ -15892,7 +16981,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A226MAYNNNE"
+		(property "MPN" "CL21A226MAQNNNE"
 			(at 241.3 166.37 0)
 			(effects
 				(font
@@ -15980,6 +17069,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 241.3 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 241.3 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 241.3 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1d18519-0864-4d17-b370-44304ae0aef9")
 		)
@@ -16058,7 +17174,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 60.96 163.83 0)
 			(effects
 				(font
@@ -16139,6 +17255,33 @@
 			)
 		)
 		(property "Voltage" "16V"
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 60.96 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 60.96 163.83 0)
 			(effects
 				(font
@@ -16484,7 +17627,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 46.99 245.11 0)
 			(effects
 				(font
@@ -16556,6 +17699,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 46.99 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 46.99 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 46.99 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 46.99 245.11 0)
 			(effects
 				(font
@@ -16944,6 +18114,42 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603WAF1502T5E"
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 260.35 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "21b2d9fb-dd92-4761-abc7-ad5452440640")
 		)
@@ -17103,6 +18309,42 @@
 			)
 		)
 		(property "Voltage" "10V"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
 			(at 48.26 163.83 0)
 			(effects
 				(font
@@ -17278,6 +18520,42 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08efaa4c-43a1-455d-94f8-dd7122d1046d")
 		)
@@ -17354,7 +18632,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -17426,6 +18704,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 208.28 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -17577,7 +18882,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05A105KP5NNNC"
+		(property "MPN" "CL05A105KA5NQNC"
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -17649,6 +18954,33 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05A105KA5NQNC"
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 151.13 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -17800,7 +19132,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 87.63 96.52 0)
 			(effects
 				(font
@@ -17863,6 +19195,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF1002TCE"
+			(at 87.63 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 87.63 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 87.63 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 87.63 96.52 90)
 			(effects
 				(font
@@ -17949,7 +19308,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402KRX7R8BB104"
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 157.48 151.13 0)
 			(effects
 				(font
@@ -18039,6 +19398,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 157.48 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 157.48 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 157.48 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8159ab7-5c29-4209-bfbd-4a77ce66e0d4")
 		)
@@ -18117,7 +19503,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402FR-0710KL"
+		(property "MPN" "0402WGF1002TCE"
 			(at 77.47 96.52 0)
 			(effects
 				(font
@@ -18188,6 +19574,33 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer Part Number" ""
+			(at 77.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 77.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
+			(at 77.47 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a5c31af-8cb9-4dcf-80b4-a7ffbdf1af10")
 		)
@@ -18228,7 +19641,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Onju:BLM18PG121SN1D"
 			(at 341.63 165.1 0)
 			(effects
 				(font
@@ -18264,7 +19677,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BLM18AG601SN1D"
+		(property "MPN" "BLM18KG601SN1D"
 			(at 341.63 165.1 0)
 			(effects
 				(font
@@ -18337,6 +19750,33 @@
 			)
 		)
 		(property "Manufacturer Part" "BLM18KG601SN1D"
+			(at 341.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 341.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 341.63 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 341.63 165.1 0)
 			(effects
 				(font
@@ -18421,7 +19861,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0402JR-070RL"
+		(property "MPN" "0402WGF0000TCE"
 			(at 97.79 189.23 0)
 			(effects
 				(font
@@ -18493,6 +19933,33 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC part #" ""
+			(at 97.79 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer part #" ""
 			(at 97.79 189.23 0)
 			(effects
 				(font
