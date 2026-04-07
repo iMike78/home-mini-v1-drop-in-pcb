@@ -1465,10 +1465,6 @@ audio_file:
     file: ${factory_reset_cancelled_sound_file}
   - id: factory_reset_confirmed_sound
     file: ${factory_reset_confirmed_sound_file}
-  - id: jack_connected_sound
-    file: ${jack_connected_sound_file}
-  - id: jack_disconnected_sound
-    file: ${jack_disconnected_sound_file}
   - id: mute_switch_on_sound
     file: ${mute_switch_on_sound_file}
   - id: mute_switch_off_sound
