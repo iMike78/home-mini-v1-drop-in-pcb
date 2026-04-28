@@ -2,7 +2,7 @@
 
 [MiciMike Home Mini](https://github.com/iMike78/home-mini-v1-drop-in-pcb) is a drop-in PCB replacement for the ["Google Home Mini" (Google's first-generation smart speaker hardware with a Micro-USB charging port)](https://en.wikipedia.org/wiki/Google_Nest_(smart_speakers)), but based on ESP32 and XMOS microcontrollers for running open-source firmware.
 
-**Heads-up!** Upcoming crowdfunding campaign is now listed in Crowd Supply pre-launch phase (project pre-view only), check it out here:
+**Update!** The crowdfunding campaign is now live on Crowd Supply in its pre-order phase, check it out here:
 
 * https://www.crowdsupply.com/micimike-rev-devices/micimike-home-mini-drop-in-pcb
 
