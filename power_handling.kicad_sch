@@ -6910,6 +6910,12 @@
 		(uuid "0d99dfb7-ea84-4773-a845-950eeea5a0c3")
 	)
 	(junction
+		(at 87.63 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fac0398-bf98-4551-8b89-d17802e7ba95")
+	)
+	(junction
 		(at 80.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6958,22 +6964,10 @@
 		(uuid "398777b0-17bb-414e-8e67-55c62840416b")
 	)
 	(junction
-		(at 135.89 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "405804c7-7a8d-49de-af36-814545649ba1")
-	)
-	(junction
 		(at 227.33 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48da364d-72a6-416e-915b-b7e85a4413b6")
-	)
-	(junction
-		(at 215.9 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a82fdda-ed76-4b51-9206-2f1d303071c0")
 	)
 	(junction
 		(at 52.07 60.96)
@@ -7018,12 +7012,6 @@
 		(uuid "6cca534a-9d9b-4121-83f4-ea83e9cbfe0d")
 	)
 	(junction
-		(at 138.43 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e845f68-dbfd-4acf-892d-81bca8e96fa0")
-	)
-	(junction
 		(at 148.59 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7042,12 +7030,6 @@
 		(uuid "7e7a151a-2b2b-473c-b322-45dfbf3b77e2")
 	)
 	(junction
-		(at 215.9 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "817f8ecb-b908-4729-8913-7fb121f58c3e")
-	)
-	(junction
 		(at 68.58 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7058,12 +7040,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9a34e66-e1c7-4d4a-815a-092b3b398cc3")
-	)
-	(junction
-		(at 191.77 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad4e5904-6a51-45a5-bcd8-24cdea705dcf")
 	)
 	(junction
 		(at 270.51 127)
@@ -7096,12 +7072,6 @@
 		(uuid "cd69b1b5-7ee9-4472-b2d8-149e5783529c")
 	)
 	(junction
-		(at 167.64 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d091d7bc-5056-4ff0-8088-d0392e874c61")
-	)
-	(junction
 		(at 53.34 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7130,12 +7100,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3e1fd42-0f63-46e0-a9da-7f7af281e733")
-	)
-	(junction
-		(at 191.77 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e41751e3-39a4-49ed-825a-e86c8e611540")
 	)
 	(junction
 		(at 227.33 50.8)
@@ -7188,16 +7152,6 @@
 	(no_connect
 		(at 240.03 90.17)
 		(uuid "bd334982-ce29-4c11-89b6-5e4b0f091180")
-	)
-	(wire
-		(pts
-			(xy 191.77 153.67) (xy 191.77 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01dc633a-53fa-4688-8f5a-0ba2d20d0166")
 	)
 	(wire
 		(pts
@@ -7331,7 +7285,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 80.01) (xy 152.4 82.55)
+			(xy 152.4 82.55) (xy 152.4 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7368,16 +7322,6 @@
 			(type default)
 		)
 		(uuid "146a8230-500b-4733-8152-3c48ca40a629")
-	)
-	(wire
-		(pts
-			(xy 167.64 55.88) (xy 167.64 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15224f1c-d055-457c-87c0-a73cdb7da7ad")
 	)
 	(wire
 		(pts
@@ -7448,26 +7392,6 @@
 			(type default)
 		)
 		(uuid "21aaf2d8-4952-41d3-9ba8-a61c4220a50e")
-	)
-	(wire
-		(pts
-			(xy 215.9 107.95) (xy 215.9 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "237db82d-5a39-48e6-bee2-6d3d00df50c8")
-	)
-	(wire
-		(pts
-			(xy 163.83 137.16) (xy 179.07 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27ffa0a3-104e-412d-97d2-1652c5979a25")
 	)
 	(wire
 		(pts
@@ -7741,16 +7665,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 142.24) (xy 196.85 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e543923-72ee-410e-8211-212e9d1e3a2c")
-	)
-	(wire
-		(pts
 			(xy 50.8 58.42) (xy 53.34 58.42)
 		)
 		(stroke
@@ -7921,16 +7835,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 99.06) (xy 204.47 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f692afa-f4d6-4a78-9340-8c30ec3572f0")
-	)
-	(wire
-		(pts
 			(xy 240.03 85.09) (xy 251.46 85.09)
 		)
 		(stroke
@@ -7991,7 +7895,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 82.55) (xy 160.02 82.55)
+			(xy 152.4 85.09) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8021,16 +7925,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 133.35) (xy 191.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66df23b9-73bc-4d1e-8e77-1224b2ebfa40")
-	)
-	(wire
-		(pts
 			(xy 53.34 53.34) (xy 53.34 55.88)
 		)
 		(stroke
@@ -8041,27 +7935,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 41.91) (xy 135.89 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697b204f-e38b-4b57-a405-cc4a5cf0cf80")
-	)
-	(wire
-		(pts
-			(xy 135.89 30.48) (xy 135.89 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a9c9278-a48c-4d80-9e58-52f56a3c0afd")
-	)
-	(wire
-		(pts
-			(xy 186.69 133.35) (xy 191.77 133.35)
+			(xy 186.69 137.16) (xy 196.85 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8088,16 +7962,6 @@
 			(type default)
 		)
 		(uuid "6cf83297-884c-477d-bf60-e77d4cc18c64")
-	)
-	(wire
-		(pts
-			(xy 146.05 85.09) (xy 160.02 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e35450b-839d-49ff-be6f-d6d769a6ed77")
 	)
 	(wire
 		(pts
@@ -8231,16 +8095,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 46.99) (xy 167.64 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83cb9f6e-0b71-484f-b5fa-b1fb242155db")
-	)
-	(wire
-		(pts
 			(xy 53.34 25.4) (xy 87.63 25.4)
 		)
 		(stroke
@@ -8351,7 +8205,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 133.35) (xy 166.37 127)
+			(xy 166.37 137.16) (xy 166.37 127)
 		)
 		(stroke
 			(width 0)
@@ -8368,16 +8222,6 @@
 			(type default)
 		)
 		(uuid "978ab939-8d1e-4a80-80f1-e1787143bfde")
-	)
-	(wire
-		(pts
-			(xy 191.77 137.16) (xy 196.85 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98898c75-c524-4681-b225-267a147d8a7f")
 	)
 	(wire
 		(pts
@@ -8401,7 +8245,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 142.24) (xy 191.77 142.24)
+			(xy 186.69 142.24) (xy 196.85 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8461,16 +8305,6 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 95.25) (xy 215.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e9c34b2-1fe7-43e5-b5c7-c499c432b567")
-	)
-	(wire
-		(pts
 			(xy 233.68 132.08) (xy 233.68 139.7)
 		)
 		(stroke
@@ -8501,16 +8335,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 82.55) (xy 177.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a00d157c-6c10-431d-bfc2-79ef3c0f6a5f")
-	)
-	(wire
-		(pts
 			(xy 15.24 66.04) (xy 15.24 71.12)
 		)
 		(stroke
@@ -8518,26 +8342,6 @@
 			(type default)
 		)
 		(uuid "a0303f85-96b5-48e5-873d-a7af458a1633")
-	)
-	(wire
-		(pts
-			(xy 167.64 85.09) (xy 177.8 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a05834bd-014b-49be-a277-b5e135a2688d")
-	)
-	(wire
-		(pts
-			(xy 215.9 99.06) (xy 215.9 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a228dbb6-006f-42fb-893c-95e752079e73")
 	)
 	(wire
 		(pts
@@ -8601,16 +8405,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 99.06) (xy 215.9 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b88517f5-2df3-40ea-b29a-9a5b25de8cfc")
-	)
-	(wire
-		(pts
 			(xy 237.49 40.64) (xy 227.33 40.64)
 		)
 		(stroke
@@ -8648,16 +8442,6 @@
 			(type default)
 		)
 		(uuid "c082d74e-e401-491d-b86b-2b4350e667a5")
-	)
-	(wire
-		(pts
-			(xy 186.69 137.16) (xy 191.77 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f54591-0ada-40be-9348-1c56fdab6604")
 	)
 	(wire
 		(pts
@@ -8751,7 +8535,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 133.35) (xy 166.37 133.35)
+			(xy 179.07 137.16) (xy 166.37 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8778,16 +8562,6 @@
 			(type default)
 		)
 		(uuid "ce48082e-3689-4a14-859a-8a1b7acb1464")
-	)
-	(wire
-		(pts
-			(xy 146.05 80.01) (xy 146.05 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d058d31a-bce8-46c1-9913-9c20402e065a")
 	)
 	(wire
 		(pts
@@ -8871,7 +8645,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 82.55) (xy 177.8 82.55)
+			(xy 167.64 85.09) (xy 177.8 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8888,16 +8662,6 @@
 			(type default)
 		)
 		(uuid "de827cd4-4c42-44c7-af0c-352e1035f489")
-	)
-	(wire
-		(pts
-			(xy 138.43 135.89) (xy 138.43 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfe7e89d-33c8-42a9-aac6-15828c0af503")
 	)
 	(wire
 		(pts
@@ -9169,36 +8933,6 @@
 		)
 		(uuid "fdbafe2c-86c7-418d-89a1-58b93c476ba1")
 	)
-	(wire
-		(pts
-			(xy 191.77 142.24) (xy 191.77 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe34347b-a22b-4f3d-9174-b55512ec801d")
-	)
-	(wire
-		(pts
-			(xy 138.43 127) (xy 138.43 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fecee723-32af-4c94-816e-5352794dc9a2")
-	)
-	(label "3V3_PG"
-		(at 190.5 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "053fe6da-cd90-40ed-8e59-b38f166bbff1")
-	)
 	(label "USB_D_N"
 		(at 68.58 43.18 180)
 		(effects
@@ -9238,16 +8972,6 @@
 			(justify left bottom)
 		)
 		(uuid "d45c2bc0-5abf-45dd-9ba3-79b434ee91b5")
-	)
-	(label "3V3_PG"
-		(at 166.37 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9f58bbb-7bef-44ff-905d-6e08ae924064")
 	)
 	(global_label "ESP_USB_N"
 		(shape bidirectional)
@@ -9475,15 +9199,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010138"
-			(at 265.43 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 269.748 42.672 0)
 			(effects
@@ -9555,25 +9270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 265.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 265.43 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 265.43 38.1 0)
 			(effects
 				(font
@@ -9734,15 +9431,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 152.908 41.656 0)
 			(effects
@@ -9814,34 +9502,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 148.59 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 148.59 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "POWER"
 			(at 148.59 38.1 0)
 			(effects
 				(font
@@ -10002,15 +9672,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010054"
-			(at 177.8 93.98 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 181.102 97.536 0)
 			(effects
@@ -10082,25 +9743,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 177.8 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 177.8 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 177.8 93.98 0)
 			(effects
 				(font
@@ -10259,15 +9902,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "303010172"
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Inductor"
 			(at 219.71 30.48 0)
 			(effects
@@ -10285,15 +9919,6 @@
 				)
 			)
 		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" ""
 			(at 219.71 30.48 0)
 			(effects
@@ -10304,14 +9929,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -10354,25 +9971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 219.71 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 219.71 30.48 0)
 			(effects
 				(font
@@ -10391,172 +9990,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 163.83 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "18c30818-a33e-4276-8ddf-3054b9446ca1")
-		(property "Reference" "R7"
-			(at 157.48 83.82 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 168.91 83.82 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3e5ba4b3-10dd-4170-82df-75cec4d4e0bb")
-		)
-		(pin "2"
-			(uuid "6d19f652-2d5a-4094-989f-eb99247f02d4")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10589,7 +10022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
 			(at 270.51 55.88 0)
 			(effects
 				(font
@@ -10624,14 +10057,6 @@
 				)
 			)
 		)
-		(property "PARTREV" ""
-			(at 265.43 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "STANDARD" ""
 			(at 265.43 53.34 0)
 			(effects
@@ -10641,33 +10066,6 @@
 			)
 		)
 		(property "CL" ""
-			(at 265.43 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 265.43 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 265.43 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 265.43 53.34 90)
 			(effects
 				(font
@@ -10760,15 +10158,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 264.16 92.71 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 267.462 96.774 0)
 			(effects
@@ -10840,25 +10229,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 264.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 264.16 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 264.16 92.71 0)
 			(effects
 				(font
@@ -10883,73 +10254,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 135.89 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1eafcd3e-bbcd-4461-8f7b-5cd9a7a9e8e3")
-		(property "Reference" "#PWR021"
-			(at 135.89 49.53 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 46.99 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 43.18 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8bdf9042-144b-4709-9465-9cfc3be20f92")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
-		(at 152.4 80.01 0)
+		(at 152.4 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10957,7 +10263,7 @@
 		(dnp no)
 		(uuid "20a6d07a-f56c-47c4-a9f9-440e710de37c")
 		(property "Reference" "#PWR027"
-			(at 152.4 83.82 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10966,7 +10272,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 151.892 76.2 0)
+			(at 151.892 78.74 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10974,7 +10280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 80.01 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10983,7 +10289,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 80.01 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -10992,7 +10298,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 80.01 0)
+			(at 152.4 82.55 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -11151,15 +10457,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 257.81 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 261.366 137.922 0)
 			(effects
@@ -11231,34 +10528,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 257.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 257.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 257.81 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "POWER"
 			(at 257.81 134.62 0)
 			(effects
 				(font
@@ -11455,33 +10734,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 68.58 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2b857627-d2cb-447d-ad68-5934520130e1")
 		)
@@ -11568,24 +10820,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C211404"
-			(at 67.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 67.31 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "Diodes Incorporated"
 			(at 67.31 101.6 90)
 			(effects
@@ -11631,25 +10865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 67.31 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 67.31 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 67.31 101.6 90)
 			(effects
 				(font
@@ -11752,15 +10968,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010321"
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "1M"
 			(at 24.13 66.04 0)
 			(effects
@@ -11794,15 +11001,6 @@
 				(font
 					(size 1.143 1.143)
 				)
-			)
-		)
-		(property "Status" "Combox Pro"
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
@@ -11841,25 +11039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 24.13 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 24.13 66.04 0)
 			(effects
 				(font
@@ -11955,15 +11135,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 152.908 135.636 0)
 			(effects
@@ -12035,34 +11206,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 148.59 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 148.59 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "POWER"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -12288,15 +11441,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "310033232"
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "DCDC"
 			(at 203.2 35.56 0)
 			(effects
@@ -12342,25 +11486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 203.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 203.2 35.56 0)
 			(effects
 				(font
@@ -12468,15 +11594,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010018"
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "NP0"
 			(at 248.666 138.176 0)
 			(effects
@@ -12548,25 +11665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 245.11 134.62 0)
 			(effects
 				(font
@@ -12659,15 +11758,6 @@
 				)
 			)
 		)
-		(property "Part number" "BLM18PG300SN1D"
-			(at 92.71 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 92.71 25.4 90)
 			(effects
@@ -12713,33 +11803,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 92.71 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 92.71 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 92.71 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f4eef0cc-3fb6-4010-9663-1e79957e560e")
 		)
@@ -12750,71 +11813,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40e43209-c3f6-4e02-8d52-53d0c65e0bc5")
-		(property "Reference" "#PWR033"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "48c0f4cd-6844-4d05-8e05-e3e6f5d9d09a")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -12899,15 +11897,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C913474"
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata Electronics"
 			(at 35.56 111.76 0)
 			(effects
@@ -12953,33 +11942,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 35.56 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e07f1def-abef-4008-989e-f3b3d05f40d1")
 		)
@@ -12990,173 +11952,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Capacitors/302010024")
-		(at 215.9 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "47fa23f3-8932-46ca-8a8e-4c4ed45be0bf")
-		(property "Reference" "C13"
-			(at 217.678 102.362 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 217.805 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD CAP Ceramic 100nF-25V-10%-X7R;0402"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX7R8BB104"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "302010024"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 219.964 108.204 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "Ceramic"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "25V"
-			(at 217.932 106.172 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature" "-55°C to 125°C"
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 215.9 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86e6232b-8230-42de-b952-d6a7c6805880")
-		)
-		(pin "2"
-			(uuid "c46f1a41-fc50-4fca-8509-a1540a5ec5fd")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -13234,15 +12029,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010456"
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "100K"
 			(at 227.33 45.72 0)
 			(effects
@@ -13279,15 +12065,6 @@
 				(justify right)
 			)
 		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 227.33 45.72 0)
 			(effects
@@ -13298,14 +12075,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 227.33 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 227.33 45.72 0)
 			(effects
 				(font
@@ -13348,25 +12117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 227.33 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 227.33 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 227.33 45.72 90)
 			(effects
 				(font
@@ -13528,15 +12279,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013260"
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 255.27 39.3699 0)
 			(effects
@@ -13609,25 +12351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 252.73 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 252.73 38.1 0)
 			(effects
 				(font
@@ -13723,15 +12447,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010456"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "100K"
 			(at 179.07 35.56 0)
 			(effects
@@ -13768,15 +12483,6 @@
 				(justify right)
 			)
 		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 179.07 35.56 0)
 			(effects
@@ -13787,14 +12493,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 179.07 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 179.07 35.56 0)
 			(effects
 				(font
@@ -13837,25 +12535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 179.07 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 179.07 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 179.07 35.56 90)
 			(effects
 				(font
@@ -13958,15 +12638,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C14663"
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 80.01 110.49 0)
 			(effects
@@ -14012,33 +12683,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 80.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0552d71b-721c-4cba-8671-e7e5c14ba531")
 		)
@@ -14049,136 +12693,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5a041504-5206-4a6e-8448-a8c806662bae")
-		(property "Reference" "#PWR028"
-			(at 167.64 63.5 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 60.96 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 57.15 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1144e356-177f-42d8-84a2-52285689f5cb")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5b8be46c-b343-4911-9041-cdc9314e0c07")
-		(property "Reference" "#PWR023"
-			(at 138.43 144.78 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 142.24 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 138.43 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3327ec88-7571-4ad4-8b9c-89f0d4c80bc5")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14377,14 +12891,6 @@
 				)
 			)
 		)
-		(property "PARTREV" ""
-			(at 257.81 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "STANDARD" ""
 			(at 257.81 123.19 0)
 			(effects
@@ -14394,33 +12900,6 @@
 			)
 		)
 		(property "CL" ""
-			(at 257.81 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 257.81 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 257.81 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 257.81 123.19 90)
 			(effects
 				(font
@@ -14520,15 +12999,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C14663"
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "YAGEO"
 			(at 44.45 111.76 0)
 			(effects
@@ -14566,33 +13036,6 @@
 			)
 		)
 		(property "MPN" "CC0603KRX7R9BB104"
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 44.45 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 44.45 111.76 0)
 			(effects
 				(font
@@ -14686,15 +13129,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 182.88 142.24 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 182.88 142.24 0)
 			(effects
@@ -14757,25 +13191,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 182.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 182.88 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 182.88 142.24 0)
 			(effects
 				(font
@@ -14861,14 +13277,6 @@
 				)
 			)
 		)
-		(property "PARTREV" ""
-			(at 251.46 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "STANDARD" ""
 			(at 251.46 80.01 0)
 			(effects
@@ -14886,33 +13294,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 251.46 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 251.46 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 251.46 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "31e5be78-76cd-4dd9-a809-4b2d4e2f653e")
 		)
@@ -14920,171 +13301,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 208.28 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "6e42d4d8-d4f8-493f-9606-b3ea5bb8e6a4")
-		(property "Reference" "R15"
-			(at 201.93 97.79 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 213.36 97.79 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 208.28 97.536 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 208.28 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "011f2c5a-91f0-4eac-8083-029429169a94")
-		)
-		(pin "2"
-			(uuid "5fc25bac-cd6f-4058-8761-b03740cf65b9")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -15229,15 +13445,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010456"
-			(at 237.49 144.78 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "100K"
 			(at 237.49 144.78 0)
 			(effects
@@ -15300,25 +13507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 237.49 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 237.49 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 237.49 144.78 90)
 			(effects
 				(font
@@ -15343,16 +13532,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libadl:Capacitors/302010024")
-		(at 167.64 52.07 0)
+		(lib_id "0_Seeed_Misc:TEST-POINT")
+		(at 90.17 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(uuid "739d94bb-2d84-4d06-9303-c06423c920e1")
-		(property "Reference" "C11"
-			(at 169.418 50.292 0)
+		(fields_autoplaced yes)
+		(uuid "766af8bf-29f2-4a40-85eb-840920da8f88")
+		(property "Reference" "TP10"
+			(at 92.71 104.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -15360,17 +13550,17 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 169.545 52.07 0)
+		(property "Value" "TEST-POINT"
+			(at 95.25 104.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.64 52.07 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 87.63 109.22 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -15379,7 +13569,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 52.07 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -15387,79 +13577,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMD CAP Ceramic 100nF-25V-10%-X7R;0402"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC0402KRX7R8BB104"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "302010024"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "Ceramic"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "25V,X7R"
-			(at 169.672 53.848 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 125°C"
-			(at 167.64 52.07 0)
+		(property "Description" ""
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -15468,15 +13587,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 167.64 52.07 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +13595,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 167.64 52.07 0)
+			(at 90.17 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15492,34 +13603,7 @@
 			)
 		)
 		(property "CL" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 167.64 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 167.64 52.07 0)
+			(at 90.17 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15528,15 +13612,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c8057579-55bb-4bd0-8a12-4a47c9fe1b6e")
-		)
-		(pin "2"
-			(uuid "4cb502d2-cff9-4d95-958c-1015e9bef914")
+			(uuid "f753aec9-97d5-4341-9044-b62802a4afd5")
 		)
 		(instances
-			(project "home-mini-v1-drop-in-pcb"
+			(project "home-mini-DiP-v1"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "C11")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -15650,33 +13731,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 68.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 68.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 68.58 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ce854675-fa3a-4143-a4eb-db0215b1140a")
 		)
@@ -15765,15 +13819,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010002"
-			(at 227.33 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "22R"
 			(at 227.33 35.56 0)
 			(effects
@@ -15808,15 +13853,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 227.33 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
@@ -15856,33 +13892,6 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF220JTCE"
-			(at 227.33 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 227.33 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 227.33 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 227.33 35.56 90)
 			(effects
 				(font
@@ -15977,15 +13986,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "310033233"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "DCDC"
 			(at 207.01 134.62 0)
 			(effects
@@ -16001,15 +14001,6 @@
 				(font
 					(size 1.143 1.143)
 				)
-			)
-		)
-		(property "Status" "Voice Kit"
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
 			)
 		)
 		(property "Temperature" "-40°C to 125°C"
@@ -16031,14 +14022,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -16081,25 +14064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 207.01 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 207.01 134.62 0)
 			(effects
 				(font
@@ -16214,15 +14179,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010189"
-			(at 24.13 71.12 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 20.32 72.644 90)
 			(effects
@@ -16248,15 +14204,6 @@
 				)
 			)
 		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 24.13 71.12 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 125°C"
 			(at 24.13 71.12 0)
 			(effects
@@ -16276,14 +14223,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 24.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 24.13 71.12 0)
 			(effects
 				(font
@@ -16335,34 +14274,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 24.13 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 24.13 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 24.13 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C89334.html?s_z=n_2450AT18A100E"
+			(at 24.13 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "POWER"
 			(at 24.13 71.12 90)
 			(effects
 				(font
@@ -16583,206 +14504,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libdb:Capacitors/302013252")
-		(at 135.89 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "8edb80e2-2f4f-48d9-a0b8-a7e4c1b53f43")
-		(property "Reference" "C7"
-			(at 138.43 36.576 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 138.43 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD CAP Ceramic 10uF-10V-10%-X5R;0603"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A106KP8NNNC"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "302013252"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "Ceramic"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "10V,X5R"
-			(at 138.43 39.878 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Status" "HA VOICE KIT"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 85°C"
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "CL" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 135.89 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b7587892-aa34-4bc9-8381-b3531b7eaeb4")
-		)
-		(pin "1"
-			(uuid "8812e8b2-cf92-47f5-89d1-1420d6981adf")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libadl:Resistors/301010051")
 		(at 237.49 134.62 90)
 		(unit 1)
@@ -16854,15 +14575,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301013788"
-			(at 237.49 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "51K"
 			(at 237.49 134.62 0)
 			(effects
@@ -16925,25 +14637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 237.49 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 237.49 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 237.49 134.62 90)
 			(effects
 				(font
@@ -17098,71 +14792,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 146.05 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "964c5090-9ae6-4b94-9e0b-0e123db8ab88")
-		(property "Reference" "#PWR024"
-			(at 146.05 83.82 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 146.05 76.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30673611-82f6-47ea-8a2a-f429f6e054c1")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 265.43 57.15 0)
 		(unit 1)
@@ -17222,71 +14851,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "#PWR043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 191.77 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9d4410af-4e73-41b0-8e93-a56c20baeead")
-		(property "Reference" "#PWR030"
-			(at 191.77 163.83 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 191.77 161.29 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 157.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 157.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 157.48 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7abd49b8-1c44-4ff0-aae0-37f96dc4eaad")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -17627,15 +15191,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301011331"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "22.1K"
 			(at 227.33 55.88 0)
 			(effects
@@ -17672,15 +15227,6 @@
 				(justify right)
 			)
 		)
-		(property "Status" "Zola Gateway"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 227.33 55.88 0)
 			(effects
@@ -17691,14 +15237,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 227.33 55.88 0)
 			(effects
 				(font
@@ -17741,25 +15279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 227.33 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 227.33 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 227.33 55.88 90)
 			(effects
 				(font
@@ -17854,15 +15374,6 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part" "C25530"
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 48.26 101.6 0)
 			(effects
@@ -17900,33 +15411,6 @@
 			)
 		)
 		(property "MPN" "0402WGJ0104TCE"
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 48.26 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 48.26 101.6 0)
 			(effects
 				(font
@@ -18153,15 +15637,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010054"
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 254.762 96.52 0)
 			(effects
@@ -18233,25 +15708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 251.46 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 251.46 92.71 0)
 			(effects
 				(font
@@ -18368,16 +15825,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/FH34SRJ-16S-0.5SH(50)/Hirose/view-part/?ref=eda"
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/FH34SRJ-16S-0.5SH(50)/Hirose/view-part/?ref=snap"
 			(at 40.64 40.64 0)
 			(effects
@@ -18389,16 +15836,6 @@
 			)
 		)
 		(property "MP" "FH34SRJ-16S-0.5SH(50)"
-			(at 40.64 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
 			(at 40.64 40.64 0)
 			(effects
 				(font
@@ -18463,25 +15900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 40.64 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 40.64 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 40.64 40.64 90)
 			(effects
 				(font
@@ -18548,171 +15967,6 @@
 			(project ""
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 182.88 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "bd270e75-be7c-4240-8e95-35b990f09b2f")
-		(property "Reference" "R11"
-			(at 176.53 135.89 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 187.96 135.89 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 182.88 135.636 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 182.88 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "39605d26-19a8-4c54-bd80-c0422520abac")
-		)
-		(pin "2"
-			(uuid "86d07816-31e9-4543-87b6-3e7e5ef487b6")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -18964,33 +16218,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 87.63 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 87.63 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 87.63 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "61f6382d-27f2-48f9-af0a-9f7d7ab694c8")
 		)
@@ -19135,14 +16362,6 @@
 				)
 			)
 		)
-		(property "PARTREV" ""
-			(at 81.28 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "STANDARD" ""
 			(at 81.28 92.71 0)
 			(effects
@@ -19152,33 +16371,6 @@
 			)
 		)
 		(property "CL" ""
-			(at 81.28 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 81.28 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 81.28 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 81.28 92.71 90)
 			(effects
 				(font
@@ -19336,15 +16528,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 270.51 134.62 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 274.066 138.176 0)
 			(effects
@@ -19416,34 +16599,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 270.51 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 270.51 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 270.51 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 270.51 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "POWER"
 			(at 270.51 134.62 0)
 			(effects
 				(font
@@ -19539,15 +16704,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010456"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "100K"
 			(at 167.64 35.56 0)
 			(effects
@@ -19584,15 +16740,6 @@
 				(justify right)
 			)
 		)
-		(property "Status" "BeagleBone Carrier Board"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" "-55°C to 155°C"
 			(at 167.64 35.56 0)
 			(effects
@@ -19603,14 +16750,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 167.64 35.56 0)
 			(effects
 				(font
@@ -19653,25 +16792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 167.64 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 167.64 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 167.64 35.56 90)
 			(effects
 				(font
@@ -19833,15 +16954,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013487"
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "NP0"
 			(at 240.03 46.9899 0)
 			(effects
@@ -19869,15 +16981,6 @@
 				(justify left)
 			)
 		)
-		(property "Status" "Frame 2 EVT"
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Temperature" ""
 			(at 237.49 45.72 0)
 			(effects
@@ -19897,14 +17000,6 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -19956,25 +17051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 237.49 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -20199,15 +17276,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 208.28 95.25 0)
 			(effects
@@ -20270,25 +17338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 208.28 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 208.28 95.25 0)
 			(effects
 				(font
@@ -20376,33 +17426,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 252.73 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 252.73 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 252.73 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "069dec1a-0de9-41b3-9307-31a633931c6a")
 		)
@@ -20417,7 +17440,7 @@
 	)
 	(symbol
 		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 163.83 82.55 0)
+		(at 163.83 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20425,7 +17448,7 @@
 		(dnp no)
 		(uuid "d97f805d-a18d-44c9-97e5-e4372cb48613")
 		(property "Reference" "R6"
-			(at 157.48 81.28 0)
+			(at 157.48 83.82 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20433,7 +17456,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 168.91 81.28 0)
+			(at 168.91 83.82 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20441,7 +17464,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20450,7 +17473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20459,7 +17482,7 @@
 			)
 		)
 		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20468,7 +17491,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20477,16 +17500,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20495,7 +17509,7 @@
 			)
 		)
 		(property "Resistance" "0R"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20504,7 +17518,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20513,7 +17527,7 @@
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20522,7 +17536,7 @@
 			)
 		)
 		(property "CL" ""
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20531,7 +17545,7 @@
 			)
 		)
 		(property "LCSC Part #" "C17168"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20540,7 +17554,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
-			(at 163.83 82.55 0)
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20548,26 +17562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 163.83 82.55 0)
+		(property "Function" "POWER"
+			(at 163.83 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20656,175 +17652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libdb:Capacitors/302013252")
-		(at 138.43 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e34ef8ce-35ae-41c1-90a7-14c75573dbbb")
-		(property "Reference" "C8"
-			(at 140.97 130.556 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 140.97 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD CAP Ceramic 10uF-10V-10%-X5R;0603"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL10A106KP8NNNC"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "302013252"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 143.002 135.636 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "Ceramic"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "10V"
-			(at 140.97 133.858 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left)
-			)
-		)
-		(property "Temperature" "-55°C to 85°C"
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 138.43 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8120eee7-b437-4098-b10e-32e2c815abd9")
-		)
-		(pin "1"
-			(uuid "20791635-9019-4767-a989-54d0b6979774")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 182.88 133.35 0)
+		(at 182.88 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20832,7 +17661,7 @@
 		(dnp no)
 		(uuid "e5508a38-8123-420c-afdc-7cdf7fa13f89")
 		(property "Reference" "R10"
-			(at 176.53 132.08 0)
+			(at 176.53 135.89 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20840,7 +17669,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 187.96 132.08 0)
+			(at 187.96 135.89 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20848,7 +17677,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20857,7 +17686,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20866,7 +17695,7 @@
 			)
 		)
 		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20875,7 +17704,7 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20884,16 +17713,7 @@
 			)
 		)
 		(property "MPN" "0402WGF0000TCE"
-			(at 182.88 133.35 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20902,7 +17722,7 @@
 			)
 		)
 		(property "Resistance" "0R"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20911,7 +17731,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 182.88 131.826 0)
+			(at 182.88 135.636 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20919,7 +17739,7 @@
 			)
 		)
 		(property "Part Type" "RES"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20928,7 +17748,7 @@
 			)
 		)
 		(property "Temperature" "-55°C to 155°C"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.143 1.143)
@@ -20937,7 +17757,7 @@
 			)
 		)
 		(property "CL" ""
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20946,7 +17766,7 @@
 			)
 		)
 		(property "LCSC Part #" "C17168"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20955,7 +17775,7 @@
 			)
 		)
 		(property "Manufacturer Part" "0402WGF0000TCE"
-			(at 182.88 133.35 0)
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20963,26 +17783,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 182.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 182.88 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 182.88 133.35 0)
+		(property "Function" "POWER"
+			(at 182.88 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21076,15 +17878,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" ""
-			(at 228.6 87.63 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "LDO"
 			(at 228.6 87.63 0)
 			(effects
@@ -21121,25 +17914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 228.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 228.6 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -21370,173 +18145,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 191.77 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f5d627d4-83f7-4395-9d66-f2d38d848418")
-		(property "Reference" "R13"
-			(at 193.04 148.082 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 193.04 149.86 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 194.31 151.638 90)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 191.77 149.86 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 191.77 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 191.77 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 191.77 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 191.77 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bc957d95-6709-4346-9507-a016e50bf0d9")
-		)
-		(pin "2"
-			(uuid "7e48607c-290e-4e50-9c0d-955bd092698a")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/1e1926d7-db4f-450f-be85-739e9691d6cf"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libdb:Inductor/303011382")
 		(at 227.33 127 0)
 		(unit 1)
@@ -21606,15 +18214,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "303011382"
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Inductor"
 			(at 227.33 127 0)
 			(effects
@@ -21668,25 +18267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 227.33 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 227.33 127 0)
 			(effects
 				(font

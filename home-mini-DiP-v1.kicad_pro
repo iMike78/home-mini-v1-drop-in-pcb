@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.22,
-          "width": 0.81
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1143
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -72,7 +72,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|124935901|90656000|2188dd41-756a-4f74-b454-f18dfe940e43|a794f9af-dc3e-4e79-aa4b-1fd80a985007",
+          "copper_edge_clearance|124935901|90654222|bb93a3ef-0241-411e-933d-612b979b0826|a794f9af-dc3e-4e79-aa4b-1fd80a985007",
           ""
         ],
         [
@@ -80,7 +80,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|126435901|90656000|2188dd41-756a-4f74-b454-f18dfe940e43|ef572c9b-001a-4ae2-95d5-50e8045f5d38",
+          "copper_edge_clearance|126435901|90654222|bb93a3ef-0241-411e-933d-612b979b0826|ef572c9b-001a-4ae2-95d5-50e8045f5d38",
           ""
         ],
         [
@@ -88,7 +88,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|131898519|90672248|35fe2835-b92f-41c9-92f9-a1524b1f9c2b|843593c7-179c-4ae4-bf7b-52d92f63be9f",
+          "copper_edge_clearance|131898519|90672248|5a984af2-365a-4b16-a4df-3b62f85967b5|843593c7-179c-4ae4-bf7b-52d92f63be9f",
           ""
         ],
         [
@@ -96,7 +96,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|133398519|90672248|35fe2835-b92f-41c9-92f9-a1524b1f9c2b|4fa77382-a471-436f-a230-35bef67e2ced",
+          "copper_edge_clearance|133398519|90672248|5a984af2-365a-4b16-a4df-3b62f85967b5|4fa77382-a471-436f-a230-35bef67e2ced",
           ""
         ],
         [
@@ -104,7 +104,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|138887138|90656000|2cd02acf-afc1-4ef5-aa34-03bfd5fb46c8|f6c324b9-5c40-4a86-bdc4-9e98eb4566c6",
+          "copper_edge_clearance|138887138|90648149|e3bd31d7-2b6f-4e6a-ba15-c0fc4aa882ed|f6c324b9-5c40-4a86-bdc4-9e98eb4566c6",
           ""
         ],
         [
@@ -112,7 +112,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|140387138|90656000|2cd02acf-afc1-4ef5-aa34-03bfd5fb46c8|45f5098f-01c1-430a-b3b3-f001422dfd2a",
+          "copper_edge_clearance|140387138|90648149|e3bd31d7-2b6f-4e6a-ba15-c0fc4aa882ed|45f5098f-01c1-430a-b3b3-f001422dfd2a",
           ""
         ],
         [
@@ -140,8 +140,8 @@
           ""
         ],
         [
-          "courtyards_overlap|155168582|65414323|001de410-540b-486f-a26e-d3cee76c1070|cc247db1-47a1-48fc-9afb-dbf37df87f81",
-          "TPs only, no courtyard"
+          "courtyards_overlap|155160000|65395000|001de410-540b-486f-a26e-d3cee76c1070|cc247db1-47a1-48fc-9afb-dbf37df87f81",
+          ""
         ]
       ],
       "meta": {
@@ -713,24 +713,12 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
@@ -747,27 +735,21 @@
         },
         {
           "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description_1",
           "name": "Description_1",
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Dielectric",
           "name": "Dielectric",
-          "show": false
+          "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Function",
           "name": "Function",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -791,12 +773,6 @@
           "group_by": false,
           "label": "MP",
           "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
           "show": false
         },
         {
@@ -843,68 +819,32 @@
         },
         {
           "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
           "show": false
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Link",
           "name": "Purchase-URL",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Current",
           "name": "Current",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Part number",
-          "name": "Part number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "CL",
           "name": "CL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Supplier Part",
-          "name": "Supplier Part",
           "show": false
         },
         {
@@ -915,50 +855,14 @@
         },
         {
           "group_by": false,
-          "label": "Supplier",
-          "name": "Supplier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Centerline_Pitch",
-          "name": "Centerline_Pitch",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Number_of_Positions",
-          "name": "Number_of_Positions",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Comment",
-          "name": "Comment",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Product_Type",
           "name": "Product_Type",
           "show": false
         },
         {
           "group_by": false,
-          "label": "EU_RoHS_Compliance",
-          "name": "EU_RoHS_Compliance",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Priority",
           "name": "Priority",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Status",
-          "name": "Status",
           "show": false
         },
         {
@@ -977,7 +881,7 @@
           "group_by": false,
           "label": "LCSC Part #",
           "name": "LCSC Part #",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1005,12 +909,6 @@
         },
         {
           "group_by": false,
-          "label": "SKU",
-          "name": "SKU",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Part Type",
           "name": "Part Type",
           "show": false
@@ -1019,48 +917,6 @@
           "group_by": false,
           "label": "Mouser Part Number",
           "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer part #",
-          "name": "Manufacturer part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC part #",
-          "name": "LCSC part #",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
           "show": false
         }
       ],

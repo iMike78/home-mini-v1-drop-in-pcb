@@ -6100,12 +6100,6 @@
 		(uuid "acf4fc44-774d-4bfc-968f-0da0d5f933ce")
 	)
 	(junction
-		(at 247.65 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2920ad2-7bc9-486e-a113-2ce2db6f1a60")
-	)
-	(junction
 		(at 354.33 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6267,16 +6261,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 233.68) (xy 247.65 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10eee7ca-f6f7-4ac7-ab02-86ff3f53a109")
-	)
-	(wire
-		(pts
 			(xy 132.08 187.96) (xy 134.62 187.96)
 		)
 		(stroke
@@ -6414,16 +6398,6 @@
 			(type default)
 		)
 		(uuid "1dcd6afc-1fb6-4f1c-89d1-247adb4fe211")
-	)
-	(wire
-		(pts
-			(xy 214.63 231.14) (xy 214.63 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e1cd4fa-3ba8-444a-a5f2-2fd4fac3461b")
 	)
 	(wire
 		(pts
@@ -6587,16 +6561,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 233.68) (xy 236.22 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37b512a0-fc56-41c8-98e4-e96a8f8697d8")
-	)
-	(wire
-		(pts
 			(xy 124.46 102.87) (xy 124.46 116.84)
 		)
 		(stroke
@@ -6604,16 +6568,6 @@
 			(type default)
 		)
 		(uuid "3a321f22-63e1-4485-8386-a93177e92c27")
-	)
-	(wire
-		(pts
-			(xy 247.65 233.68) (xy 247.65 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b99e5bb-9b97-4b95-bf3c-4932c194e086")
 	)
 	(wire
 		(pts
@@ -7167,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 227.33) (xy 247.65 233.68)
+			(xy 247.65 227.33) (xy 247.65 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8335,15 +8289,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013254"
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 107.442 79.756 0)
 			(effects
@@ -8415,25 +8360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 104.14 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 104.14 76.2 0)
 			(effects
 				(font
@@ -8595,15 +8522,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "310020941"
-			(at 313.69 167.64 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Amplifier"
 			(at 313.69 167.64 0)
 			(effects
@@ -8657,25 +8575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 313.69 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 313.69 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 313.69 167.64 0)
 			(effects
 				(font
@@ -8792,15 +8692,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013265"
-			(at 309.88 203.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 312.928 206.756 0)
 			(effects
@@ -8872,25 +8763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 309.88 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 309.88 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 309.88 203.2 0)
 			(effects
 				(font
@@ -8986,15 +8859,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 119.126 79.756 0)
 			(effects
@@ -9066,25 +8930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 115.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 115.57 76.2 0)
 			(effects
 				(font
@@ -9245,15 +9091,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 158.75 136.652 0)
 			(effects
@@ -9325,25 +9162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 154.94 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 154.94 132.08 0)
 			(effects
 				(font
@@ -9486,16 +9305,6 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 143.51 519.38 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Texas Instruments"
 			(at 143.51 619.38 0)
 			(effects
@@ -9526,45 +9335,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TLV320AIC3204IRHBR?qs=QJfls%252B0L4ChDpvXOhuEdtQ%3D%3D"
-			(at 143.51 919.38 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "TLV320AIC3204IRHBR"
-			(at 143.51 1019.38 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv320aic3204irhbr/texas-instruments?region=nac"
-			(at 143.51 1119.38 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "SKU" "310080252"
-			(at 106.68 142.24 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "CL" ""
 			(at 106.68 142.24 0)
 			(effects
@@ -9592,25 +9362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 106.68 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 106.68 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 106.68 142.24 0)
 			(effects
 				(font
@@ -9864,15 +9616,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010006"
-			(at 363.22 176.53 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 366.268 180.848 0)
 			(effects
@@ -9944,25 +9687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 363.22 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 363.22 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 363.22 176.53 0)
 			(effects
 				(font
@@ -10056,15 +9781,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 240.03 227.33 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 240.03 227.33 0)
 			(effects
@@ -10127,25 +9843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 240.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 240.03 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 240.03 227.33 0)
 			(effects
 				(font
@@ -10241,15 +9939,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010010"
-			(at 247.65 238.76 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "4.7K"
 			(at 247.65 238.76 0)
 			(effects
@@ -10312,25 +10001,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 247.65 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 247.65 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 247.65 238.76 90)
 			(effects
 				(font
@@ -10426,15 +10097,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 143.256 78.486 0)
 			(effects
@@ -10506,25 +10168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 139.7 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -10620,15 +10264,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 164.592 78.486 0)
 			(effects
@@ -10700,34 +10335,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 161.29 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "AUDIO"
 			(at 161.29 74.93 0)
 			(effects
 				(font
@@ -10821,15 +10438,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 46.99 248.92 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 46.99 248.92 0)
 			(effects
@@ -10892,25 +10500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 46.99 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 46.99 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 46.99 248.92 0)
 			(effects
 				(font
@@ -11462,15 +11052,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 156.21 162.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 159.258 167.132 0)
 			(effects
@@ -11542,25 +11123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 156.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 156.21 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 156.21 162.56 0)
 			(effects
 				(font
@@ -11748,33 +11311,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 105.41 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a3515f32-dd1c-4b56-ad6c-3e566a77696f")
 		)
@@ -11901,25 +11437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 300.99 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 300.99 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 300.99 195.58 0)
 			(effects
 				(font
@@ -12015,15 +11533,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 144.78 194.31 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 148.59 198.882 0)
 			(effects
@@ -12095,25 +11604,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 144.78 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 144.78 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 144.78 194.31 0)
 			(effects
 				(font
@@ -12209,15 +11700,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010006"
-			(at 354.33 176.53 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 357.378 180.848 0)
 			(effects
@@ -12289,25 +11771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 354.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 354.33 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 354.33 176.53 0)
 			(effects
 				(font
@@ -12403,15 +11867,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013249"
-			(at 176.53 162.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 179.578 167.132 0)
 			(effects
@@ -12474,25 +11929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 176.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 176.53 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 176.53 162.56 0)
 			(effects
 				(font
@@ -12651,15 +12088,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 97.79 191.77 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 97.79 191.77 0)
 			(effects
@@ -12722,25 +12150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 97.79 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 97.79 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 97.79 191.77 0)
 			(effects
 				(font
@@ -12945,25 +12355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 247.65 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 247.65 251.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 247.65 251.46 90)
 			(effects
 				(font
@@ -13057,15 +12449,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "303030521"
-			(at 341.63 170.18 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Ferrite Bead"
 			(at 341.63 170.18 0)
 			(effects
@@ -13129,25 +12512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 341.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 341.63 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 341.63 170.18 0)
 			(effects
 				(font
@@ -13305,15 +12670,6 @@
 				)
 			)
 		)
-		(property "Part number" "BLM18PG121SN1D"
-			(at 68.58 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "Murata"
 			(at 68.58 30.48 90)
 			(effects
@@ -13351,33 +12707,6 @@
 			)
 		)
 		(property "MPN" "BLM18PG121SN1D"
-			(at 68.58 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 68.58 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 68.58 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 68.58 30.48 90)
 			(effects
 				(font
@@ -13473,15 +12802,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 132.08 194.31 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 135.89 198.882 0)
 			(effects
@@ -13553,25 +12873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 132.08 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 132.08 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 132.08 194.31 0)
 			(effects
 				(font
@@ -13655,171 +12957,6 @@
 			(project "home-mini-v1-drop-in-pcb"
 				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Seeed_libadl:Resistors/301010000")
-		(at 240.03 233.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "67ccb508-ae5f-473c-b8f2-b1e8715a3787")
-		(property "Reference" "R75"
-			(at 233.68 232.41 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 245.11 232.41 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SMD RES 0R-5%-1/16W;0402"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "301010000"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Resistance" "0R"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "5%"
-			(at 240.03 232.156 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Part Type" "RES"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Temperature" "-55°C to 155°C"
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "CL" ""
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 240.03 233.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54c93451-7420-4ba6-b0d1-975ae69c9ad4")
-		)
-		(pin "2"
-			(uuid "677de446-5909-40ae-90bb-9a413b22e9ee")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "R75")
 					(unit 1)
 				)
 			)
@@ -14084,33 +13221,6 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 67.31 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 67.31 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 67.31 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "432e12da-8c65-43ae-9e4e-160407c977f6")
 		)
@@ -14323,15 +13433,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013260"
-			(at 241.3 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 244.856 161.544 90)
 			(effects
@@ -14402,25 +13503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 241.3 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 241.3 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 241.3 160.02 90)
 			(effects
 				(font
@@ -14516,15 +13599,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010047"
-			(at 124.46 200.66 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "10K"
 			(at 124.46 200.66 0)
 			(effects
@@ -14587,25 +13661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 124.46 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 124.46 200.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 124.46 200.66 90)
 			(effects
 				(font
@@ -14699,15 +13755,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013260"
-			(at 241.3 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 244.856 172.974 90)
 			(effects
@@ -14778,25 +13825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 241.3 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 241.3 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 241.3 171.45 90)
 			(effects
 				(font
@@ -14892,15 +13921,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013254"
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 170.688 136.398 0)
 			(effects
@@ -14972,25 +13992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 166.37 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 166.37 132.08 0)
 			(effects
 				(font
@@ -15086,15 +14088,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010138"
-			(at 322.58 203.2 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 325.628 206.756 0)
 			(effects
@@ -15166,25 +14159,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 322.58 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 322.58 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 322.58 203.2 0)
 			(effects
 				(font
@@ -15404,71 +14379,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 214.63 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c9a0db7-0e14-49a3-8ccb-cd545d474c9c")
-		(property "Reference" "#PWR0182"
-			(at 214.63 234.95 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 214.63 227.33 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 231.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 231.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 231.14 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5b850119-eed5-41c3-a9ae-e6541f500f18")
-		)
-		(instances
-			(project "home-mini-v1-drop-in-pcb"
-				(path "/204e071a-14ed-47a0-be54-332ac2b951cf/62ce711e-2967-4164-94ee-cdd918e5185e"
-					(reference "#PWR0182")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Seeed_libdb:Resistors/301010241")
 		(at 260.35 160.02 0)
 		(unit 1)
@@ -15582,25 +14492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 260.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 260.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 260.35 160.02 0)
 			(effects
 				(font
@@ -15694,15 +14586,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010138"
-			(at 260.35 152.4 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 260.35 150.368 90)
 			(effects
@@ -15773,25 +14656,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 260.35 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 260.35 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 260.35 152.4 90)
 			(effects
 				(font
@@ -15885,15 +14750,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 208.28 171.45 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 208.28 171.45 0)
 			(effects
@@ -15956,25 +14812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 208.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 208.28 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -16054,16 +14892,6 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/1775443-2/TE+Connectivity/view-part/?ref=eda"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Package" "None"
 			(at 383.54 166.37 0)
 			(effects
@@ -16075,16 +14903,6 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B5"
 			(at 383.54 166.37 0)
 			(effects
 				(font
@@ -16114,27 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Number_of_Positions" "2"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Comment" "1775443-2"
 			(at 383.54 166.37 0)
 			(effects
 				(font
@@ -16194,46 +14992,7 @@
 				(hide yes)
 			)
 		)
-		(property "EU_RoHS_Compliance" "Compliant"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Centerline_Pitch" "1.5 mm[.059 in]"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
 		(property "Function" "AUDIO"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C5162845"
 			(at 383.54 166.37 0)
 			(effects
 				(font
@@ -16279,33 +15038,6 @@
 			)
 		)
 		(property "MPN" "1775443-2"
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 383.54 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 383.54 166.37 0)
 			(effects
 				(font
@@ -16443,25 +15175,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 260.35 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 260.35 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 260.35 171.45 0)
 			(effects
 				(font
@@ -16540,33 +15254,6 @@
 			)
 		)
 		(property "CL" ""
-			(at 269.24 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 269.24 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 269.24 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 269.24 245.11 0)
 			(effects
 				(font
@@ -16660,15 +15347,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "TP45C_SMD"
-			(at 322.58 191.77 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Test Point"
 			(at 322.58 191.77 0)
 			(effects
@@ -16679,33 +15357,6 @@
 			)
 		)
 		(property "CL" ""
-			(at 322.58 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 322.58 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 322.58 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
 			(at 322.58 191.77 90)
 			(effects
 				(font
@@ -16798,15 +15449,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010006"
-			(at 256.54 251.46 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 259.842 255.778 0)
 			(effects
@@ -16878,25 +15520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 256.54 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 256.54 251.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 256.54 251.46 0)
 			(effects
 				(font
@@ -16990,15 +15614,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013260"
-			(at 241.3 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 244.856 167.894 90)
 			(effects
@@ -17069,25 +15684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 241.3 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 241.3 166.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 241.3 166.37 90)
 			(effects
 				(font
@@ -17183,15 +15780,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 60.96 163.83 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 64.77 168.148 0)
 			(effects
@@ -17263,25 +15851,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 60.96 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 60.96 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 60.96 163.83 0)
 			(effects
 				(font
@@ -17636,15 +16206,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 46.99 245.11 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 46.99 245.11 0)
 			(effects
@@ -17707,25 +16268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 46.99 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 46.99 245.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 46.99 245.11 0)
 			(effects
 				(font
@@ -18123,25 +16666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 260.35 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 260.35 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 260.35 166.37 0)
 			(effects
 				(font
@@ -18237,15 +16762,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 52.578 168.148 0)
 			(effects
@@ -18317,34 +16833,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 48.26 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 48.26 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "AUDIO"
 			(at 48.26 163.83 0)
 			(effects
 				(font
@@ -18440,15 +16938,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013252"
-			(at 166.37 162.56 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 169.672 167.132 0)
 			(effects
@@ -18520,34 +17009,16 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 166.37 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 166.37 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
-			(at 166.37 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Purchase-URL" "https://www.lcsc.com/product-detail/C19702.html?s_z=n_CL10A106KP8NNNC"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Function" "AUDIO"
 			(at 166.37 162.56 0)
 			(effects
 				(font
@@ -18641,15 +17112,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 208.28 166.37 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 208.28 166.37 0)
 			(effects
@@ -18712,25 +17174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 208.28 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 208.28 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 208.28 166.37 0)
 			(effects
 				(font
@@ -18891,15 +17335,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302013249"
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X5R"
 			(at 154.432 78.486 0)
 			(effects
@@ -18962,25 +17397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 151.13 74.93 0)
 			(effects
 				(font
@@ -19141,15 +17558,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010047"
-			(at 87.63 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "10K"
 			(at 87.63 96.52 0)
 			(effects
@@ -19203,25 +17611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 87.63 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 87.63 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 87.63 96.52 90)
 			(effects
 				(font
@@ -19317,15 +17707,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "302010024"
-			(at 157.48 151.13 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Dielectric" "X7R"
 			(at 157.48 153.416 90)
 			(effects
@@ -19398,25 +17779,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 157.48 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 157.48 151.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "POWER"
 			(at 157.48 151.13 90)
 			(effects
 				(font
@@ -19512,15 +17875,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010047"
-			(at 77.47 96.52 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "10K"
 			(at 77.47 96.52 0)
 			(effects
@@ -19574,25 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 77.47 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 77.47 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 77.47 96.52 90)
 			(effects
 				(font
@@ -19686,15 +18022,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "303030521"
-			(at 341.63 165.1 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Part Type" "Ferrite Bead"
 			(at 341.63 165.1 0)
 			(effects
@@ -19758,25 +18085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 341.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 341.63 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 341.63 165.1 0)
 			(effects
 				(font
@@ -19870,15 +18179,6 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "301010000"
-			(at 97.79 189.23 0)
-			(effects
-				(font
-					(size 1.143 1.143)
-				)
-				(hide yes)
-			)
-		)
 		(property "Resistance" "0R"
 			(at 97.79 189.23 0)
 			(effects
@@ -19941,25 +18241,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
-			(at 97.79 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC part #" ""
-			(at 97.79 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer part #" ""
+		(property "Function" "AUDIO"
 			(at 97.79 189.23 0)
 			(effects
 				(font

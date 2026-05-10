@@ -11,6 +11,7 @@
 *.zip
 home-mini-v1-drop-in-pcb-backups/
 production/
+.SynologyWorkingDirectory/
 
 # KiCad symbol and footprint cache
 fp-info-cache
