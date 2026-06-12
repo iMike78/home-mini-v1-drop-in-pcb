@@ -92,6 +92,9 @@ wifi:
   id: wifi_id
   fast_connect: ${hidden_ssid}
   output_power: 8.5dB
+  ap:
+    ssid: "${friendly_name} Setup"
+    password: "12345678"
   power_save_mode: none
   reboot_timeout: 10min
   on_connect:
