@@ -295,7 +295,6 @@ mpr121:
   id: mpr121_component
   address: 0x5A
   i2c_id: internal_i2c
-  irq_pin: GPIO2
   touch_debounce: 1
   release_debounce: 1
   touch_threshold: 12
@@ -2104,8 +2103,10 @@ select:
 voice_assistant:
   id: va
   microphone:
-    microphone: i2s_mics
-    channels: 0
+    - microphone: i2s_mics
+      channels: 0
+    - microphone: i2s_mics
+      channels: 1
   media_player: external_media_player
   micro_wake_word: mww
   use_wake_word: false
