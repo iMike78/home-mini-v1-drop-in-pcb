@@ -1,6 +1,6 @@
 {
   "name": "MiciMike Voice Assistant",
-  "version": "v0.9.0",
+  "version": "v0.9.6",
   "home_assistant_domain": "esphome",
   "funding_url": "https://github.com/iMike78/home-mini-DiP-v1",
   "new_install_prompt_erase": false,

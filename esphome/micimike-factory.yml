@@ -28,10 +28,10 @@ update:
   - platform: http_request
     name: None
     id: update_http_request
-    source: https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest.json
+    source: https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest.json
 
 dashboard_import:
-  package_import_url: github://iMike78/home-mini-DiP-v1/esphome/micimike-factory.yml@main
+  package_import_url: github://iMike78/home-mini-v1-drop-in-pcb/esphome/micimike-factory.yml@main
   import_full_config: false
 
 wifi:
@@ -68,9 +68,9 @@ switch:
     restore_mode: RESTORE_DEFAULT_OFF
     on_turn_on:
       - logger.log: "OTA updates set to use Beta firmware"
-      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest-beta.json");
+      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest-beta.json");
       - component.update: update_http_request
     on_turn_off:
       - logger.log: "OTA updates set to use Production firmware"
-      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-DiP-v1/releases/latest/download/manifest.json");
+      - lambda: id(update_http_request).set_source_url("https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest.json");
       - component.update: update_http_request
