@@ -41,7 +41,7 @@ esphome/
 
 ### 1. Center Button Authorizer
 HA VPE: `authorizer: center_button` (physical button)
-MiciMike: `authorizer: center_button` (touch button - ESP32-S3 GPIO3)
+MiciMike: `authorizer: center_button` (touch button - MPR121)
 
 The touch button works the same as physical:
 ```yaml
@@ -85,7 +85,7 @@ GitHub releases must contain a manifest.json:
 ```json
 {
   "name": "MiciMike Voice Assistant",
-  "version": "v0.9.0",
+  "version": "v0.9.6",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
@@ -105,7 +105,7 @@ GitHub releases must contain a manifest.json:
 
 ```
 Releases/
-├── v0.9.0/
+├── v0.9.6/
 │   ├── manifest.json           # Production manifest
 │   ├── manifest-beta.json      # Beta manifest
 │   └── micimike-voice.bin      # Full firmware binary

@@ -26,7 +26,7 @@ http_request:
 
 update:
   - platform: http_request
-    name: None
+    name: Firmware
     id: update_http_request
     source: https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest.json
 
