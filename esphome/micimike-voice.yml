@@ -40,7 +40,7 @@ esphome:
   friendly_name: "${friendly_name}"
   project: 
     name: imike78.micimike
-    version: v0.9.6
+    version: v0.9.7
   name_add_mac_suffix: true
   min_version: "2026.5.0"
   on_boot:

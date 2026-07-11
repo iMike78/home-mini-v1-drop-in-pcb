@@ -38,6 +38,7 @@ jobs:
           # Full firmware (from full build)
           # Note: This assumes micimike-voice.yml uses the same name
           cp esphome/.esphome/build/micimike/.pioenvs/micimike/firmware.ota.bin release/micimike-voice.bin
+          cp esphome/.esphome/build/micimike/.pioenvs/micimike/firmware.ota.bin release/micimike-voice-beta.bin
           # Manifests
           cp manifests/manifest.json release/
           cp manifests/manifest-beta.json release/
@@ -48,6 +49,7 @@ jobs:
           files: |
             release/micimike-factory.bin
             release/micimike-voice.bin
+            release/micimike-voice-beta.bin
             release/manifest.json
             release/manifest-beta.json
           body: |
@@ -59,11 +61,11 @@ jobs:
             
             ### Full Firmware
             - Complete voice assistant functionality
-            - Auto-updates via OTA after factory setup
-            
+            - Updates are available through Home Assistant or ESPHome
+
             ### Installation
             1. Flash `micimike-factory.bin` via USB
             2. Use BLE Improv to configure WiFi (touch center button to authorize)
-            3. Device auto-updates to full firmware
+            3. Add the device in Home Assistant
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
