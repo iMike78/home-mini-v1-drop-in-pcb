@@ -26,7 +26,7 @@ http_request:
 
 update:
   - platform: http_request
-    name: Firmware
+    name: None
     id: update_http_request
     source: https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest.json
 
@@ -46,7 +46,7 @@ esp32_ble:
   name: micimike
 
 esp32_improv:
-  authorizer: center_button  # Use touch center button for authentication
+  authorizer: center_button
   on_start:
     - lambda: id(improv_ble_in_progress) = true;
     - script.execute: control_leds
