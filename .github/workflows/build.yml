@@ -53,12 +53,18 @@ jobs:
             release/manifest.json
             release/manifest-beta.json
           body: |
-            ## MiciMike Firmware Release
-            
+            ## MiciMike Firmware v0.9.8
+
+            ### Changes
+            - Added explicit MPR121 register configuration during boot
+            - Added raw I2C access for the MPR121 touch controller
+            - Updated the ESPHome minimum version to 2026.7.0
+            - Updated factory firmware and release manifests to v0.9.8
+
             ### Factory Firmware
             - Initial setup firmware with BLE Improv
             - Flash via USB first time only
-            
+
             ### Full Firmware
             - Complete voice assistant functionality
             - Updates are available through Home Assistant or ESPHome

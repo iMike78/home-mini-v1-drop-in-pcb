@@ -40,9 +40,9 @@ esphome:
   friendly_name: "${friendly_name}"
   project: 
     name: imike78.micimike
-    version: v0.9.7
+    version: v0.9.8
   name_add_mac_suffix: true
-  min_version: "2026.5.0"
+  min_version: "2026.7.0"
   on_boot:
     - priority: 375
       then:
@@ -58,6 +58,9 @@ esphome:
             then:
               - lambda: id(init_in_progress) = false;
               - script.execute: control_leds
+    - priority: -100
+      then:
+        - script.execute: configure_mpr121
 
 dashboard_import:
   package_import_url: github://iMike78/home-mini-v1-drop-in-pcb/esphome/micimike-voice.yml@main
@@ -128,6 +131,9 @@ i2c:
 i2c_device:
   - id: aic3204_raw
     address: 0x18
+    i2c_id: internal_i2c
+  - id: mpr121_raw
+    address: 0x5A
     i2c_id: internal_i2c
 
 psram:
@@ -1367,6 +1373,40 @@ script:
                   switch.is_off: timer_ringing
                 then:
                   - micro_wake_word.disable_model: stop
+  - id: configure_mpr121
+    mode: restart
+    then:
+      - lambda: |-
+          static const char *const TAG = "mpr121_config";
+
+          bool ok = true;
+
+          // Stop mode.
+          ok &= id(mpr121_raw).write_byte(0x5E, 0x00);
+
+          // Falling baseline tracking.
+          ok &= id(mpr121_raw).write_byte(0x2F, 0x01);  // MHDF
+          ok &= id(mpr121_raw).write_byte(0x30, 0x01);  // NHDF
+          ok &= id(mpr121_raw).write_byte(0x31, 0xFF);  // NCLF
+          ok &= id(mpr121_raw).write_byte(0x32, 0x00);  // FDLF
+
+          // AFE working point.
+          ok &= id(mpr121_raw).write_byte(0x5C, 0x28);  // CDC = 40 uA
+          ok &= id(mpr121_raw).write_byte(0x5D, 0x20);  // CDT = 0.5 us
+
+          // CL=2, ELE0-ELE2 enabled.
+          ok &= id(mpr121_raw).write_byte(0x5E, 0x83);
+
+          if (!ok) {
+            ESP_LOGE(TAG, "MPR121 configuration failed");
+            return;
+          }
+
+          ESP_LOGI(
+            TAG,
+            "MPR121 configured: MHDF=1 NHDF=1 NCLF=255 FDLF=0, "
+            "CDC=40uA CDT=0.5us ECR=0x83"
+          );
 
 i2s_audio:
   - id: i2s_output
