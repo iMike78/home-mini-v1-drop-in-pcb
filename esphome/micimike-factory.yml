@@ -31,8 +31,8 @@ update:
     source: https://github.com/iMike78/home-mini-v1-drop-in-pcb/releases/latest/download/manifest.json
 
 dashboard_import:
-  package_import_url: github://iMike78/home-mini-v1-drop-in-pcb/esphome/micimike-voice.yml@main
-  import_full_config: true
+  package_import_url: github://iMike78/home-mini-v1-drop-in-pcb/esphome/micimike-factory.yml@main
+  import_full_config: false
 
 wifi:
   on_connect:
