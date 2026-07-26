@@ -40,7 +40,7 @@ esphome:
   friendly_name: "${friendly_name}"
   project: 
     name: imike78.micimike
-    version: v0.9.8.1
+    version: v0.9.8.2
   name_add_mac_suffix: true
   min_version: "2026.7.0"
   on_boot:
@@ -860,6 +860,11 @@ light:
               it[i] = color * uint8_t(255/brightness_step_number*(brightness_step_number-brightness_step));
             }
             if ( id(master_mute_switch).state ) {
+              it[0] = muted_color;
+              it[2] = muted_color;
+            }
+            if ( id(external_media_player).volume == 0.0f || id(external_media_player).is_muted() ) {
+              it[1] = muted_color;
               it[3] = muted_color;
             }
             if (brightness_decreasing) {
@@ -889,6 +894,11 @@ light:
               }
             }
             if (id(master_mute_switch).state) {
+              it[0] = muted_color;
+              it[2] = muted_color;
+            }
+            if (id(external_media_player).volume == 0.0f || id(external_media_player).is_muted()) {
+              it[1] = muted_color;
               it[3] = muted_color;
             }
             id(global_led_animation_index) = (4 + id(global_led_animation_index) - 1) % 4;

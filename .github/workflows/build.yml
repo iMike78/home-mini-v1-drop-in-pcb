@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.13'
 
@@ -43,7 +43,7 @@ jobs:
           cp manifests/manifest-beta.json release/
 
       - name: Create Release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           files: |
             release/micimike-factory.bin
@@ -52,14 +52,13 @@ jobs:
             release/manifest.json
             release/manifest-beta.json
           body: |
-            ## MiciMike Firmware v0.9.8.1
+            ## MiciMike Firmware v0.9.8.2
 
             ### Changes
-            - Shortened the fallback setup AP SSID to `${name} Setup`
-            - Added explicit MPR121 register configuration during boot
-            - Added raw I2C access for the MPR121 touch controller
-            - Updated the ESPHome minimum version to 2026.7.0
-            - Updated factory firmware and release manifests to v0.9.8.1
+            - Fixed factory dashboard import to pull the full voice firmware config on Home Assistant takeover, instead of a short wrapper pointing back to the factory config
+            - Timer LED mute indicator now shows microphone mute and speaker mute on separate LED pairs (1st/3rd for mic, 2nd/4th for speaker) instead of a single shared LED
+            - Updated GitHub Actions to Node.js 24-compatible versions (actions/checkout@v7, actions/setup-python@v7, softprops/action-gh-release@v3)
+            - Updated factory firmware and release manifests to v0.9.8.2
 
             ### Factory Firmware
             - Initial setup firmware with BLE Improv
