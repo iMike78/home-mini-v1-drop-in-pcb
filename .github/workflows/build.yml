@@ -58,7 +58,6 @@ jobs:
             - Changed factory dashboard import to the full voice firmware configuration
             - Enabled full configuration import during Home Assistant takeover
             - Preserves BLE Improv Wi-Fi credentials by avoiding wrapper Wi-Fi secrets after takeover
-            - Shortened the factory BLE advertising name to keep BLE Improv discovery reliable
             - Shortened the fallback setup AP SSID to `${name} Setup`
             - Added explicit MPR121 register configuration during boot
             - Added raw I2C access for the MPR121 touch controller

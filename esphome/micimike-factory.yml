@@ -43,7 +43,7 @@ wifi:
 improv_serial:
 
 esp32_ble:
-  name: mm
+  name: micimike
 
 esp32_improv:
   authorizer: center_button
