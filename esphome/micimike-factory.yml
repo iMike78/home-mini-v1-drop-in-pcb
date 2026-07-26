@@ -16,7 +16,7 @@ packages:
 esphome:
   project:
     name: imike78.MiciMike
-    version: v0.9.8
+    version: v0.9.8.1
 
 ota:
   - platform: http_request

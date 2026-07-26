@@ -59,7 +59,7 @@ Example:
 ```json
 {
   "name": "MiciMike Voice Assistant",
-  "version": "v0.9.8",
+  "version": "v0.9.8.1",
   "builds": [
     {
       "chipFamily": "ESP32-S3",

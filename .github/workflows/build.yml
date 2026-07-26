@@ -52,13 +52,14 @@ jobs:
             release/manifest.json
             release/manifest-beta.json
           body: |
-            ## MiciMike Firmware v0.9.8
+            ## MiciMike Firmware v0.9.8.1
 
             ### Changes
+            - Shortened the fallback setup AP SSID to `${name} Setup`
             - Added explicit MPR121 register configuration during boot
             - Added raw I2C access for the MPR121 touch controller
             - Updated the ESPHome minimum version to 2026.7.0
-            - Updated factory firmware and release manifests to v0.9.8
+            - Updated factory firmware and release manifests to v0.9.8.1
 
             ### Factory Firmware
             - Initial setup firmware with BLE Improv
