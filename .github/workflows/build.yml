@@ -55,6 +55,8 @@ jobs:
             ## MiciMike Firmware v0.9.8.1
 
             ### Changes
+            - Changed factory dashboard import to the full voice firmware configuration
+            - Enabled full configuration import during Home Assistant takeover
             - Shortened the fallback setup AP SSID to `${name} Setup`
             - Added explicit MPR121 register configuration during boot
             - Added raw I2C access for the MPR121 touch controller
