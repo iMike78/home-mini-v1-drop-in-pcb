@@ -36,6 +36,14 @@ The fallback Wi-Fi AP is present, but `captive_portal:` and `web_server:` are in
 
 The center button is implemented through the MPR121 capacitive touch controller on channel 1.
 
+## Home Assistant Takeover
+
+Factory firmware advertises the full `micimike-voice.yml` configuration through `dashboard_import` and enables full configuration import. After Home Assistant takes control, the generated ESPHome configuration should be the complete voice firmware config, not a short package wrapper pointing back to `micimike-factory.yml`.
+
+The imported configuration must not add a station Wi-Fi `ssid` or `password`. Wi-Fi credentials entered through BLE Improv are stored on the device and should be preserved across OTA updates. Adding `wifi_ssid` / `wifi_password` secrets to the adopted config will override the Improv-provisioned network on the next ESPHome build.
+
+If a device was adopted before this behavior was fixed, delete or manually repair the old short wrapper config in ESPHome before updating it again.
+
 ## Flashing
 
 From the repository root:
@@ -87,5 +95,6 @@ micimike-voice.bin
 
 - The factory firmware mirrors the Home Assistant Voice PE provisioning behavior as closely as possible.
 - The factory firmware already contains the full voice assistant configuration through `micimike-voice.yml`.
+- Home Assistant takeover should import the full `micimike-voice.yml` config and preserve BLE Improv Wi-Fi credentials.
 - The HTTP update entity can check the GitHub release manifest, but installing an update still depends on the ESPHome/Home Assistant update flow.
 - Future firmware updates are not forced automatically; users can update through Home Assistant or ESPHome when a release is available.
