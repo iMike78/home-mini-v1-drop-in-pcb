@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.7,
-          "width": 1.7
+          "height": 5.25,
+          "width": 2.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -59,6 +59,110 @@
         }
       ],
       "drc_exclusions": [
+        [
+          "clearance|110600000|109900000|9d361a69-f7f5-45cd-b475-45532a30576c|ea2e507b-52b4-4216-9ce3-928138ea224d",
+          ""
+        ],
+        [
+          "clearance|110600000|109900000|b8e5af89-5a30-436c-a51a-4ae36a137ec7|ea2e507b-52b4-4216-9ce3-928138ea224d",
+          ""
+        ],
+        [
+          "clearance|110600000|110300000|04346137-b912-4ccb-9ac9-8d2988898b94|9d361a69-f7f5-45cd-b475-45532a30576c",
+          ""
+        ],
+        [
+          "clearance|110715000|109245000|70eddf92-6182-4333-ac65-262111ae85f2|9d361a69-f7f5-45cd-b475-45532a30576c",
+          ""
+        ],
+        [
+          "clearance|110715000|109245000|70eddf92-6182-4333-ac65-262111ae85f2|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|111290000|109500000|b38a3c52-cd7a-48a5-8065-72b16028673a|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|111775000|109500000|5bcbd4e4-309f-4357-8881-8978b4e07dcb|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|111775000|109900000|2fb38de1-54f1-4af3-ae37-299050cd28ee|976add67-7350-467a-a61e-df159a01da6a",
+          ""
+        ],
+        [
+          "clearance|111775000|109900000|2fb38de1-54f1-4af3-ae37-299050cd28ee|b38a3c52-cd7a-48a5-8065-72b16028673a",
+          ""
+        ],
+        [
+          "clearance|111775000|110300000|7e47539a-b03a-4fa3-8641-f128ed8022c6|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|112100000|109500000|976add67-7350-467a-a61e-df159a01da6a|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|112100000|110300000|04346137-b912-4ccb-9ac9-8d2988898b94|280a1aa7-ae9c-4610-85dd-07cbc72a4723",
+          ""
+        ],
+        [
+          "clearance|112100000|110300000|04346137-b912-4ccb-9ac9-8d2988898b94|2fb38de1-54f1-4af3-ae37-299050cd28ee",
+          ""
+        ],
+        [
+          "clearance|112100000|110300000|04346137-b912-4ccb-9ac9-8d2988898b94|376194dd-34b4-4018-a790-3d817617eca0",
+          ""
+        ],
+        [
+          "clearance|112100000|110300000|04346137-b912-4ccb-9ac9-8d2988898b94|b8e5af89-5a30-436c-a51a-4ae36a137ec7",
+          ""
+        ],
+        [
+          "clearance|112100000|110700000|376194dd-34b4-4018-a790-3d817617eca0|7e47539a-b03a-4fa3-8641-f128ed8022c6",
+          ""
+        ],
+        [
+          "clearance|112100000|111025000|376194dd-34b4-4018-a790-3d817617eca0|3c921d1e-2ae2-436f-9a28-0ac9d51fef7b",
+          ""
+        ],
+        [
+          "clearance|112425000|109500000|5bcbd4e4-309f-4357-8881-8978b4e07dcb|2fb38de1-54f1-4af3-ae37-299050cd28ee",
+          ""
+        ],
+        [
+          "clearance|112425000|109900000|2fb38de1-54f1-4af3-ae37-299050cd28ee|7e47539a-b03a-4fa3-8641-f128ed8022c6",
+          ""
+        ],
+        [
+          "clearance|112425000|110300000|7e47539a-b03a-4fa3-8641-f128ed8022c6|280a1aa7-ae9c-4610-85dd-07cbc72a4723",
+          ""
+        ],
+        [
+          "clearance|112425000|110700000|280a1aa7-ae9c-4610-85dd-07cbc72a4723|3c921d1e-2ae2-436f-9a28-0ac9d51fef7b",
+          ""
+        ],
+        [
+          "clearance|131078519|92472248|4b3fafac-762f-427a-b073-c5097bef20fc|843593c7-179c-4ae4-bf7b-52d92f63be9f",
+          ""
+        ],
+        [
+          "clearance|131078519|92472248|843593c7-179c-4ae4-bf7b-52d92f63be9f|baec9344-7d61-480a-b811-d2e6ccaa462d",
+          ""
+        ],
+        [
+          "clearance|131600000|93400000|81d70014-0e8f-4b6e-babf-a03e3a403ec7|f5e3f7c4-9437-4399-a09c-9eb74503f277",
+          ""
+        ],
+        [
+          "clearance|131898519|92472248|81d70014-0e8f-4b6e-babf-a03e3a403ec7|843593c7-179c-4ae4-bf7b-52d92f63be9f",
+          ""
+        ],
+        [
+          "clearance|132000000|93000000|d656cdc3-c79f-4ecc-ae43-7534acd5d7a8|f5e3f7c4-9437-4399-a09c-9eb74503f277",
+          ""
+        ],
         [
           "copper_edge_clearance|102430498|88910168|eabbda25-34ba-4083-9542-488ed5ed87a4|625927fc-fa5e-4f31-9f53-0c3c4db282ca",
           ""
@@ -588,18 +692,18 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.156464,
         "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "clearance": 0.2,
         "name": "+1V8",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.5,
-        "via_drill": 0.25
+        "via_drill": 0.3
       },
       {
         "clearance": 0.12,
@@ -609,21 +713,31 @@
         "microvia_drill": 0.1,
         "name": "90_ohm",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.127,
-        "via_diameter": 0.4064,
-        "via_drill": 0.2032
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4
+      },
+      {
+        "clearance": 0.5,
+        "name": "touch",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -663,6 +777,18 @@
       {
         "netclass": "+1V8",
         "pattern": "+1V8"
+      },
+      {
+        "netclass": "touch",
+        "pattern": "Net-(U2-ELEC0)"
+      },
+      {
+        "netclass": "touch",
+        "pattern": "Net-(U2-ELEC1)"
+      },
+      {
+        "netclass": "touch",
+        "pattern": "Net-(U2-ELEC2)"
       }
     ]
   },
@@ -671,7 +797,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "D:/Github/MiciMike78/",
+      "plot": "D:/Github/MiciMike78/home-mini-v1-drop-in-pcb/",
       "pos_files": "../",
       "specctra_dsn": "",
       "step": "../../../temp/OBJ_PCB_onju_by_imike78_2025-05-11.stl",

@@ -12,6 +12,9 @@
 home-mini-v1-drop-in-pcb-backups/
 production/
 .SynologyWorkingDirectory/
+[Originals]/
+gerber_to_order/
+parts/
 
 # KiCad symbol and footprint cache
 fp-info-cache
